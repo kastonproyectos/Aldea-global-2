@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-i18n="head_title">Estrategia de Internacionalización UMO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="logo-container">
+            <img src="Logo UMO.jpg" alt="Logo UMO Header" class="logo" />
+        </div>
+        <nav class="nav-links">
+            <a href="#hero" data-i18n="nav_inicio">Inicio</a>
+            <a href="#about" data-i18n="nav_about">Producto</a>
+            <a href="#bmc" data-i18n="nav_bmc">BMC</a>
+            <a href="#dpi" data-i18n="nav_dpi">Diagnóstico DPI</a>
+            <a href="#dofa" data-i18n="nav_dofa">DOFA</a>
+            <a href="#sustainability" data-i18n="nav_sust">Sostenibilidad</a>
+            <a href="#viability" data-i18n="nav_viab">Viabilidad</a>
+            <a href="#references" data-i18n="nav_refs">APA 7</a>
+        </nav>
+        <div class="lang-switch">
+            <button class="lang-btn btn-solid active" data-lang="es">ES</button>
+            <button class="lang-btn btn-solid" data-lang="en">EN</button>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <svg viewBox="0 0 24 24" width="24" height="24">
+                <path fill="currentColor" d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+        </button>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="container hero-content">
+                <div class="hero-logo-large">
+                    <img src="Logo UMO.jpg" alt="Logo UMO Hero" class="hero-img-logo" />
+                </div>
+                <div class="hero-text-box">
+                    <h1 data-i18n="hero_title">Estrategia de Internacionalización UMO 2027</h1>
+                    <p data-i18n="hero_subtitle">Proyección UMO - Sillines de podadoras al mercado estadounidense.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 1: Descripción -->
+        <section id="about" class="section bg-white">
+            <div class="container">
+                <div class="text-block card-shadow border-solid-black">
+                    <h2 class="section-title text-black" data-i18n="about_title">Descripción del bien y/o servicio</h2>
+                    <p class="text-justify" data-i18n="about_text1">La empresa ofrece sillines para
+                        podadoras/lawnmowers, orientados al mercado agrícola estadounidense. Se trata de un producto que
+                        puede desarrollarse bajo diseños específicos, de acuerdo con los requerimientos del cliente.
+                        Estos productos pertenecen a la división de poliuretano inyectado, lo que representa la base
+                        tecnológica desde la cual la empresa está desarrollando esta línea de sillas. En cuanto a su
+                        composición, la estructura de la silla es nacional y está conformada por estructura metálica y
+                        estructura de madera, la tecnología de recubrimiento utilizada también es de origen nacional.
+                        Por otro lado, los componentes que actualmente provienen del exterior son los apoyabrazos y el
+                        cinturón de seguridad, los cuales son importados desde China. El producto tiene ciertas
+                        características, condiciones y exigencias técnicas que estas sillas deben cumplir en el mercado
+                        estadounidense.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 2: BMC -->
+        <section id="bmc" class="section">
+            <div class="container">
+                <h2 class="section-title text-center text-black" data-i18n="bmc_title">Business Model Canvas</h2>
+                <div class="bmc-grid-complex">
+                    <div class="bmc-col bmc-col-1">
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                            </svg>
+                            <h4 data-i18n="bmc_key_partners">Socios Clave</h4>
+                            <p data-i18n="bmc_kp_desc">Proveedores de materias primas. Operadores logísticos y
+                                transportadores. Agentes de aduana y comercio exterior. Distribuidores de maquinaria
+                                agrícola en Estados Unidos. Comercializadores de repuestos. Aliados comerciales en
+                                estados objetivo. Ferias, gremios o redes del sector agrícola.</p>
+                        </div>
+                    </div>
+                    <div class="bmc-col bmc-col-2">
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M19.14,12.94c0.04-0.3,0.06-0.61,0.06-0.94c0-0.32-0.02-0.64-0.06-0.94l2.03-1.58L19.25,6.16l-2.39,0.96c-0.5-0.38-1.03-0.7-1.62-0.94L14.4,2.81h-3.84L9.25,5.35C8.66,5.59,8.12,5.92,7.63,6.29L5.24,5.33L3.32,8.65l2.03,1.58C5.31,10.53,5.29,10.84,5.29,11.16c0,0.32,0.02,0.64,0.06,0.94l-2.03,1.58l1.92,3.32l2.39-0.96c0.5,0.38,1.03,0.7,1.62,0.94l0.36,2.54h3.84l0.36-2.54c0.59-0.24,1.13-0.56,1.62-0.94l2.39,0.96l1.92-3.32L19.14,12.94z M12.5,15.1c-2.18,0-3.95-1.77-3.95-3.95c0-2.18,1.77-3.95,3.95-3.95s3.95,1.77,3.95,3.95C16.45,13.33,14.68,15.1,12.5,15.1z" />
+                            </svg>
+                            <h4 data-i18n="bmc_key_activities">Actividades Clave</h4>
+                            <p data-i18n="bmc_ka_desc">Fabricación de sillines. Control de calidad. Gestión de compras
+                                de materias primas e insumos. Desarrollo y ajuste del producto según necesidad del
+                                cliente. Cotización, negociación y cierre de ventas. Investigación de mercado en estados
+                                objetivo.</p>
+                        </div>
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z" />
+                            </svg>
+                            <h4 data-i18n="bmc_key_resources">Recursos Clave</h4>
+                            <p data-i18n="bmc_kr_desc">Maquinaria y equipos de fabricación. Materias primas e insumos.
+                                Conocimiento técnico del producto. Equipo de producción. Equipo comercial.
+                                Certificaciones y respaldo empresarial. Infraestructura física de producción. Base de
+                                contactos comerciales.</p>
+                        </div>
+                    </div>
+                    <div class="bmc-col bmc-col-vp">
+                        <div class="bmc-card card-shadow bmc-vp-solid">
+                            <svg class="bmc-icon text-white" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                            </svg>
+                            <h4 data-i18n="bmc_value_prop" class="text-white">Propuesta de Valor</h4>
+                            <p class="text-white text-justify" data-i18n="bmc_vp_desc">UMO ofrece sillines para
+                                podadoras agrícolas dirigidos al mercado de Estados Unidos, brindando a distribuidores y
+                                comercializadores una alternativa confiable cuando los repuestos 'gringos' no están
+                                disponibles o resultan poco convenientes en costo. Su propuesta de valor no se basa en
+                                competir directamente con las marcas líderes mas grandes, sino en convertirse en una
+                                alternativa confiable cuando el repuesto original no sea posible de conseguir.</p>
+                        </div>
+                    </div>
+                    <div class="bmc-col bmc-col-4">
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
+                            </svg>
+                            <h4 data-i18n="bmc_customer_relation">Relación con Clientes</h4>
+                            <p data-i18n="bmc_cr_desc">Relación B2B directa con distribuidores y empresas
+                                comercializadoras. Atención personalizada para clientes. Seguimiento por WhatsApp,
+                                correo y llamadas.</p>
+                        </div>
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                            </svg>
+                            <h4 data-i18n="bmc_channels">Canales</h4>
+                            <p data-i18n="bmc_ch_desc">Venta directa a distribuidores de maquinaria agrícola. Llamadas y
+                                número telefónico empresarial. WhatsApp Business. Página web. LinkedIn para contacto
+                                B2B.</p>
+                        </div>
+                    </div>
+                    <div class="bmc-col bmc-col-vp">
+                        <div class="bmc-card card-shadow bmc-seg-solid">
+                            <svg class="bmc-icon text-white" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>
+                            <h4 data-i18n="bmc_customer_segments" class="text-white">Segmentos de Mercado</h4>
+                            <p class="text-white text-justify" data-i18n="bmc_cs_desc">Empresas distribuidoras de
+                                maquinaria agrícola en Estados Unidos. Tiendas o dealers que venden equipos para fincas
+                                y operación agrícola.</p>
+                        </div>
+                    </div>
+                    <div class="bmc-col bmc-col-bottom-left">
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" />
+                            </svg>
+                            <h4 data-i18n="bmc_cost_structure">Estructura de Costos</h4>
+                            <p data-i18n="bmc_cost_desc">Costos de materias primas. Costos de producción y ensamble.
+                                Mano de obra. Costos de empaque. Transporte y logística. Costos de exportación.
+                                Aranceles, trámites y documentación. Marketing y presencia digital. Costos
+                                administrativos. Mantenimiento de maquinaria y operación.</p>
+                        </div>
+                    </div>
+                    <div class="bmc-col bmc-col-bottom-right">
+                        <div class="bmc-card card-shadow border-solid-black">
+                            <svg class="bmc-icon" viewBox="0 0 24 24">
+                                <path fill="currentColor"
+                                    d="M16 6l2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6z" />
+                            </svg>
+                            <h4 data-i18n="bmc_revenue">Fuentes de Ingresos</h4>
+                            <p data-i18n="bmc_rev_desc">Venta de sillines para lawnmowers agrícolas a distribuidores.
+                                Venta por volumen a comercializadores. Ingresos por pedidos recurrentes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 3: DPI Radar -->
+        <section id="dpi" class="section">
+            <div class="container container-flex" style="flex-wrap: wrap;">
+                <h2 class="section-title text-center text-black" style="width:100%" data-i18n="dpi_title">Análisis de
+                    Factores (DPI)</h2>
+
+                <div class="dpi-text" style="width: 100%; display:flex; gap:1rem; margin-bottom: 2rem; flex-wrap:wrap;">
+                    <div class="card-shadow border-solid-black"
+                        style="flex:1; min-width:300px; padding:1.5rem; background:#fff">
+                        <h3 class="text-orange" data-i18n="dpi_macro_title">Análisis Macro</h3>
+                        <p class="text-justify" data-i18n="dpi_macro_desc">Alta demanda focalizada en núcleos agrarios
+                            como Missouri (85,500 operaciones) y Oklahoma (69,700), integrando factores de cumplimiento
+                            con estándares SAE estables y alta competitividad fiscal reportada a nivel central.</p>
+                    </div>
+                    <div class="card-shadow border-solid-black"
+                        style="flex:1; min-width:300px; padding:1.5rem; background:#fff">
+                        <h3 class="text-orange" data-i18n="dpi_micro_title">Análisis Micro</h3>
+                        <p class="text-justify" data-i18n="dpi_micro_desc">Corporación estructurada en una robusta
+                            matriz de 57 años de trayectoria que oficia como proveedor maestro de líderes automotrices
+                            internacionales (Harley Davidson y Yamaha). En retrospectiva del factor talento, se revela
+                            un análisis profundo sobre la brecha técnica interdepartamental enfocada en el bilingüismo
+                            en el personal clave productivo.</p>
+                    </div>
+                </div>
+
+                <div class="dpi-visual card-shadow bg-white border-solid-black" style="flex:1; min-width:300px;">
+                    <div class="radar-total-score">
+                        <span data-i18n="dpi_score_label">Puntaje Total</span>
+                        <strong data-i18n="dpi_score">0.568</strong>
+                    </div>
+                    <div class="chart-box" style="height: 350px;">
+                        <canvas id="radarChart" width="400" height="300"></canvas>
+                    </div>
+                </div>
+
+                <div class="dpi-visual card-shadow bg-white border-solid-black" style="flex:1; min-width:300px;">
+                    <h3 class="text-center pt-2 text-black" data-i18n="dpi_gap_title">Gráfico de Brecha: Obtenido vs.
+                        Máximo</h3>
+                    <div class="chart-box" style="height: 350px;">
+                        <canvas id="gapChart" width="400" height="300"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 4: Viabilidad -->
+        <section id="viability" class="section bg-white">
+            <div class="container container-flex">
+                <div style="flex:1;">
+                    <h2 class="section-title text-orange" data-i18n="viab_title">Viabilidad de Mercado - NASS</h2>
+                    <p class="text-justify mb-4" data-i18n="viab_sector_desc">Como primera opción de preselección se
+                        propone Missouri, ya que presenta una base agrícola neutra, no tan extrema como la de los
+                        estados líderes... Missouri registra 85,500 operaciones agrícolas. El segundo estado es
+                        Oklahoma, cuenta con una estructura agrícola fuerte y escala intermedia con 69,700 operaciones
+                        agrícolas. Ambos cuentan con estructura agrícola importante y ocupan posiciones favorables
+                        tributariamente.</p>
+                    <p class="text-justify" data-i18n="viab_markets_desc">Missouri y Oklahoma aparecen como opciones
+                        equilibradas, según el State Agriculture Overview del USDA, mientras que, en materia tributaria,
+                        ocupan posiciones favorables en el 2026 State Tax Competitiveness Index. Estos datos reflejan
+                        bases productivas sólidas (USDA NASS, 2025).</p>
+                </div>
+                <div class="ui-panel card-shadow" style="flex:1;">
+                    <div class="panel-head bg-black">
+                        <h4 class="text-white" data-i18n="viab_fig1">Gráfica NASS: Missouri vs Oklahoma</h4>
+                    </div>
+                    <div class="panel-body bg-white border-solid-black border-top-none">
+                        <canvas id="marketChart" width="400" height="300"></canvas>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 5: DOFA -->
+        <section id="dofa" class="section bg-white">
+            <div class="container">
+                <h2 class="section-title text-center text-orange" data-i18n="dofa_title">Análisis DOFA de la Empresa UMO
+                </h2>
+                <div class="dofa-grid-dense">
+                    <div class="dofa-card card-shadow bg-black text-white">
+                        <div class="dofa-head text-white">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor"
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5v-9l6 4.5-6 4.5z" />
+                            </svg>
+                            <h3 data-i18n="dofa_str_title">Fortalezas</h3>
+                        </div>
+                        <p class="text-justify text-white" data-i18n="dofa_str_desc">Las fortalezas presentadas en este
+                            análisis se construyeron a partir de información obtenida en una reunión realizada con el
+                            representante de la empresa UMO, lo que permitió identificar aspectos internos relevantes
+                            desde una fuente directa. En cuanto a las fortalezas, La empresa UMO tiene varios elementos
+                            dentro de ella que pueden ayudarla a expandirse. En primer lugar, se resalta la introducción
+                            de un enfoque en la innovación de productos dirigido a mercados internacionales, con un
+                            especial énfasis en la adaptación a las necesidades del mercado estadounidense, lo que le
+                            permite ajustarse a las demandas de este entorno competitivo. También la empresa ha creado
+                            la posibilidad de diseñar productos según las necesidades del cliente... Por último, UMO
+                            cuenta con flexibilidad productiva para la personalización de diseños.</p>
+                    </div>
+                    <div class="dofa-card card-shadow bg-orange text-white">
+                        <div class="dofa-head text-white">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor"
+                                    d="M1.3 16.3c.6 1.4 1.7 2.4 3 3.1V21h1.4v-1h4.6v1h1.4v-1.6c1.3-.7 2.4-1.7 3-3.1h-1.6c-.5 1-1.3 1.8-2.3 2.3H5.2c-1-.5-1.8-1.3-2.3-2.3H1.3zM14 6C14 2.7 11.3 0 8 0S2 2.7 2 6c0 1.9 1 3.6 2.5 4.6l-.9 2L5 13.2h6l1.4-.6-.9-2C13 9.6 14 7.9 14 6zm-6 3.6l-2-2.3 1.2-1.3.8 1.1 2.3-2.8 1.4 1-3.7 4.3z" />
+                            </svg>
+                            <h3 data-i18n="dofa_weak_title">Debilidades</h3>
+                        </div>
+                        <p class="text-justify text-white" data-i18n="dofa_weak_desc">En cuanto a las debilidades, la
+                            empresa UMO tiene algunos problemas internos que pueden hacer más difícil su proceso de
+                            crecimiento. En primer lugar, se observa una baja visibilidad a nivel internacional, lo que
+                            podría influir negativamente en las negociaciones y en cómo se reconoce a la empresa en
+                            mercados como Estados Unidos. Además, se ve que la empresa tiene poca información y poco
+                            organizada sobre los indicadores importantes, lo que muestra una debilidad en cómo manejan
+                            los datos estratégicos y podría complicar tomar decisiones adecuadas.</p>
+                    </div>
+                    <div class="dofa-card card-shadow bg-white border-solid-black">
+                        <div class="dofa-head text-black">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor"
+                                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                            </svg>
+                            <h3 data-i18n="dofa_opp_title">Oportunidades</h3>
+                        </div>
+                        <p class="text-justify text-black" data-i18n="dofa_opp_desc">En el contexto internacional, se
+                            pueden identificar varias oportunidades importantes para la empresa UMO en su intención de
+                            ingresar al mercado de Estados Unidos. Por un lado, existe una alta adopción de tecnologías
+                            eléctricas en Norteamérica, ya que esta región concentra cerca del 40% del mercado global de
+                            equipos eléctricos de jardinería (Emergen Research, 2025). Además, se observa un aumento en
+                            el mercado de repuestos y accesorios en Estados Unidos, según (Mordor Intelligence, 2026) y
+                            (Zhongshen, 2023).</p>
+                    </div>
+                    <div class="dofa-card card-shadow bg-white border-solid-orange">
+                        <div class="dofa-head text-orange">
+                            <svg viewBox="0 0 24 24" width="24" height="24">
+                                <path fill="currentColor" d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" />
+                            </svg>
+                            <h3 data-i18n="dofa_thr_title">Amenazas</h3>
+                        </div>
+                        <p class="text-justify text-black" data-i18n="dofa_thr_desc">En cuanto a las amenazas, se
+                            identifican varios factores externos que pueden afectar el ingreso de UMO al mercado
+                            estadounidense. En primer lugar, existe una integración vertical por parte de los
+                            fabricantes de podadoras, quienes producen sus propios componentes (Mordor Intelligence,
+                            2025). Además, en Estados Unidos hay requisitos técnicos y de certificación muy estrictos.
+                            Al final, se nota que el mercado prefiere repuestos originales en lugar de opciones de
+                            terceros (IBISWorld, 2025).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 6: Sostenibilidad -->
+        <section id="sustainability" class="section">
+            <div class="container">
+                <h2 class="section-title text-center text-black" data-i18n="sust_title">Sostenibilidad - UMO Dimensiones
+                </h2>
+                <div class="sust-grid-dense mt-4">
+                    <div class="sust-card card-shadow bg-white border-solid-black">
+                        <div class="sust-circle bg-black"><svg viewBox="0 0 24 24" class="text-white">
+                                <path fill="currentColor"
+                                    d="M11.8 10.9V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13.07-1.72-1.12-3.3-3.21-3.81V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z" />
+                            </svg></div>
+                        <h4 class="text-black text-center" data-i18n="sust_eco_title">Económica</h4>
+                        <p class="text-justify" data-i18n="sust_eco_desc">Umo es una empresa con más de 57 años en el
+                            mercado que refleja claramente la relación con las tres dimensiones del desarrollo. En la
+                            dimensión económica, se destaca por ser un grupo empresarial sólido con tres unidades de
+                            negocio enfocadas en soluciones metalmecánicas y productos en poliuretano... Además, trabaja
+                            con marcas reconocidas como Renault, Yamaha, Honda y Suzuki. Su participación en un país
+                            como Colombia y su interés en expandirse hacia mercados internacionales como Estados Unidos,
+                            muestran su potencial de crecimiento (ANDI, 2022).</p>
+                    </div>
+                    <div class="sust-card card-shadow bg-orange text-white">
+                        <div class="sust-circle bg-white"><svg viewBox="0 0 24 24" class="text-orange">
+                                <path fill="currentColor"
+                                    d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z" />
+                            </svg></div>
+                        <h4 class="text-white text-center" data-i18n="sust_soc_title">Social</h4>
+                        <p class="text-justify text-white" data-i18n="sust_soc_desc">En cuanto a la dimensión social,
+                            umo ha contribuido durante décadas a la generación de empleo y al desarrollo del sector
+                            industrial. Su trayectoria permite la formación de talento humano en áreas técnicas como la
+                            metalmecánica y el manejo de poliuretano. Así, la posibilidad de realizar visitas
+                            empresariales y compartir su experiencia aporta al aprendizaje. Este crecimiento también
+                            impulsa mejores oportunidades (OIT, 2023).</p>
+                    </div>
+                    <div class="sust-card card-shadow bg-white border-solid-black">
+                        <div class="sust-circle bg-black"><svg viewBox="0 0 24 24" class="text-white">
+                                <path fill="currentColor"
+                                    d="M17 3H7c-1.1 0-1.99.9-1.99 2L5 21l7-3 7 3V5c0-1.1-.9-2-2-2z" />
+                            </svg></div>
+                        <h4 class="text-black text-center" data-i18n="sust_env_title">Ambiental</h4>
+                        <p class="text-justify" data-i18n="sust_env_desc">Finalmente, en la dimensión ambiental, se
+                            identifican elementos importantes como el uso de materiales industriales que requieren
+                            control y gestión responsable. La existencia de un departamento de calidad indica que la
+                            empresa realiza mediciones... Además, su intención de ingresar a mercados como el de Estados
+                            Unidos implica el cumplimiento de normativas ambientales más exigentes, lo que promueve
+                            prácticas más sostenibles (ISO, 2015).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Literal Copy 7: APA References -->
+        <section id="references" class="section section-dark-gray">
+            <div class="container">
+                <h2 class="subsection-title text-white" data-i18n="ref_title">Referencias Biográficas Formateadas (APA
+                    7)</h2>
+                <div class="ref-wrapper bg-gray border-none">
+                    <ul class="ref-list-v3 text-white">
+                        <li>Asociación Nacional de Empresarios de Colombia (ANDI). (2022). Informe del sector automotor
+                            en Colombia. https://andi.com.co</li>
+                        <li>Comisión Económica para América Latina y el Caribe (CEPAL). (2021). Desarrollo productivo y
+                            empleo. https://www.cepal.org</li>
+                        <li>Data Bridge Market Research. (2024). Gardening equipment market – Global industry trends and
+                            forecast to 2032. https://www.databridgemarketresearch.com</li>
+                        <li>Emergen Research. (2025, November 20). Lawn mower lithium battery market: Size, share,
+                            analysis and forecast to 2034. https://www.emergenresearch.com</li>
+                        <li>GRAMMER. (s. f.). Agricultural seating.
+                            https://usa.grammer.com/seating-solutions/agricultural-seating.html</li>
+                        <li>International Organization for Standardization (ISO). (2015). ISO 14001: Sistemas de gestión
+                            ambiental. https://www.iso.org</li>
+                        <li>International Trade Centre. (2024). Trade Map: Trade statistics for international business
+                            development. https://www.trademap.org/</li>
+                        <li>John Deere. (s. f.). Lawn mowers. https://www.deere.com/en/mowers/</li>
+                        <li>Kubota. (s. f.). Products. https://www.kubota.com/</li>
+                        <li>Ministerio de Ambiente y Desarrollo Sostenible. (2023). Gestión ambiental empresarial en
+                            Colombia. https://www.minambiente.gov.co</li>
+                        <li>Mordor Intelligence. (2026). Electric Lawn Mowers Market - Growth, Trends & Forecast
+                            (2026–2031). https://www.mordorintelligence.com/</li>
+                        <li>Organización Internacional del Trabajo (OIT). (2023). Empleo y desarrollo industrial.
+                            https://www.ilo.org</li>
+                        <li>ProColombia. (2023). Industria automotriz en Colombia. https://procolombia.co</li>
+                        <li>Seats Inc. (s. f.). Turf. https://www.seatsinc.com/products/turf/</li>
+                        <li>Tax Foundation. (2025). 2026 state tax competitiveness index. https://taxfoundation.org/
+                        </li>
+                        <li>TractorSeats.com. (s. f.). Lawn mower seats. https://www.tractorseats.com/</li>
+                        <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2025). 2025 State
+                            agriculture overview: Missouri y Oklahoma. https://www.nass.usda.gov/</li>
+                        <li>UMO Group. (s. f.). Quiénes somos. https://umo.com.co/quienes-somos/</li>
+                        <li>Zhongshen. (2023). US garden tools market 2023.
+                            https://www.sh-zhongshen.com/es/hardware-tools/</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer bg-black">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <img src="Logo UMO.jpg" alt="Logo UMO Footer" class="footer-logo" />
+            </div>
+            <div class="footer-col text-right">
+                <p class="text-white" data-i18n="footer_text">Desarrollo Estratégico UMO &copy; 2027</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

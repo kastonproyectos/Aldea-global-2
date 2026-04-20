@@ -1,0 +1,146 @@
+Selección de estados 
+
+Como primera opción de preselección se propone Missouri, ya que presenta una base agrícola neutra, no tan extrema como la de los estados líderes (como Texas), lo que podría convertirlo en un mercado de entrada más manejable. De acuerdo con el State Agriculture Overview del USDA, Missouri registra 85.500 operaciones agrícolas y 26,6 millones de acres operados, además de una producción relevante en cultivos como soya, maíz y heno, lo que evidencia una actividad agrícola sólida y sostenida (U.S. Department of Agriculture, National Agricultural Statistics Service [USDA NASS], 2025).
+
+El segundo estado que queremos elegir es Oklahoma, ya que también cuenta con una estructura agrícola fuerte y una escala intermedia, lo que podría resultar más viable para una empresa que creemos que no busca entrar inicialmente a los mercados más grandes. Según el State Agriculture Overview del USDA, Oklahoma reporta 69.700 operaciones agrícolas y 32,8 millones de acres operados, con actividad destacada en heno, trigo, maíz y ganadería, lo que confirma una base productiva importante y diversificada (USDA NASS, 2025). 
+
+Missouri y Oklahoma aparecen como opciones equilibradas, ya que ambos cuentan con una estructura agrícola importante según el State Agriculture Overview del USDA, mientras que, en materia tributaria, ocupan posiciones favorables en el 2026 State Tax Competitiveness Index de Tax Foundation (Tax Foundation, 2025; U.S. Department of Agriculture, National Agricultural Statistics Service [USDA NASS], 2025a, 2025b).
+
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2025). 2025 State agriculture overview: Missouri. USDA. https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=MISSOURI 
+
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2025). 2025 State agriculture overview: Oklahoma. USDA. https://www.nass.usda.gov/Quick_Stats/Ag_Overview/stateOverview.php?state=OKLAHOMA 
+
+Tax Foundation. (2025). 2026 state tax competitiveness index. https://taxfoundation.org/research/all/state/2026-state-tax-competitiveness-index/ 
+
+
+
+Nombre de la propuesta innovadora o empresa: UMO
+
+Descripción del bien y/o servicio: 
+
+La empresa ofrece sillines para podadoras/lawnmowers, orientados al mercado agrícola estadounidense. Se trata de un producto que puede desarrollarse bajo diseños específicos, de acuerdo con los requerimientos del cliente. Estos productos pertenecen a la división de poliuretano inyectado, lo que representa la base tecnológica desde la cual la empresa está desarrollando esta línea de sillas. En cuanto a su composición, la estructura de la silla es nacional y está conformada por estructura metálica y estructura de madera, la tecnología de recubrimiento utilizada también es de origen nacional . Por otro lado, los componentes que actualmente provienen del exterior son los apoyabrazos y el cinturón de seguridad, los cuales son importados desde China. El producto tiene ciertas características, condiciones y exigencias técnicas que estas sillas deben cumplir en el mercado estadounidense. 
+
+BUSINESS MODEL CANVAS 
+https://canva.link/795ucdl1einar1j 
+
+
+
+DOFA
+Las fortalezas y debilidades presentadas en este análisis se construyeron a partir de información obtenida en una reunión realizada con el representante de la empresa UMO, lo que permitió identificar aspectos internos relevantes desde una fuente directa.
+En cuanto a las debilidades, la empresa UMO tiene algunos problemas internos que pueden hacer más difícil su proceso de crecimiento. En primer lugar, se observa una baja visibilidad a nivel internacional, lo que podría influir negativamente en las negociaciones y en cómo se reconoce a la empresa en mercados como Estados Unidos.
+Además, se ve que la empresa tiene poca información y poco organizada sobre los indicadores importantes, lo que muestra una debilidad en cómo manejan los datos estratégicos y podría complicar tomar decisiones adecuadas.
+
+En el contexto internacional, se pueden identificar varias oportunidades importantes para la empresa UMO en su intención de ingresar al mercado de Estados Unidos. 
+Por un lado, existe una alta adopción de tecnologías eléctricas en Norteamérica, ya que esta región concentra cerca del 40% del mercado global de equipos eléctricos de jardinería, lo que favorece la demanda de productos relacionados con este tipo de maquinaria (Emergen Research, 2025).
+
+Además, se observa un aumento en el mercado de repuestos y accesorios en Estados Unidos. En este mercado, muchos consumidores eligen mejorar o sustituir ciertas partes de sus equipos en lugar de adquirir uno nuevo, lo que ofrece una buena oportunidad para las empresas que producen componentes como los sillines, según (Mordor Intelligence, 2026).
+En cuanto a las fortalezas, La empresa UMO tiene varios elementos dentro de ella que pueden ayudarla a expandirse. En primer lugar, se resalta la introducción de un enfoque en la innovación de productos dirigido a mercados internacionales, con un especial énfasis en la adaptación a las necesidades del mercado estadounidense, lo que le permite ajustarse a las demandas de este entorno competitivo.
+También la empresa ha creado la posibilidad de diseñar productos según las necesidades del cliente, lo que se ve en la fabricación de pedidos especiales con cantidades mínimas establecidas. Esto le permite atender mejor las necesidades de sus clientes y dar soluciones más adecuadas para cada situación.
+Por último, UMO cuenta con flexibilidad productiva para la personalización de diseños, lo que le permite atender tanto a clientes industriales como al mercado de repuestos o aftermarket, ampliando así sus oportunidades comerciales.
+En cuanto a las amenazas, se identifican varios factores externos que pueden afectar el ingreso de UMO al mercado estadounidense. En primer lugar, existe una integración vertical por parte de los fabricantes de podadoras, quienes producen sus propios componentes, incluidos los sillines, lo que reduce las oportunidades para proveedores externos que buscan entrar a este mercado (Mordor Intelligence, 2025).
+Además, en Estados Unidos hay requisitos técnicos y de certificación muy estrictos para los componentes de maquinaria, especialmente en lo que respecta a la seguridad y la ergonomía, lo que puede ser un obstáculo para que nuevas empresas se establezcan. (U.S. Consumer Product Safety Commission, 2024).
+
+
+Al final, se nota que el mercado prefiere repuestos originales en lugar de opciones de terceros, especialmente en maquinaria especializada, lo que hace que sea difícil para nuevos proveedores como UMO ser aceptados (IBISWorld, 2025).
+Emergen Research. (2025, November 20). Lawn mower lithium battery market: Size, share, analysis and forecast to 2034.
+https://www.emergenresearch.com/es/industry-report/lawn-mower-lithium-battery-market
+Mordor Intelligence. (2026). Electric Lawn Mowers Market - Growth, Trends & Forecast (2026–2031). https://www.mordorintelligence.com/industry-reports/electric-lawn-mowers-market
+Data Bridge Market Research. (2024). Gardening equipment market – Global industry trends and forecast to 2032.
+https://www.databridgemarketresearch.com/reports/global-gardening-equipment-market
+
+Zhongshen. (2023). US garden tools market 2023.
+https://www.sh-zhongshen.com/es/hardware-tools/us-garden-tools-market-2023/ 
+
+
+
+Relación con las tres dimensiones de la sostenibilidad (social, ambiental y económica). 
+Umo es una empresa con más de 57 años en el mercado que refleja claramente la relación con las tres dimensiones del desarrollo. En la dimensión económica, se destaca por ser un grupo empresarial sólido con tres unidades de negocio enfocadas en soluciones metalmecánicas y productos en poliuretano, como mofles para carros y motos y sillas para motocicletas. Además, trabaja con marcas reconocidas como Renault, Yamaha, Honda y Suzuki, lo que evidencia su importancia en la industria automotriz. Su participación en un país como Colombia, que es uno de los principales productores de motos en el mundo, y su interés en expandirse hacia mercados internacionales como Estados Unidos, muestran su potencial de crecimiento y generación de valor económico.
+En cuanto a la dimensión social, umo ha contribuido durante décadas a la generación de empleo y al desarrollo del sector industrial. Su trayectoria permite la formación de talento humano en áreas técnicas como la metalmecánica y el manejo de poliuretano. Así, la posibilidad de realizar visitas empresariales y compartir su experiencia aporta al aprendizaje de estudiantes y profesionales. Este crecimiento también impulsa mejores oportunidades laborales y el fortalecimiento de capacidades dentro de la organización.
+Finalmente, en la dimensión ambiental, aunque no se profundiza completamente en la información presentada, se identifican elementos importantes como el uso de materiales industriales que requieren control y gestión responsable. La existencia de un departamento de calidad indica que la empresa realiza mediciones y seguimiento de sus procesos. Además, su intención de ingresar a mercados como el de Estados Unidos implica el cumplimiento de normativas ambientales más exigentes, lo que promueve prácticas más sostenibles. En conjunto, umo integra las dimensiones económica, social y ambiental, mostrando un enfoque empresarial que busca no solo crecer, sino también adaptarse y generar impacto en su entorno.
+ProColombia. (2023). Industria automotriz en Colombia. https://procolombia.co
+Asociación Nacional de Empresarios de Colombia (ANDI). (2022). Informe del sector automotor en Colombia. https://andi.com.co
+Organización Internacional del Trabajo (OIT). (2023). Empleo y desarrollo industrial. https://www.ilo.org
+Comisión Económica para América Latina y el Caribe (CEPAL). (2021). Desarrollo productivo y empleo. https://www.cepal.org
+Ministerio de Ambiente y Desarrollo Sostenible. (2023). Gestión ambiental empresarial en Colombia. https://www.minambiente.gov.co
+International Organization for Standardization (ISO). (2015). ISO 14001: Sistemas de gestión ambiental. https://www.iso.org
+UMO Group. (s. f.). Quiénes somos. https://umo.com.co/quienes-somos/
+
+Análisis de viabilidad de internacionalización
+Justificación del producto en el contexto internacional
+El producto corresponde a sillines para podadoras, que son dirigidos al sector agrícola. Aunque el producto en sí no se ve de forma independiente en las bases de datos de comercio internacional, hace parte de la cadena de valor de un productomayor, que son las podadoras y equipos de césped (clasificados como 843311.) 
+Para este análisis se utilizó International Trade Centre, lo que permite evaluar el comportamiento. Los datos corresponden al producto principal, pero son relevantes ya que los sillines funcionan como componentes y repuestos de esto, por lo que la demanda depende del tamaño y crecimiento de este mercado. (International Trade Centre [ITC], 2024).
+Por ende, si crece la importación y el uso de podadoras en un país, también aumenta la necesidad de mantenimiento y reemplazo de las piezas del producto, lo que abre oportunidades para las empresas que ofrecen productos compatibles dentro del mercado. 
+
+Análisis del sector en el país objetivo
+Este producto se ubica dentro del sector de maquinaria para lawn and garden equipment, con aplicaciones en entornos agroindustriales. Es un sector que se caracteriza por un alto nivel de mecanización, y aún más países tan desarrollados como Estados Unidos, donde la productividad agrícola y el mantenimientos de zonas verdes dependen en mayoría del uso de estas máquinas. No solo depende de la venta de maquinaria nueva, sino también del mercado de repuestos y accesorios, donde los sillines entran en juego. 
+Con base en los datos observados en Trade Map para el producto, se identificó que Estados Unidos sobresale como uno de los mercados más grandes por el tamaño de su participación importadora. Esto evidencia una demanda en el mercado interno, sugiriendo oportunidades para productos complementarios como los sillines. También aparecieron países como Canadá, Australia y Bélgica, lo que muestra que se trata de un mercado con presencia en economías más desarrolladas (ITC, 2024). 
+
+Tamaño del mercado y tendencias
+El primer gráfico de Trade Map, corresponde a la concentración y distancia promedio de los países importadores en 2024 lo que nos permite ver que Estados Unidos ocupa una posición importante no solo por el tamaño de su mercado (el tamaño de la burbuja), sino también por su nivel de concentración. Estados Unidos, al estar represetnado en color amarillo, indica que presenta una balanza comercial negativa, osea que importa mas de lo que exporta este producto. Diciendo, otra vez, que se evidencia una alta demanda interna. 
+
+Figura 1. Concentración y distancia de los países importadores del producto 843311
+Fuente: International Trade Centre (2024)
+
+
+Se trata de un mercado muy bueno, con una demanda importante para este tipo de máquinas. A la misma vez, se ve cómo otros países como Alemania, Australia, muestra participación relevante, mientras mercados europeos como Francia, Italia y Polonia aparecen se muestran más diversificados pero también con presencial Esto es importante porque se ve que la demanda no se concentra en un solo país, sino que existe una base de mercado internacional  amplia, lo que permitiría plantear estrategias de internacionalización no sólo enfocadas en un solo mercado principal como Estados Unidos, sino también en mercados secundarios que podrían representar oportunidades de expansion y diversificacion. (ITC, 2024).
+
+El segundo gráfico, sobre el crecimiento de las importaciones de los países, permite complementar lo dicho anteriormente sobre el tamaño del tamaño con la dinámica del mercado. Aquí se observan países como Estados Unidos y Bélgica presentan un crecimiento positivo en sus importaciones, lo cual es una señal muy buena para los procesos de internacionalización ya que el crecimiento de las importaciones indica que la demanda en esos mercados está creciendo. Lo cual les da oportunidades de entrada a nuevas empresas, y la expansión de productos. 
+
+
+Figura 2. Crecimiento de las importaciones por país del producto 843311
+Fuente: International Trade Centre (2024)
+
+Esta información permite diferenciar entre mercados prioritarios y mercados complementarios/secundarios. Estados Unidos por ejemplo, se ve como el principal destino potencial, ya que combina un volumen muy alto de importaciones con un crecimiento alto, lo que se da entender como un mercado grande y una demanda en crecimiento también. No solo existe un consumo importante, pero este sigue creciendo, facilitando la entrada a los competidores de este producto. 
+
+Por el otro lado, países europeos como Bélgica, Italia, y Polonia tienen tasas de crecimiento positivas también, pero con  menor tamaño en el mercado, los que los viene convirtiendo en oportunidad y mercados secundarios. Estos mercados pueden ser buenos dentro de una estrategia de internalización más lenta, ya que permitirían bajarle la cantidad de dependencia de un solo país, y explorar diferente nichos. 
+
+Todo junto, el análisis del tamaño del mercado y las tendencias muestra que existen tanto mercados fuertes como mercados en expansión, lo que fortalece la viabilidad de internacionalización del producto (ITC, 2024). 
+
+
+Análisis Competitivo del Sector
+
+Al revisar los principales actores del sector de las podadoras y del mercado de asientos para estas máquinas, se observa como la competencia no se limita a los fabricantes de podadoras, sino que incluye también empresas especializadas en sistemas de asientos. 
+
+Por un lado, están los fabricantes de maquinarias que también comercializan repuestos. Por ejemplo, John Deere tiene una línea completa de lawn mowers (John Deere, s. f.-a), más una categoría específica de Seats & Cushions (John Deere, s. f.-b) dentro de su tienda, demostrando que el asiento hace parte del negocio también. De una manera similar, Kubota comercializa las podadoras residenciales y comerciales, mientras promueve el uso de Kubota Genuine Parts, que son repuestos diseñados específicamente para sus equipos (Kubota, s. f.).  Esto demuestra que una parte de la competencia viene de marcas reconocidas y grandes, que integran la venta del equipo con la venta de repuestos. 
+
+Por otro lado, existen empresas que se especializan solamente en la fabricación de asientos para las podadoras. Un ejemplo de esto es GRAMMER, que desarrolla soluciones de asientos para el sector agrícola (GRAMMER, s. f.-a, s. f.-b).  También, de manera similar, Seats Inc. tiene asientos diseñados específicamente para máquinas como podadoras, tractores, y otra maquinaria (Seats Inc., s. f.-a, s. f.-b). Estas empresas compiten principalmente en aspectos como la comodidad, la calidad, la durabilidad, y que son específicamente de sillines para este tipo de máquinas (Seats Inc., s. f.-c; GRAMMER, s. f.-b). Todo esto dice que los sillines no son un accesorio menor, sino un componente con un mercado propio, con características definidas. 
+
+Por último, pero no menos importante, también hay competencia en el mercado de reposición no original (aftermarket). TractorSeats.com comercializa aftermarket tractor, lawn mower and construction seats y ofrece sillines de reemplazo para distintas marcas de mowers, también kits de asiento y suspensiones. (TractorSeats.com, s. f.-a, s. f.-b, s. f.-c). La presencia de este tipo de distribuidores/competencia evidencia que existe una demanda real por los repuestos, no solo por piezas, y que el cliente tiene de donde elegir, el cliente compara alternativas según precio, compatibilidades, etc. 
+
+Con base a todo, la competencia para una empresa que quiere internacionalizar sillines para podadoras tiene tres competencias reales, las marcas OEM (Original Equipment Manufacturer) que venden repuestos originales, los facribscntes epecializaods solo en asientos, y los distribuidores de repuestos compatibles. 
+
+
+
+GRAMMER. (s. f.-a). GRAMMER USA home. https://usa.grammer.com/grammer-usa-home.html 
+
+GRAMMER. (s. f.-b). Agricultural seating. https://usa.grammer.com/seating-solutions/agricultural-seating.html 
+
+International Trade Centre. (2024). Trade Map: Trade statistics for international business development. https://www.trademap.org/ 
+
+John Deere. (s. f.-a). Lawn mowers. https://www.deere.com/en/mowers/ 
+
+John Deere. (s. f.-b). Seats & cushions. https://shop.deere.com/us/Operator-Station/Seats-Cushions/c/6976/ 
+
+Kubota. (s. f.). Products. https://www.kubota.com/ 
+
+Seats Inc. (s. f.-a). Products. https://www.seatsinc.com/products/ 
+
+Seats Inc. (s. f.-b). Turf. https://www.seatsinc.com/products/turf/ 
+
+Seats Inc. (s. f.-c). I4M. https://www.seatsinc.com/products/turf/i4m/ 
+
+TractorSeats.com. (s. f.-a). Tractor, lawn mower & construction seats. https://www.tractorseats.com/ 
+
+TractorSeats.com. (s. f.-b). Lawn mower seats. https://www.tractorseats.com/c-158-lawn-mower-seats.aspx 
+
+TractorSeats.com. (s. f.-c). Turf seat kits. https://www.tractorseats.com/c-139-turf-seat-kits.aspx
+
+
+
+
+
+
+
+
+
+
