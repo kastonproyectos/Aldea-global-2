@@ -71,7 +71,24 @@ const dictionary = {
         viab_fig2_cap: "Figura 2. Crecimiento de las importaciones por país del producto 843311. Fuente: International Trade Centre (2024)",
         viab_size_desc_p3: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Dinámica de crecimiento positivo:</strong> Tanto Estados Unidos como Bélgica muestran tendencias de crecimiento al alza en sus importaciones para 2024, lo que representa una señal positiva para la entrada de nuevos competidores (ITC, 2024).</li><li class='mb-2'><strong>Exploración de nichos específicos:</strong> Países europeos con menores volúmenes pero tasas de crecimiento positivas ofrecen la posibilidad de una internacionalización gradual y la exploración de nichos de mercado menos saturados.</li></ul>",
         viab_comp_title: "Análisis Competitivo del Sector",
-        viab_comp_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Fabricantes de Equipo Original (OEM):</strong> Gigantes como John Deere y Kubota representan la competencia principal, integrando la venta de maquinaria con su propia línea de repuestos y cojines originales (Genuine Parts).</li><li class='mb-2'><strong>Fabricantes Especializados:</strong> Empresas como GRAMMER y Seats Inc. compiten a través de la especialización técnica, enfocándose en soluciones ergonómicas, comodidad y durabilidad superiores para el sector agrícola.</li><li class='mb-2'><strong>Mercado de Reposición (Aftermarket):</strong> Distribuidores como TractorSeats.com evidencian una demanda real por repuestos no originales, donde los usuarios finales comparan alternativas basándose en precio, compatibilidad y disponibilidad de kits de suspensión.</li><li class='mb-2'><strong>Estructura competitiva de tres frentes:</strong> Una empresa de internacionalización de sillines debe enfrentar a las marcas líderes de maquinaria, a los fabricantes expertos en sistemas de asientos y a los comercializadores de repuestos compatibles para el mercado de reposición.</li></ul>",
+        viab_comp_desc: `<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Fabricantes de Equipo Original (OEM)</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Gigantes como John Deere y Kubota representan la competencia principal, integrando la venta de maquinaria con su propia línea de repuestos y cojines originales (Genuine Parts).</p>
+    </div>
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Fabricantes Especializados</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Empresas como GRAMMER y Seats Inc. compiten a través de la especialización técnica, enfocándose en soluciones ergonómicas, comodidad y durabilidad superiores para el sector agrícola.</p>
+    </div>
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Mercado de Reposición (Aftermarket)</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Distribuidores como TractorSeats.com evidencian una demanda real por repuestos no originales, donde los usuarios finales comparan alternativas basándose en precio, compatibilidad y disponibilidad de kits de suspensión.</p>
+    </div>
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Estructura competitiva de 3 frentes</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Una empresa de internacionalización de sillines debe enfrentar a las marcas líderes de maquinaria, a los fabricantes expertos en sistemas de asientos y a los comercializadores de repuestos compatibles para el mercado de reposición.</p>
+    </div>
+</div>`,
 
         sust_title: "Sostenibilidad",
         sust_eco_title: "Económica",
@@ -172,7 +189,24 @@ const dictionary = {
         viab_fig2_cap: "Figure 2. Growth of imports by country for product 843311. Source: International Trade Centre (2024)",
         viab_size_desc_p3: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Positive growth dynamics:</strong> Both the U.S. and Belgium show upward growth trends in their imports for 2024, representing a positive signal for the entry of new competitors (ITC, 2024).</li><li class='mb-2'><strong>Specific niche exploration:</strong> European countries with lower volumes but positive growth rates offer the possibility of gradual internationalization and the exploration of less saturated market niches.</li></ul>",
         viab_comp_title: "Competitive Sector Analysis",
-        viab_comp_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Original Equipment Manufacturers (OEM):</strong> Giants like John Deere and Kubota represent the main competition, integrating machinery sales with their own line of replacement parts and original cushions (Genuine Parts).</li><li class='mb-2'><strong>Specialized Manufacturers:</strong> Companies like GRAMMER and Seats Inc. compete through technical specialization, focusing on superior ergonomic solutions, comfort, and durability for the agricultural sector.</li><li class='mb-2'><strong>Aftermarket Sector:</strong> Distributors like TractorSeats.com evidence real demand for non-original replacement parts, where end-users compare alternatives based on price, compatibility, and suspension kit availability.</li><li class='mb-2'><strong>Three-front competitive structure:</strong> A saddle internationalization company must face leading machinery brands, expert seat system manufacturers, and compatible replacement marketers for the aftermarket.</li></ul>",
+        viab_comp_desc: `<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Original Equipment Manufacturers (OEM)</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Giants like John Deere and Kubota represent the main competition, integrating machinery sales with their own line of replacement parts and original cushions (Genuine Parts).</p>
+    </div>
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Specialized Manufacturers</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Companies like GRAMMER and Seats Inc. compete through technical specialization, focusing on superior ergonomic solutions, comfort, and durability for the agricultural sector.</p>
+    </div>
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Aftermarket Sector</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Distributors like TractorSeats.com evidence real demand for non-original replacement parts, where end-users compare alternatives based on price, compatibility, and suspension kit availability.</p>
+    </div>
+    <div class="ui-panel card-shadow" style="flex: 1 1 calc(25% - 1rem); min-width: 220px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
+        <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Three-front competitive structure</h4>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">A saddle internationalization company must face leading machinery brands, expert seat system manufacturers, and compatible replacement marketers for the aftermarket.</p>
+    </div>
+</div>`,
 
         sust_title: "Sustainability",
         sust_eco_title: "Economic",
