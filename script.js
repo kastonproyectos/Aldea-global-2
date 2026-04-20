@@ -235,21 +235,26 @@ const dictionary = {
     }
 };
 
+// Radar 1: Diagnóstico Completo (5 dimensiones principales)
 const dpiRadarData = [
-    { nameEs: 'Talento Humano', nameEn: 'Human Talent', value: 0.108 },
-    { nameEs: 'Direccionamiento Estratégico', nameEn: 'Strategic Dir', value: 0.833 },
-    { nameEs: 'Tecnología e Innovación', nameEn: 'Technology', value: 0.416 },
-    { nameEs: 'Sostenibilidad', nameEn: 'Sustainability', value: 0.366 },
-    { nameEs: 'Potencial de Internacionalización', nameEn: 'PI Potential', value: 0.528 },
-    { nameEs: 'Modos de Entrada', nameEn: 'Entry Modes', value: 0.473 }
+    { nameEs: 'Talento Humano', nameEn: 'Human Talent', value: 1.69 },
+    { nameEs: 'Direccionamiento estratégico', nameEn: 'Strategic Dir.', value: 5.00 },
+    { nameEs: 'Tecnología e innovación', nameEn: 'Technology', value: 11.88 },
+    { nameEs: 'Sostenibilidad', nameEn: 'Sustainability', value: 9.42 },
+    { nameEs: 'Potencial de internacionalización', nameEn: 'Intern. Potential', value: 28.80 }
 ];
+const dpiRadarMax = [
+    12.50, 7.50, 15.00, 15.00, 50.00
+];
+
+// Radar 2: Potencial de Internacionalización (6 sub-categorías)
 const dpiGapData = [
-    { label: 'Talento Humano', obs: 0.013, max: 0.125 },
-    { label: 'Direccionamiento Estratégico', obs: 0.062, max: 0.075 },
-    { label: 'Tecnología e Innovación', obs: 0.062, max: 0.150 },
-    { label: 'Sostenibilidad', obs: 0.054, max: 0.150 },
-    { label: 'Potencial de Internacionalización', obs: 0.264, max: 0.500 },
-    { label: 'Modos de Entrada', obs: 0.142, max: 0.300 }
+    { label: 'Exportación e Importación (Bienes)', obs: 7.20, max: 8.00 },
+    { label: 'Exportación (Servicios)', obs: 2.50, max: 4.00 },
+    { label: 'Inversión Extranjera Directa', obs: 2.75, max: 8.00 },
+    { label: 'Licencias y Franquicias', obs: 1.17, max: 7.00 },
+    { label: 'Alianzas Estratégicas', obs: 3.00, max: 3.00 },
+    { label: 'Producto/Servicio', obs: 12.19, max: 20.00 }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -288,45 +293,55 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (radarCtx) {
         const ctx = radarCtx.getContext('2d');
-        const gradient = ctx.createLinearGradient(0, 0, 0, 400);
-        gradient.addColorStop(0, 'rgba(255, 130, 1, 0.4)');
-        gradient.addColorStop(1, 'rgba(0, 0, 0, 0.1)');
-
         radarChartObj = new Chart(ctx, {
             type: 'radar',
             data: {
                 labels: dpiRadarData.map(d => d.nameEs),
-                datasets: [{
-                    label: 'DPI UMO',
-                    data: dpiRadarData.map(d => d.value),
-                    backgroundColor: gradient,
-                    borderColor: '#000000',
-                    pointBackgroundColor: '#FF8201',
-                    pointBorderColor: '#fff',
-                    borderWidth: 2
-                }]
+                datasets: [
+                    {
+                        label: 'Obtenido',
+                        data: dpiRadarData.map(d => d.value),
+                        backgroundColor: 'rgba(255, 130, 1, 0.25)',
+                        borderColor: '#FF8201',
+                        pointBackgroundColor: '#FF8201',
+                        pointBorderColor: '#fff',
+                        borderWidth: 2
+                    },
+                    {
+                        label: 'Máximo',
+                        data: dpiRadarMax,
+                        backgroundColor: 'rgba(0,0,0,0.06)',
+                        borderColor: '#000000',
+                        pointBackgroundColor: '#000000',
+                        pointBorderColor: '#fff',
+                        borderWidth: 1.5,
+                        borderDash: [5, 5]
+                    }
+                ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
                 scales: {
                     r: {
-                        angleLines: { color: 'rgba(0,0,0,0.1)' },
-                        grid: { color: 'rgba(0,0,0,0.1)' },
+                        angleLines: { color: 'rgba(0,0,0,0.12)' },
+                        grid: { color: 'rgba(0,0,0,0.10)' },
                         pointLabels: {
-                            color: '#000000',
-                            font: { size: 10, family: "'Work Sans', sans-serif", weight: 'bold' }
+                            color: '#111',
+                            font: { size: 10, family: "'Work Sans', sans-serif", weight: '600' }
                         },
                         ticks: {
                             backdropColor: 'transparent',
-                            color: '#6F6F6F',
-                            stepSize: 0.1,
-                            min: 0,
-                            max: 1
-                        }
+                            color: '#888',
+                            stepSize: 10
+                        },
+                        suggestedMin: 0,
+                        suggestedMax: 50
                     }
                 },
-                plugins: { legend: { display: false } }
+                plugins: {
+                    legend: { display: true, position: 'bottom', labels: { color: '#111', font: { size: 11 } } }
+                }
             }
         });
     }
@@ -335,28 +350,53 @@ document.addEventListener('DOMContentLoaded', () => {
     if (gapCtx) {
         const ctxGap = gapCtx.getContext('2d');
         gapChartObj = new Chart(ctxGap, {
-            type: 'bar',
+            type: 'radar',
             data: {
                 labels: dpiGapData.map(d => d.label),
                 datasets: [
                     {
                         label: 'Obtenido',
-                        backgroundColor: '#FF8201',
-                        data: dpiGapData.map(d => d.obs)
+                        data: dpiGapData.map(d => d.obs),
+                        backgroundColor: 'rgba(255, 130, 1, 0.25)',
+                        borderColor: '#FF8201',
+                        pointBackgroundColor: '#FF8201',
+                        pointBorderColor: '#fff',
+                        borderWidth: 2
                     },
                     {
                         label: 'Máximo',
-                        backgroundColor: '#000000',
-                        data: dpiGapData.map(d => d.max)
+                        data: dpiGapData.map(d => d.max),
+                        backgroundColor: 'rgba(0,0,0,0.06)',
+                        borderColor: '#000000',
+                        pointBackgroundColor: '#000000',
+                        pointBorderColor: '#fff',
+                        borderWidth: 1.5,
+                        borderDash: [5, 5]
                     }
                 ]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                plugins: { legend: { position: 'top' } },
                 scales: {
-                    y: { beginAtZero: true, max: 0.5 }
+                    r: {
+                        angleLines: { color: 'rgba(0,0,0,0.12)' },
+                        grid: { color: 'rgba(0,0,0,0.10)' },
+                        pointLabels: {
+                            color: '#111',
+                            font: { size: 10, family: "'Work Sans', sans-serif", weight: '600' }
+                        },
+                        ticks: {
+                            backdropColor: 'transparent',
+                            color: '#888',
+                            stepSize: 5
+                        },
+                        suggestedMin: 0,
+                        suggestedMax: 20
+                    }
+                },
+                plugins: {
+                    legend: { display: true, position: 'bottom', labels: { color: '#111', font: { size: 11 } } }
                 }
             }
         });
