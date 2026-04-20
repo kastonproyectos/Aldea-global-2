@@ -543,6 +543,126 @@ svg {
     text-indent: -2.5rem;
 }
 
+/* Tooltips & Intros */
+.title-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.title-wrapper .section-title {
+    margin-bottom: 0;
+}
+
+.tooltip-container {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--black);
+    color: var(--white);
+    font-size: 14px;
+    cursor: help;
+    font-family: monospace;
+    font-weight: bold;
+    font-style: italic;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.tooltip-text {
+    visibility: hidden;
+    width: max-content;
+    max-width: 320px;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: justify;
+    border-radius: 4px;
+    padding: 1rem;
+    position: absolute;
+    z-index: 1000;
+    bottom: 135%;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 0.85rem;
+    font-style: normal;
+    font-weight: normal;
+    font-family: var(--font-main);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+.intro-text {
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+/* SMART Section */
+.bg-blue {
+    background-color: #3B65B9 !important;
+}
+
+/* DPI Table */
+.dpi-table-container {
+    width: 100%;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+}
+
+.dpi-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dpi-table th,
+.dpi-table td {
+    border: 1px solid var(--border-color);
+    padding: 0.8rem;
+    text-align: center;
+}
+
+.dpi-table th {
+    background-color: var(--black);
+    color: var(--white);
+}
+
+/* BMC Specific Optimization */
+.bmc-vp-solid {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(255, 130, 1, 0.4) !important;
+}
+
+.bmc-card {
+    transition: transform 0.3s ease;
+}
+
+.bmc-list {
+    padding-left: 1.4rem;
+    margin-top: 0.5rem;
+}
+
+.bmc-list li {
+    margin-bottom: 0.4rem;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
 /* Footer */
 .footer-logo {
     height: 50px;
