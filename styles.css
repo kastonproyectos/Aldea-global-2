@@ -649,23 +649,45 @@ svg {
     grid-template-rows: auto auto;
     gap: 20px;
 }
+
 @media (max-width: 768px) {
-    .dofa-grid-dense { grid-template-columns: 1fr !important; }
+    .dofa-grid-dense {
+        grid-template-columns: 1fr !important;
+    }
 }
+
 .dofa-card {
     padding: 25px !important;
     border-radius: 8px !important;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.12);
     height: 100%;
 }
-.dofa-card-f { background-color: #3B65B9 !important; border: none; }
-.dofa-card-d { background-color: #FF8201 !important; border: none; }
-.dofa-card-o { background-color: #F4F4F5 !important; border: 1px solid #ddd; }
-.dofa-card-a { background-color: #E26D6D !important; border: none; }
+
+.dofa-card-f {
+    background-color: #3B65B9 !important;
+    border: none;
+}
+
+.dofa-card-d {
+    background-color: #FF8201 !important;
+    border: none;
+}
+
+.dofa-card-o {
+    background-color: #F4F4F5 !important;
+    border: 1px solid #ddd;
+}
+
+.dofa-card-a {
+    background-color: #E26D6D !important;
+    border: none;
+}
+
 .dofa-inject ul {
     padding-left: 1.5rem;
     margin-top: 1rem;
 }
+
 .dofa-inject li {
     line-height: 1.5 !important;
     margin-bottom: 0.8rem;
@@ -682,9 +704,14 @@ svg {
     margin: 2rem auto;
     justify-content: center;
 }
+
 @media (max-width: 900px) {
-    .bmc-grid-complex { grid-template-columns: 1fr !important; width: 100% !important;}
+    .bmc-grid-complex {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+    }
 }
+
 .bmc-card {
     padding: 25px !important;
     border-radius: 8px !important;
@@ -692,7 +719,11 @@ svg {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
     border: 1px solid var(--black) !important;
 }
-.bmc-card h4 { margin-bottom: 1rem; }
+
+.bmc-card h4 {
+    margin-bottom: 1rem;
+}
+
 .bmc-vp-solid {
     background: var(--orange) !important;
     transform: scale(1.05);
@@ -700,15 +731,61 @@ svg {
     box-shadow: 0 8px 30px rgba(255, 130, 1, 0.5) !important;
     z-index: 10;
 }
+
 .bmc-inject ul {
     padding-left: 1.5rem;
     margin-top: 1rem;
 }
+
 .bmc-inject li {
     line-height: 1.5 !important;
     margin-bottom: 0.5rem !important;
     font-size: 0.95rem;
     text-align: left;
+}
+
+/* V14 Viability Sector - Competitor Analysis Grid */
+.comp-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    gap: 20px !important;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+@media (max-width: 900px) {
+    .comp-grid {
+        grid-template-columns: 1fr !important;
+    }
+}
+
+.comp-card {
+    padding: 30px 25px !important;
+    border-radius: 8px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.comp-card:hover {
+    transform: translateY(-5px);
+}
+
+.comp-card .sust-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mb-1 {
+    margin-bottom: 0.5rem;
 }
 
 /* Footer */
@@ -769,24 +846,50 @@ svg {
     grid-template-rows: auto auto;
     gap: 20px !important;
 }
+
 @media (max-width: 768px) {
-    .dofa-grid-dense { grid-template-columns: 1fr !important; }
+    .dofa-grid-dense {
+        grid-template-columns: 1fr !important;
+    }
 }
+
 .dofa-card {
     padding: 25px !important;
     border-radius: 8px !important;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.12) !important;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12) !important;
     height: 100%;
 }
-.dofa-card-f { background-color: #3B65B9 !important; border: none !important; } /* Azul */
-.dofa-card-d { background-color: #FF8201 !important; border: none !important; } /* Naranja */
-.dofa-card-o { background-color: #F4F4F5 !important; border: 1px solid #ddd !important; } /* Gris Claro */
-.dofa-card-a { background-color: #E26D6D !important; border: none !important; } /* Rojo Suave */
+
+.dofa-card-f {
+    background-color: #3B65B9 !important;
+    border: none !important;
+}
+
+/* Azul */
+.dofa-card-d {
+    background-color: #FF8201 !important;
+    border: none !important;
+}
+
+/* Naranja */
+.dofa-card-o {
+    background-color: #F4F4F5 !important;
+    border: 1px solid #ddd !important;
+}
+
+/* Gris Claro */
+.dofa-card-a {
+    background-color: #E26D6D !important;
+    border: none !important;
+}
+
+/* Rojo Suave */
 
 .dofa-inject ul {
     padding-left: 1.5rem;
     margin-top: 1rem;
 }
+
 .dofa-inject li {
     line-height: 1.5 !important;
     margin-bottom: 0.8rem;
@@ -803,9 +906,14 @@ svg {
     margin: 2rem auto !important;
     justify-content: center;
 }
+
 @media (max-width: 900px) {
-    .bmc-grid-complex { grid-template-columns: 1fr !important; width: 100% !important; }
+    .bmc-grid-complex {
+        grid-template-columns: 1fr !important;
+        width: 100% !important;
+    }
 }
+
 .bmc-card {
     padding: 25px !important;
     border-radius: 8px !important;
@@ -813,9 +921,11 @@ svg {
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
     border: 1px solid var(--black) !important;
 }
+
 .bmc-card h4 {
     margin-bottom: 1rem;
 }
+
 .bmc-vp-solid {
     background: var(--orange) !important;
     border: 3px solid var(--black) !important;
@@ -823,10 +933,12 @@ svg {
     transform: scale(1.05) !important;
     z-index: 10;
 }
+
 .bmc-inject ul {
     padding-left: 1.5rem;
     margin-top: 1rem;
 }
+
 .bmc-inject li {
     line-height: 1.5 !important;
     margin-bottom: 0.8rem !important;

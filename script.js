@@ -14,7 +14,7 @@ const dictionary = {
         hero_subtitle: "Proyección UMO - Sillines de podadoras al mercado estadounidense.",
         about_title: "Descripción del bien y/o servicio",
         about_text1: "La empresa ofrece sillines para podadoras/lawnmowers, orientados al mercado agrícola estadounidense. Se trata de un producto que puede desarrollarse bajo diseños específicos, de acuerdo con los requerimientos del cliente. Estos productos pertenecen a la división de poliuretano inyectado, lo que representa la base tecnológica desde la cual la empresa está desarrollando esta línea de sillas. En cuanto a su composición, la estructura de la silla es nacional y está conformada por estructura metálica y estructura de madera, la tecnología de recubrimiento utilizada también es de origen nacional. Por otro lado, los componentes que actualmente provienen del exterior son los apoyabrazos y el cinturón de seguridad, los cuales son importados desde China. El producto tiene ciertas características, condiciones y exigencias técnicas que estas sillas deben cumplir en el mercado estadounidense.",
-        
+
         // BMC EXACT REPLACEMENTS (V13)
         bmc_title: "Business Model Canvas",
         tooltip_bmc: "Estructura estratégica del modelo de negocio de UMO, diseñada a partir del análisis de capacidades internas y necesidades del mercado estadounidense.",
@@ -56,7 +56,7 @@ const dictionary = {
         dpi_score_label: "Puntaje Total Obtenido",
         dpi_score: "0.457",
         dpi_gap_title: "Análisis de Brechas: Obtenido vs. Máximo",
-        
+
         sust_title: "Sostenibilidad",
         sust_eco_title: "Económica",
         sust_eco_desc: "Umo es una empresa con más de 57 años en el mercado que refleja claramente la relación con las tres dimensiones del desarrollo. En la dimensión económica, se destaca por ser un grupo empresarial sólido con tres unidades de negocio enfocadas en soluciones metalmecánicas y productos en poliuretano... Además, trabaja con marcas reconocidas como Renault, Yamaha, Honda y Suzuki. Su participación en un país como Colombia y su interés en expandirse hacia mercados internacionales como Estados Unidos, muestran su potencial de crecimiento (ANDI, 2022).",
@@ -64,12 +64,22 @@ const dictionary = {
         sust_soc_desc: "En cuanto a la dimensión social, umo ha contribuido durante décadas a la generación de empleo y al desarrollo del sector industrial. Su trayectoria permite la formación de talento humano en áreas técnicas como la metalmecánica y el manejo de poliuretano. Así, la posibilidad de realizar visitas empresariales y compartir su experiencia aporta al aprendizaje. Este crecimiento también impulsa mejores oportunidades profesionales (OIT, 2023).",
         sust_env_title: "Ambiental",
         sust_env_desc: "Finalmente, en la dimensión ambiental, se identifican elementos importantes como el uso de materiales industriales que requieren control y gestión responsable. La existencia de un departamento de calidad indica que la empresa realiza mediciones... Además, su intención de ingresar a mercados como el de Estados Unidos implica el cumplimiento de normativas ambientales más exigentes, lo que promueve prácticas más sostenibles industrialmente (ISO, 2015).",
-        
-        viab_title: "Viabilidad de Mercado y Análisis del Sector",
-        viab_sector_desc: "Este producto se ubica dentro del sector de maquinaria. Según datos del ITC para la partida 8433.11, Estados Unidos sobresale como uno de los mercados más grandes y presenta una balanza comercial negativa, significando una alta demanda interna sostenida (ITC, 2024). Como primera opción de preselección se propone Missouri (85,500 operaciones agrícolas). El segundo estado es Oklahoma (69,700 operaciones agrícolas).",
-        viab_markets_desc: "Missouri y Oklahoma aparecen como opciones equilibradas, según el State Agriculture Overview del USDA, mientras que, en materia tributaria, ocupan posiciones favorables en el 2026 State Tax Competitiveness Index. Estos datos reflejan bases productivas sólidas (USDA NASS, 2025).",
-        viab_fig1: "Gráfica NASS: Missouri vs Oklahoma",
-        
+
+        viab_title: "Análisis de Viabilidad de Internacionalización",
+        viab_just_title: "Justificación Técnica (8433.11)",
+        viab_just_desc: "Los sillines fabricados por UMO son componentes críticos y especializados diseñados específicamente para podadoras/lawnmowers (Partida Arancelaria 8433.11). Esto los separa de repuestos genéricos, requiriendo estándares ergonómicos y técnicos superiores para asegurar la operación efectiva del equipo agrícola.",
+        viab_sector_title: "Análisis del Sector: Mercado Estadounidense",
+        viab_sector_desc: "Estados Unidos representa el líder importador absoluto con una fuerte balanza comercial negativa, lo que indica que su demanda supera su capacidad productiva interna. Esta tendencia se acentúa en economías desarrolladas que requieren soluciones B2B directas.",
+        viab_fig1_title: "Figura 1: Brecha de Balanza Comercial (EE. UU.)",
+        comp_matrix_title: "Matriz de Análisis Competitivo",
+        comp_oem_title: "Marcas OEM",
+        comp_oem_desc: "Fabricantes globales que suministran los repuestos originales como John Deere y Kubota. Proveen la máxima especificación técnica pero con altos costos y tiempos logísticos limitados.",
+        comp_spec_title: "Fabricantes Especialistas",
+        comp_spec_desc: "Actores como GRAMMER y Seats Inc., dominantes en la producción de sillas ergonómicas y soluciones avanzadas de amortiguación. Absorben demanda especializada premium.",
+        comp_aft_title: "Mercado Aftermarket",
+        comp_aft_desc: "Portales y distribuidores directos como TractorSeats.com que comercializan kits de reposición universales. Competencia agresiva por precio hacia demanda masiva.",
+        viab_fig2_title: "Figura 2: Tendencia de Crecimiento (USA vs. Bélgica) 2024",
+
         smart_title: "Objetivo SMART",
         smart_desc: "Lograr establecer exportación regular y recurrente en Estados Unidos enfocada en los clústers de Oklahoma y Missouri, mitigando las debilidades del esquema Micro y proyectando ventas solidificadas en alianza (Vercel Metrics 2027).",
         ref_title: "Referencias Bibliográficas (APA 7)",
@@ -104,7 +114,7 @@ const dictionary = {
         hero_subtitle: "UMO Projection - Lawnmower saddles for the US market.",
         about_title: "Description of good and/or service",
         about_text1: "The company offers saddles for lawnmowers, aimed at the US agricultural market. It is a product that can be developed under specific designs, according to customer requirements. These products belong to the injected polyurethane division... Structurally, the chair has national origin comprising metal and wood frames. The only imported components are armrests and seat belts from China.",
-        
+
         // BMC EXACT REPLACEMENTS (V13)
         bmc_title: "Business Model Canvas",
         tooltip_bmc: "Strategic structure of UMOs business model, designed from the analysis of internal capabilities and the needs of the US market.",
@@ -146,7 +156,7 @@ const dictionary = {
         dpi_score_label: "Total Score Obtained",
         dpi_score: "0.457",
         dpi_gap_title: "Gap Analysis: Obtained vs Maximum",
-        
+
         sust_title: "Sustainability",
         sust_eco_title: "Economic",
         sust_eco_desc: "A 57-year-old firm with three massive business units tied to brands like Yamaha, Honda, and Suzuki. Interest in penetrating the US market showcases growth potentials (ANDI, 2022).",
@@ -154,12 +164,22 @@ const dictionary = {
         sust_soc_desc: "Decades shaping high-tech local labor across mechanical and chemical injection sectors, directly elevating tech capacities (ILO, 2023).",
         sust_env_title: "Environmental",
         sust_env_desc: "Tracking industrial impact via QA departments striving to hit US compliance requirements. Driving tighter operations ensuring sustainable protocols natively (ISO, 2015).",
-        
-        viab_title: "Market Viability & Sector Analysis",
-        viab_sector_desc: "Aligned to ITC 8433.11 code, the US displays a highly negative trade balance indicating extreme domestic demand dependencies (ITC, 2024). Missouri yields 85,500 operations and Oklahoma houses 69,700 neutral yet potent agricultural ecosystems respectively.",
-        viab_markets_desc: "Both serve as balanced and immensely favorable hubs according to USDA NASS and Tax Competitiveness indexes. (USDA NASS, 2025).",
-        viab_fig1: "NASS Chart: Missouri vs Oklahoma",
-        
+
+        viab_title: "Internationalization Viability Analysis",
+        viab_just_title: "Technical Justification (8433.11)",
+        viab_just_desc: "The saddles manufactured by UMO are critical and specialized components designed specifically for lawnmowers (Tariff Code 8433.11). This separates them from generic spare parts, requiring superior ergonomic and technical standards to ensure the effective operation of agricultural equipment.",
+        viab_sector_title: "Sector Analysis: US Market",
+        viab_sector_desc: "The United States represents the absolute leading importing market with a strong negative trade balance, indicating that its demand exceeds its internal productive capacity. This trend is accentuated in developed economies that require direct B2B solutions.",
+        viab_fig1_title: "Figure 1: Trade Balance Gap (U.S.)",
+        comp_matrix_title: "Competitive Analysis Matrix",
+        comp_oem_title: "OEM Brands",
+        comp_oem_desc: "Global manufacturers supplying original replacement parts such as John Deere and Kubota. They provide maximum technical specifications but with high costs and limited logistical times.",
+        comp_spec_title: "Specialist Manufacturers",
+        comp_spec_desc: "Players like GRAMMER and Seats Inc., dominant in the production of ergonomic seats and advanced cushioning solutions. They absorb premium specialized demand.",
+        comp_aft_title: "Aftermarket Sector",
+        comp_aft_desc: "Direct distributors and portals such as TractorSeats.com marketing universal replacement kits. Aggressive price competition targeted at massive demand.",
+        viab_fig2_title: "Figure 2: Growth Trend (USA vs. Belgium) 2024",
+
         smart_title: "SMART Goal",
         smart_desc: "Deploy recurring OEM/Aftermarket traction spanning Oklahoma and Missouri clusters towards 2027 by leveling Micro metrics against macro realities.",
         ref_title: "APA 7 References",
@@ -301,23 +321,54 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    const marketCtx = document.getElementById('marketChart');
-    if (marketCtx) {
-        const ctx2 = marketCtx.getContext('2d');
-        barChartObj = new Chart(ctx2, {
-            type: 'bar',
+    const bubbleCtx = document.getElementById('bubbleChart');
+    if (bubbleCtx) {
+        const ctxB = bubbleCtx.getContext('2d');
+        new Chart(ctxB, {
+            type: 'bubble',
             data: {
-                labels: ['Missouri', 'Oklahoma'],
                 datasets: [{
-                    label: 'Operaciones Agrícolas (NASS)',
-                    backgroundColor: '#FF8201',
-                    data: [85500, 69700]
+                    label: 'Trade Map Data (EE. UU.)',
+                    data: [{ x: 80, y: -45, r: 25 }],
+                    backgroundColor: 'rgba(255, 130, 1, 0.7)',
+                    borderColor: '#000000',
+                    borderWidth: 2
+                }, {
+                    label: 'Otros Países',
+                    data: [{ x: 30, y: -10, r: 10 }, { x: 45, y: -20, r: 15 }],
+                    backgroundColor: 'rgba(59, 101, 185, 0.5)',
+                    borderColor: '#3B65B9'
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                plugins: { legend: { position: 'bottom' } }
+                scales: {
+                    x: { title: { display: true, text: 'Volumen Importaciones' } },
+                    y: { title: { display: true, text: 'Balanza Comercial' } }
+                }
+            }
+        });
+    }
+
+    const growthCtx = document.getElementById('growthChart');
+    if (growthCtx) {
+        const ctxG = growthCtx.getContext('2d');
+        new Chart(ctxG, {
+            type: 'bar',
+            data: {
+                labels: ['EE. UU.', 'Bélgica (UE)'],
+                datasets: [{
+                    label: 'Importaciones (Miles USD) 2024',
+                    backgroundColor: ['#000000', '#6F6F6F'],
+                    data: [135400, 32500]
+                }]
+            },
+            options: {
+                responsive: true,
+                maintainAspectRatio: false,
+                indexAxis: 'y',
+                plugins: { legend: { display: false } }
             }
         });
     }

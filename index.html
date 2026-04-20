@@ -249,26 +249,80 @@
 
         <!-- Literal Copy 4: Viabilidad -->
         <section id="viability" class="section bg-white">
-            <div class="container container-flex">
-                <div style="flex:1;">
-                    <h2 class="section-title text-orange" data-i18n="viab_title">Viabilidad de Mercado - NASS</h2>
-                    <p class="text-justify mb-4" data-i18n="viab_sector_desc">Como primera opción de preselección se
-                        propone Missouri, ya que presenta una base agrícola neutra, no tan extrema como la de los
-                        estados líderes... Missouri registra 85,500 operaciones agrícolas. El segundo estado es
-                        Oklahoma, cuenta con una estructura agrícola fuerte y escala intermedia con 69,700 operaciones
-                        agrícolas. Ambos cuentan con estructura agrícola importante y ocupan posiciones favorables
-                        tributariamente.</p>
-                    <p class="text-justify" data-i18n="viab_markets_desc">Missouri y Oklahoma aparecen como opciones
-                        equilibradas, según el State Agriculture Overview del USDA, mientras que, en materia tributaria,
-                        ocupan posiciones favorables en el 2026 State Tax Competitiveness Index. Estos datos reflejan
-                        bases productivas sólidas (USDA NASS, 2025).</p>
+            <div class="container">
+                <div class="title-wrapper">
+                    <h2 class="section-title text-center text-orange" data-i18n="viab_title">Análisis de Viabilidad de
+                        Internacionalización</h2>
+                    <div class="tooltip-container" style="background-color:var(--orange);">i<span class="tooltip-text"
+                            data-i18n="tooltip_viab">Análisis estratégico basado en la partida arancelaria 8433.11
+                            (Podadoras) utilizando herramientas de inteligencia comercial como Trade Map de la
+                            ITC.</span></div>
                 </div>
-                <div class="ui-panel card-shadow" style="flex:1;">
+
+                <div class="container-flex" style="margin-bottom: 2rem;">
+                    <div style="flex:1;">
+                        <h3 class="text-black mb-1" data-i18n="viab_just_title">Justificación Técnica (8433.11)</h3>
+                        <p class="text-justify mb-4" data-i18n="viab_just_desc">Los sillines fabricados por UMO son
+                            componentes críticos y especializados diseñados específicamente para podadoras/lawnmowers
+                            (Partida Arancelaria 8433.11). Esto los separa de repuestos genéricos, requiriendo
+                            estándares ergonómicos y técnicos superiores para asegurar la operación efectiva del equipo
+                            agrícola.</p>
+
+                        <h3 class="text-black mb-1" data-i18n="viab_sector_title">Análisis del Sector: Mercado
+                            Estadounidense</h3>
+                        <p class="text-justify mb-4" data-i18n="viab_sector_desc">Estados Unidos representa el líder
+                            importador absoluto con una fuerte balanza comercial negativa, lo que indica que su demanda
+                            supera su capacidad productiva interna. Esta tendencia se acentúa en economías desarrolladas
+                            que requieren soluciones B2B directas.</p>
+                    </div>
+
+                    <div class="ui-panel card-shadow" style="flex:1;">
+                        <div class="panel-head bg-black">
+                            <h4 class="text-white text-center" data-i18n="viab_fig1_title">Figura 1: Brecha de Balanza
+                                Comercial (EE. UU.)</h4>
+                        </div>
+                        <div class="panel-body bg-white border-solid-black border-top-none">
+                            <canvas id="bubbleChart" width="400" height="250"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <h3 class="text-center text-orange mb-4 mt-4" data-i18n="comp_matrix_title">Matriz de Análisis
+                    Competitivo</h3>
+                <div class="comp-grid">
+                    <div class="comp-card card-shadow border-solid-black bg-white">
+                        <div class="sust-circle bg-black"><span class="text-white"
+                                style="font-size:1.2rem; font-weight:bold;">OEM</span></div>
+                        <h4 class="text-center text-black" data-i18n="comp_oem_title">Marcas OEM</h4>
+                        <p class="text-justify text-gray" data-i18n="comp_oem_desc">Fabricantes globales que suministran
+                            los repuestos originales como John Deere y Kubota. Proveen la máxima especificación técnica
+                            pero con altos costos y tiempos logísticos limitados.</p>
+                    </div>
+                    <div class="comp-card card-shadow border-solid-black bg-white">
+                        <div class="sust-circle" style="background:#3B65B9;"><span class="text-white"
+                                style="font-size:1.2rem; font-weight:bold;">ESP</span></div>
+                        <h4 class="text-center text-black" data-i18n="comp_spec_title">Fabricantes Especialistas</h4>
+                        <p class="text-justify text-gray" data-i18n="comp_spec_desc">Actores como GRAMMER y Seats Inc.,
+                            dominantes en la producción de sillas ergonómicas y soluciones avanzadas de amortiguación.
+                            Absorben demanda especializada premium.</p>
+                    </div>
+                    <div class="comp-card card-shadow border-solid-black bg-white">
+                        <div class="sust-circle" style="background:#FF8201;"><span class="text-white"
+                                style="font-size:1.2rem; font-weight:bold;">AFT</span></div>
+                        <h4 class="text-center text-black" data-i18n="comp_aft_title">Mercado Aftermarket</h4>
+                        <p class="text-justify text-gray" data-i18n="comp_aft_desc">Portales y distribuidores directos
+                            como TractorSeats.com que comercializan kits de reposición universales. Competencia agresiva
+                            por precio hacia demanda masiva.</p>
+                    </div>
+                </div>
+
+                <div class="ui-panel card-shadow" style="margin-top:2rem; width: 100%;">
                     <div class="panel-head bg-black">
-                        <h4 class="text-white" data-i18n="viab_fig1">Gráfica NASS: Missouri vs Oklahoma</h4>
+                        <h4 class="text-white text-center" data-i18n="viab_fig2_title">Figura 2: Tendencia de
+                            Crecimiento (USA vs. Bélgica) 2024</h4>
                     </div>
                     <div class="panel-body bg-white border-solid-black border-top-none">
-                        <canvas id="marketChart" width="400" height="300"></canvas>
+                        <canvas id="growthChart" width="400" height="200"></canvas>
                     </div>
                 </div>
             </div>
