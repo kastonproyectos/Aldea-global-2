@@ -223,19 +223,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const elementsToTranslate = document.querySelectorAll('[data-i18n]');
     let currentLang = 'es';
 
+    function updateLanguageUI(lang) {
+        currentLang = lang;
+        elementsToTranslate.forEach(el => {
+            const key = el.getAttribute('data-i18n');
+            if (dictionary[currentLang] && dictionary[currentLang][key]) {
+                el.innerHTML = dictionary[currentLang][key];
+            }
+        });
+        document.documentElement.lang = currentLang;
+    }
+
+    // Initialize immediately on load
+    updateLanguageUI(currentLang);
+
     langBtns.forEach(btn => {
         btn.addEventListener('click', (e) => {
             langBtns.forEach(b => b.classList.remove('active'));
             e.target.classList.add('active');
-
-            currentLang = e.target.getAttribute('data-lang');
-            elementsToTranslate.forEach(el => {
-                const key = el.getAttribute('data-i18n');
-                if (dictionary[currentLang] && dictionary[currentLang][key]) {
-                    el.innerHTML = dictionary[currentLang][key];
-                }
-            });
-            document.documentElement.lang = currentLang;
+            updateLanguageUI(e.target.getAttribute('data-lang'));
             updateChartLang();
         });
     });
