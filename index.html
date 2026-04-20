@@ -253,77 +253,43 @@
                 <div class="title-wrapper">
                     <h2 class="section-title text-center text-orange" data-i18n="viab_title">Análisis de Viabilidad de
                         Internacionalización</h2>
-                    <div class="tooltip-container" style="background-color:var(--orange);">i<span class="tooltip-text"
-                            data-i18n="tooltip_viab">Análisis estratégico basado en la partida arancelaria 8433.11
-                            (Podadoras) utilizando herramientas de inteligencia comercial como Trade Map de la
-                            ITC.</span></div>
                 </div>
 
-                <div class="container-flex" style="margin-bottom: 2rem;">
-                    <div style="flex:1;">
-                        <h3 class="text-black mb-1" data-i18n="viab_just_title">Justificación Técnica (8433.11)</h3>
-                        <p class="text-justify mb-4" data-i18n="viab_just_desc">Los sillines fabricados por UMO son
-                            componentes críticos y especializados diseñados específicamente para podadoras/lawnmowers
-                            (Partida Arancelaria 8433.11). Esto los separa de repuestos genéricos, requiriendo
-                            estándares ergonómicos y técnicos superiores para asegurar la operación efectiva del equipo
-                            agrícola.</p>
+                <div class="viab-block" style="margin-bottom: 2rem;">
+                    <h3 class="text-black mb-2" data-i18n="viab_just_title">Justificación del producto en el contexto
+                        internacional</h3>
+                    <div data-i18n="viab_just_desc" class="viab-inject text-black mb-4 text-justify"></div>
 
-                        <h3 class="text-black mb-1" data-i18n="viab_sector_title">Análisis del Sector: Mercado
-                            Estadounidense</h3>
-                        <p class="text-justify mb-4" data-i18n="viab_sector_desc">Estados Unidos representa el líder
-                            importador absoluto con una fuerte balanza comercial negativa, lo que indica que su demanda
-                            supera su capacidad productiva interna. Esta tendencia se acentúa en economías desarrolladas
-                            que requieren soluciones B2B directas.</p>
-                    </div>
+                    <h3 class="text-black mb-2" data-i18n="viab_sec_title">Análisis del sector en el país objetivo</h3>
+                    <div data-i18n="viab_sec_desc" class="viab-inject text-black mb-4 text-justify"></div>
 
-                    <div class="ui-panel card-shadow" style="flex:1;">
-                        <div class="panel-head bg-black">
-                            <h4 class="text-white text-center" data-i18n="viab_fig1_title">Gráfica NASS: Missouri vs
-                                Oklahoma</h4>
-                        </div>
-                        <div class="panel-body bg-white border-solid-black border-top-none">
-                            <canvas id="bubbleChart" width="400" height="250"></canvas>
+                    <h3 class="text-black mb-2" data-i18n="viab_size_title">Tamaño del mercado y tendencias</h3>
+                    <div data-i18n="viab_size_desc" class="viab-inject text-black mb-4 text-justify"></div>
+
+                    <!-- Chart 1: Bubble Chart -->
+                    <div class="ui-panel card-shadow" style="width: 100%; margin: 1rem 0;">
+                        <div class="panel-body bg-white border-solid-black">
+                            <canvas id="bubbleChart" width="400" height="200"></canvas>
                         </div>
                     </div>
-                </div>
+                    <p class="text-center text-gray" data-i18n="viab_fig1_cap"
+                        style="font-weight: 600; font-style: italic; margin-bottom: 2rem;"></p>
 
-                <h3 class="text-center text-orange mb-4 mt-4" data-i18n="comp_matrix_title">Matriz de Análisis
-                    Competitivo</h3>
-                <div class="comp-grid">
-                    <div class="comp-card card-shadow border-solid-black bg-white">
-                        <div class="sust-circle bg-black"><span class="text-white"
-                                style="font-size:1.2rem; font-weight:bold;">OEM</span></div>
-                        <h4 class="text-center text-black" data-i18n="comp_oem_title">Marcas OEM</h4>
-                        <p class="text-justify text-gray" data-i18n="comp_oem_desc">Fabricantes globales que suministran
-                            los repuestos originales como John Deere y Kubota. Proveen la máxima especificación técnica
-                            pero con altos costos y tiempos logísticos limitados.</p>
-                    </div>
-                    <div class="comp-card card-shadow border-solid-black bg-white">
-                        <div class="sust-circle" style="background:#3B65B9;"><span class="text-white"
-                                style="font-size:1.2rem; font-weight:bold;">ESP</span></div>
-                        <h4 class="text-center text-black" data-i18n="comp_spec_title">Fabricantes Especialistas</h4>
-                        <p class="text-justify text-gray" data-i18n="comp_spec_desc">Actores como GRAMMER y Seats Inc.,
-                            dominantes en la producción de sillas ergonómicas y soluciones avanzadas de amortiguación.
-                            Absorben demanda especializada premium.</p>
-                    </div>
-                    <div class="comp-card card-shadow border-solid-black bg-white">
-                        <div class="sust-circle" style="background:#FF8201;"><span class="text-white"
-                                style="font-size:1.2rem; font-weight:bold;">AFT</span></div>
-                        <h4 class="text-center text-black" data-i18n="comp_aft_title">Mercado Aftermarket</h4>
-                        <p class="text-justify text-gray" data-i18n="comp_aft_desc">Portales y distribuidores directos
-                            como TractorSeats.com que comercializan kits de reposición universales. Competencia agresiva
-                            por precio hacia demanda masiva.</p>
-                    </div>
-                </div>
+                    <div data-i18n="viab_size_desc_p2" class="viab-inject text-black mb-4 text-justify"></div>
 
-                <div class="ui-panel card-shadow" style="margin-top:2rem; width: 100%; display:none;">
-                    <div class="panel-head bg-black">
-                        <h4 class="text-white text-center" data-i18n="viab_fig2_title">Figura 2: Tendencia de
-                            Crecimiento (USA vs. Bélgica) 2024</h4>
+                    <!-- Chart 2: Bar Chart -->
+                    <div class="ui-panel card-shadow" style="width: 100%; margin: 1rem 0;">
+                        <div class="panel-body bg-white border-solid-black">
+                            <canvas id="growthChart" width="400" height="200"></canvas>
+                        </div>
                     </div>
-                    <div class="panel-body bg-white border-solid-black border-top-none">
-                        <canvas id="growthChart" width="400" height="200"></canvas>
-                    </div>
+                    <p class="text-center text-gray" data-i18n="viab_fig2_cap"
+                        style="font-weight: 600; font-style: italic; margin-bottom: 2rem;"></p>
+
+                    <div data-i18n="viab_size_desc_p3" class="viab-inject text-black mb-4 text-justify"></div>
+
+                    <h3 class="text-black mb-2 mt-5" data-i18n="viab_comp_title">Análisis Competitivo del Sector</h3>
+                    <div data-i18n="viab_comp_desc" class="viab-inject text-black text-justify mb-4"></div>
                 </div>
             </div>
         </section>
@@ -472,13 +438,16 @@
                             forecast to 2032. https://www.databridgemarketresearch.com</li>
                         <li>Emergen Research. (2025, November 20). Lawn mower lithium battery market: Size, share,
                             analysis and forecast to 2034. https://www.emergenresearch.com</li>
-                        <li>GRAMMER. (s. f.). Agricultural seating.
+                        <li>GRAMMER. (s. f.-a). GRAMMER USA home. https://usa.grammer.com/grammer-usa-home.html</li>
+                        <li>GRAMMER. (s. f.-b). Agricultural seating.
                             https://usa.grammer.com/seating-solutions/agricultural-seating.html</li>
                         <li>International Organization for Standardization (ISO). (2015). ISO 14001: Sistemas de gestión
                             ambiental. https://www.iso.org</li>
                         <li>International Trade Centre. (2024). Trade Map: Trade statistics for international business
                             development. https://www.trademap.org/</li>
-                        <li>John Deere. (s. f.). Lawn mowers. https://www.deere.com/en/mowers/</li>
+                        <li>John Deere. (s. f.-a). Lawn mowers. https://www.deere.com/en/mowers/</li>
+                        <li>John Deere. (s. f.-b). Seats & cushions.
+                            https://shop.deere.com/us/Operator-Station/Seats-Cushions/c/6976/</li>
                         <li>Kubota. (s. f.). Products. https://www.kubota.com/</li>
                         <li>Ministerio de Ambiente y Desarrollo Sostenible. (2023). Gestión ambiental empresarial en
                             Colombia. https://www.minambiente.gov.co</li>
@@ -487,10 +456,18 @@
                         <li>Organización Internacional del Trabajo (OIT). (2023). Empleo y desarrollo industrial.
                             https://www.ilo.org</li>
                         <li>ProColombia. (2023). Industria automotriz en Colombia. https://procolombia.co</li>
-                        <li>Seats Inc. (s. f.). Turf. https://www.seatsinc.com/products/turf/</li>
+                        <li>Seats Inc. (s. f.-a). Products. https://www.seatsinc.com/products/</li>
+                        <li>Seats Inc. (s. f.-b). Turf. https://www.seatsinc.com/products/turf/</li>
+                        <li>Seats Inc. (s. f.-c). I4M. https://www.seatsinc.com/products/turf/i4m/</li>
                         <li>Tax Foundation. (2025). 2026 state tax competitiveness index. https://taxfoundation.org/
                         </li>
-                        <li>TractorSeats.com. (s. f.). Lawn mower seats. https://www.tractorseats.com/</li>
+                        <li>TractorSeats.com. (s. f.-a). Tractor, lawn mower & construction seats.
+                            https://www.tractorseats.com/</li>
+                        <li>TractorSeats.com. (s. f.-b). Lawn mower seats.
+                            https://www.tractorseats.com/c-158-lawn-mower-seats.aspx</li>
+                        <li>TractorSeats.com. (s. f.-c). Turf seat kits.</li>
+                        <li>U.S. Consumer Product Safety Commission. (2024). Safety guidelines for agricultural ride-on
+                            equipment. https://www.cpsc.gov/</li>
                         <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2025). 2025 State
                             agriculture overview: Missouri y Oklahoma. https://www.nass.usda.gov/</li>
                         <li>UMO Group. (s. f.). Quiénes somos. https://umo.com.co/quienes-somos/</li>
