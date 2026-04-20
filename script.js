@@ -10,8 +10,8 @@ const dictionary = {
         nav_viab: "Viabilidad",
         nav_smart: "SMART",
         nav_refs: "APA 7",
-        hero_title: "Estrategia de Internacionalización UMO 2027",
-        hero_subtitle: "Proyección UMO - Sillines de podadoras al mercado estadounidense.",
+        hero_title: "UMO Estrategia de Internacionalización",
+        hero_subtitle: "Por: Juanita Ospina, Valeria Pertuz, Isabela Molina y Marianella Trillos",
         about_title: "Descripción del bien y/o servicio",
         about_text1: "La empresa ofrece sillines para podadoras/lawnmowers, orientados al mercado agrícola estadounidense. Se trata de un producto que puede desarrollarse bajo diseños específicos, de acuerdo con los requerimientos del cliente. Estos productos pertenecen a la división de poliuretano inyectado, lo que representa la base tecnológica desde la cual la empresa está desarrollando esta línea de sillas. En cuanto a su composición, la estructura de la silla es nacional y está conformada por estructura metálica y estructura de madera, la tecnología de recubrimiento utilizada también es de origen nacional. Por otro lado, los componentes que actualmente provienen del exterior son los apoyabrazos y el cinturón de seguridad, los cuales son importados desde China. El producto tiene ciertas características, condiciones y exigencias técnicas que estas sillas deben cumplir en el mercado estadounidense.",
 
@@ -98,7 +98,7 @@ const dictionary = {
         sust_env_desc: "Finalmente, en la dimensión ambiental, se identifican elementos importantes como el uso de materiales industriales que requieren control y gestión responsable. La existencia de un departamento de calidad indica que la empresa realiza mediciones... Además, su intención de ingresar a mercados como el de Estados Unidos implica el cumplimiento de normativas ambientales más exigentes, lo que promueve prácticas más sostenibles industrialmente (ISO, 2015).",
 
         smart_title: "Objetivo SMART",
-        smart_desc: "Lograr establecer exportación regular y recurrente en Estados Unidos enfocada en los clústers de Oklahoma y Missouri, mitigando las debilidades del esquema Micro y proyectando ventas solidificadas en alianza (Vercel Metrics 2027).",
+        smart_desc: "<p class='mb-3'>Lograr establecer exportación regular y recurrente en Estados Unidos enfocada en los clústers de Oklahoma y Missouri, mitigando las debilidades del esquema Micro y proyectando ventas solidificadas en alianza (Vercel Metrics 2027).</p><ul style='list-style-type: none; padding-left: 0; margin-top: 1rem; color: var(--orange); font-weight: bold; font-size: 0.95rem;'><li class='mb-1'>✔ Específico</li><li class='mb-1'>✔ Medible</li><li class='mb-1'>✔ Alcanzable</li><li class='mb-1'>✔ Retador</li><li class='mb-1'>✔ Realista</li></ul>",
         ref_title: "Referencias Bibliográficas (APA 7)",
         footer_text: "Estrategia Internacional UMO - Formato Vercel Dashboard V13",
 
@@ -127,8 +127,8 @@ const dictionary = {
         nav_viab: "Market Viability",
         nav_smart: "SMART Objective",
         nav_refs: "APA 7",
-        hero_title: "UMO 2027 Internationalization Strategy",
-        hero_subtitle: "UMO Projection - Lawnmower saddles for the US market.",
+        hero_title: "UMO Internationalization Strategy",
+        hero_subtitle: "By: Juanita Ospina, Valeria Pertuz, Isabela Molina and Marianella Trillos",
         about_title: "Description of good and/or service",
         about_text1: "The company offers saddles for lawnmowers, aimed at the US agricultural market. It is a product that can be developed under specific designs, according to customer requirements. These products belong to the injected polyurethane division... Structurally, the chair has national origin comprising metal and wood frames. The only imported components are armrests and seat belts from China.",
 
@@ -215,8 +215,8 @@ const dictionary = {
         sust_env_desc: "Tracking industrial impact via QA departments striving to hit US compliance requirements. Driving tighter operations ensuring sustainable protocols natively (ISO, 2015).",
 
         smart_title: "SMART Goal",
-        smart_desc: "Deploy recurring OEM/Aftermarket traction spanning Oklahoma and Missouri clusters towards 2027 by leveling Micro metrics against macro realities.",
-        ref_title: "APA 7 References",
+        smart_desc: "<p class='mb-3'>Deploy recurring OEM/Aftermarket traction spanning Oklahoma and Missouri clusters towards 2027 by leveling Micro metrics against macro realities.</p><ul style='list-style-type: none; padding-left: 0; margin-top: 1rem; color: var(--orange); font-weight: bold; font-size: 0.95rem;'><li class='mb-1'>✔ Specific</li><li class='mb-1'>✔ Measurable</li><li class='mb-1'>✔ Achievable</li><li class='mb-1'>✔ Challenging</li><li class='mb-1'>✔ Realistic</li></ul>",
+        ref_title: "References (APA 7)",
         footer_text: "UMO Strategic Development - Vercel Dashboard Format V13",
 
         tooltip_about: "Strategic extraction from corporate executive interviews defining OEM capabilities.",
