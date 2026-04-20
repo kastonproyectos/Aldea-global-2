@@ -38,9 +38,9 @@ const dictionary = {
         dpi_macro_desc: "Alta demanda focalizada en núcleos agrarios como Missouri (85,500 operaciones) y Oklahoma (69,700), integrando factores de cumplimiento con estándares SAE estables y alta competitividad fiscal reportada a nivel central.",
         dpi_micro_title: "Análisis Micro",
         dpi_micro_desc: "Corporación estructurada en una robusta matriz de 57 años de trayectoria que oficia como proveedor maestro de líderes automotrices internacionales (Harley Davidson y Yamaha). En retrospectiva del factor talento, se revela un análisis profundo sobre la brecha técnica interdepartamental enfocada en el bilingüismo en el personal clave productivo.",
-        dpi_score_label: "Puntaje Total",
-        dpi_score: "0.568",
-        dpi_gap_title: "Gráfico de Brecha: Obtenido vs. Máximo",
+        dpi_score_label: "Puntaje Total Obtenido",
+        dpi_score: "0.457",
+        dpi_gap_title: "Análisis de Brechas: Obtenido vs. Máximo",
         dofa_title: "Análisis DOFA de la Empresa UMO",
         dofa_str_title: "Fortalezas",
         dofa_str_desc: "Las fortalezas presentadas en este análisis se construyeron a partir de información obtenida en una reunión realizada con el representante de la empresa UMO, lo que permitió identificar aspectos internos relevantes desde una fuente directa. En cuanto a las fortalezas, La empresa UMO tiene varios elementos dentro de ella que pueden ayudarla a expandirse. En primer lugar, se resalta la introducción de un enfoque en la innovación de productos dirigido a mercados internacionales, con un especial énfasis en la adaptación a las necesidades del mercado estadounidense, lo que le permite ajustarse a las demandas de este entorno competitivo. También la empresa ha creado la posibilidad de diseñar productos según las necesidades del cliente... Por último, UMO cuenta con flexibilidad productiva para la personalización de diseños.",
@@ -57,8 +57,8 @@ const dictionary = {
         sust_soc_desc: "En cuanto a la dimensión social, umo ha contribuido durante décadas a la generación de empleo y al desarrollo del sector industrial. Su trayectoria permite la formación de talento humano en áreas técnicas como la metalmecánica y el manejo de poliuretano. Así, la posibilidad de realizar visitas empresariales y compartir su experiencia aporta al aprendizaje. Este crecimiento también impulsa mejores oportunidades profesionales (OIT, 2023).",
         sust_env_title: "Ambiental",
         sust_env_desc: "Finalmente, en la dimensión ambiental, se identifican elementos importantes como el uso de materiales industriales que requieren control y gestión responsable. La existencia de un departamento de calidad indica que la empresa realiza mediciones... Además, su intención de ingresar a mercados como el de Estados Unidos implica el cumplimiento de normativas ambientales más exigentes, lo que promueve prácticas más sostenibles industrialmente (ISO, 2015).",
-        viab_title: "Viabilidad de Mercado",
-        viab_sector_desc: "Como primera opción de preselección se propone Missouri, ya que presenta una base agrícola neutra, no tan extrema como la de los estados líderes... Missouri registra 85,500 operaciones agrícolas. El segundo estado es Oklahoma, cuenta con una estructura agrícola fuerte y escala intermedia con 69,700 operaciones agrícolas. Ambos cuentan con estructura agrícola importante y ocupan posiciones favorables tributariamente.",
+        viab_title: "Viabilidad de Mercado y Análisis del Sector",
+        viab_sector_desc: "Este producto se ubica dentro del sector de maquinaria. Según datos del ITC para la partida 8433.11, Estados Unidos sobresale como uno de los mercados más grandes y presenta una balanza comercial negativa, significando una alta demanda interna sostenida (ITC, 2024). Como primera opción de preselección se propone Missouri (85,500 operaciones agrícolas). El segundo estado es Oklahoma (69,700 operaciones agrícolas).",
         viab_markets_desc: "Missouri y Oklahoma aparecen como opciones equilibradas, según el State Agriculture Overview del USDA, mientras que, en materia tributaria, ocupan posiciones favorables en el 2026 State Tax Competitiveness Index. Estos datos reflejan bases productivas sólidas (USDA NASS, 2025).",
         viab_fig1: "Gráfica NASS: Missouri vs Oklahoma",
         smart_title: "Objetivo SMART",
@@ -106,9 +106,9 @@ const dictionary = {
         dpi_macro_desc: "High demand focused in agricultural zones like Missouri (85,500 operations) and Oklahoma (69,700), paired with steady SAE standards compliance and intense fiscal viability locally.",
         dpi_micro_title: "Micro Analysis",
         dpi_micro_desc: "Corporation built across 57 master years supplying global leaders like Harley Davidson and Yamaha. Delving into the HR dimension reveals a gap in operational bilingual capacities needing closure before scaling.",
-        dpi_score_label: "Total Score",
-        dpi_score: "0.568",
-        dpi_gap_title: "Bar Chart: Obtained vs Maximum",
+        dpi_score_label: "Total Score Obtained",
+        dpi_score: "0.457",
+        dpi_gap_title: "Gap Analysis: Obtained vs Maximum",
         dofa_title: "UMO SWOT Analysis",
         dofa_str_title: "Strengths",
         dofa_str_desc: "Built from a direct meeting with UMO representatives. Highlights includes flexible production capacities and specific customization for US market demands.",
@@ -125,8 +125,8 @@ const dictionary = {
         sust_soc_desc: "Decades shaping high-tech local labor across mechanical and chemical injection sectors, directly elevating tech capacities (ILO, 2023).",
         sust_env_title: "Environmental",
         sust_env_desc: "Tracking industrial impact via QA departments striving to hit US compliance requirements. Driving tighter operations ensuring sustainable protocols natively (ISO, 2015).",
-        viab_title: "Market Target",
-        viab_sector_desc: "Missouri yields 85,500 operations and Oklahoma houses 69,700 neutral yet potent agricultural ecosystems respectively.",
+        viab_title: "Market Viability & Sector Analysis",
+        viab_sector_desc: "Aligned to ITC 8433.11 code, the US displays a highly negative trade balance indicating extreme domestic demand dependencies (ITC, 2024). Missouri yields 85,500 operations and Oklahoma houses 69,700 neutral yet potent agricultural ecosystems respectively.",
         viab_markets_desc: "Both serve as balanced and immensely favorable hubs according to USDA NASS and Tax Competitiveness indexes. (USDA NASS, 2025).",
         viab_fig1: "NASS Chart: Missouri vs Oklahoma",
         smart_title: "SMART Goal",
@@ -137,20 +137,20 @@ const dictionary = {
 };
 
 const dpiRadarData = [
-    { nameEs: 'Talento Humano', nameEn: 'Human Talent', value: 0.135 },
-    { nameEs: 'Direccionamiento', nameEn: 'Strategic Dir', value: 0.667 },
-    { nameEs: 'Tecnología', nameEn: 'Technology', value: 0.792 },
-    { nameEs: 'Sostenibilidad', nameEn: 'Sustainability', value: 0.628 },
-    { nameEs: 'Potencial PI', nameEn: 'PI Potential', value: 0.576 },
-    { nameEs: 'Modos de Entrada', nameEn: 'Entry Modes', value: 0.554 }
+    { nameEs: 'Talento Humano', nameEn: 'Human Talent', value: 0.108 },
+    { nameEs: 'Direccionamiento Estratégico', nameEn: 'Strategic Dir', value: 0.833 },
+    { nameEs: 'Tecnología e Innovación', nameEn: 'Technology', value: 0.416 },
+    { nameEs: 'Sostenibilidad', nameEn: 'Sustainability', value: 0.366 },
+    { nameEs: 'Potencial de Internacionalización', nameEn: 'PI Potential', value: 0.528 },
+    { nameEs: 'Modos de Entrada', nameEn: 'Entry Modes', value: 0.473 }
 ];
 const dpiGapData = [
-    { label: 'Talento Humano', obs: 0.017, max: 0.125 },
-    { label: 'Direccionamiento', obs: 0.050, max: 0.075 },
-    { label: 'Tecnología e Innovación', obs: 0.119, max: 0.150 },
-    { label: 'Sostenibilidad', obs: 0.094, max: 0.150 },
-    { label: 'Potencial de Internacionalización', obs: 0.288, max: 0.500 },
-    { label: 'Modos de Entrada', obs: 0.166, max: 0.300 }
+    { label: 'Talento Humano', obs: 0.013, max: 0.125 },
+    { label: 'Direccionamiento Estratégico', obs: 0.062, max: 0.075 },
+    { label: 'Tecnología e Innovación', obs: 0.062, max: 0.150 },
+    { label: 'Sostenibilidad', obs: 0.054, max: 0.150 },
+    { label: 'Potencial de Internacionalización', obs: 0.264, max: 0.500 },
+    { label: 'Modos de Entrada', obs: 0.142, max: 0.300 }
 ];
 
 document.addEventListener('DOMContentLoaded', () => {
