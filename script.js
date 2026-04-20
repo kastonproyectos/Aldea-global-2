@@ -25,7 +25,7 @@ const dictionary = {
         bmc_key_resources: "Recursos Clave (Key Resources)",
         bmc_kr_desc: "<ul><li>Maquinaria y equipos de fabricación.</li><li>Materias primas e insumos.</li><li>Conocimiento técnico del producto.</li><li>Equipo de producción.</li><li>Equipo comercial.</li><li>Certificaciones y respaldo empresarial.</li><li>Infraestructura física de producción.</li><li>Base de contactos comerciales y posibles clientes.</li></ul>",
         bmc_value_prop: "Propuesta de Valor (Value Proposition)",
-        bmc_vp_desc: "UMO ofrece sillines para podadoras agrícolas dirigidos al mercado de Estados Unidos, brindando a distribuidores y comercializadores una alternativa confiable cuando los repuestos 'gringos' no están disponibles o resultan poco convenientes en costo. Su propuesta de valor no se basa en competir directamente con las marcas líderes más grandes, sino en convertirse en una alternativa confiable cuando el repuesto original no sea posible de conseguir.",
+        bmc_vp_desc: "<ul><li>Asiento original personalizado según el requerimiento técnico o necesidad del cliente en EE. UU.</li><li>Alternativa confiable B2B cuando los repuestos originales limitan tiempos logísticos o viabilidad de costos.</li></ul>",
         bmc_customer_relation: "Relaciones con Clientes (Customer Relationships)",
         bmc_cr_desc: "<ul><li>Relación B2B directa con distribuidores y empresas comercializadoras.</li><li>Atención personalizada para clientes.</li><li>Seguimiento por WhatsApp, correo y llamadas.</li></ul>",
         bmc_channels: "Canales (Channels)",
@@ -40,13 +40,13 @@ const dictionary = {
         // DOFA EXACT REPLACEMENTS (V13)
         dofa_title: "Análisis DOFA de la Empresa UMO",
         dofa_str_title: "Fortalezas (F)",
-        dofa_str_desc: "<ul><li>Trayectoria de 57 años, tecnología propia de inyección de poliuretano, respaldo como proveedor OEM de Harley Davidson y Yamaha, y alta flexibilidad para diseños personalizados.</li></ul>",
+        dofa_str_desc: "<ul><li>Enfoque en innovación internacional.</li><li>Adaptación a necesidades de EE. UU.</li><li>Diseño personalizado (pedidos especiales).</li><li>Flexibilidad productiva.</li></ul>",
         dofa_weak_title: "Debilidades (D)",
-        dofa_weak_desc: "<ul><li>Brecha de bilingüismo en el personal operativo y falta de plan de incentivos para actividades en el exterior (Diagnóstico P-I, 2026).</li></ul>",
+        dofa_weak_desc: "<ul><li>Baja visibilidad internacional.</li><li>Poca información organizada sobre indicadores.</li><li>Debilidad en manejo de datos estratégicos.</li></ul>",
         dofa_opp_title: "Oportunidades (O)",
-        dofa_opp_desc: "<ul><li>Auge de tecnologías eléctricas en podadoras y alta demanda en Missouri/Oklahoma (Emergen Research, 2025; USDA, 2025).</li></ul>",
+        dofa_opp_desc: "<ul><li>40% del mercado global de equipos eléctricos en Norteamérica (Emergen Research, 2025).</li><li>Auge del mercado de repuestos aftermarket (Mordor Intelligence, 2026).</li></ul>",
         dofa_thr_title: "Amenazas (A)",
-        dofa_thr_desc: "<ul><li>Normativas de seguridad SAE y competencia de fabricantes OEM originales (Data Bridge Market Research, 2024).</li></ul>",
+        dofa_thr_desc: "<ul><li>Integración vertical de fabricantes originales (Mordor, 2025).</li><li>Requisitos técnicos y certificación SAE estrictos (CPSC, 2024).</li><li>Preferencia por repuestos originales (IBISWorld, 2025).</li></ul>",
 
         dpi_title: "Análisis de Factores (DPI)",
         dpi_macro_title: "Análisis Macro",
@@ -125,7 +125,7 @@ const dictionary = {
         bmc_key_resources: "Key Resources",
         bmc_kr_desc: "<ul><li>Manufacturing machinery and equipment.</li><li>Raw materials and supplies.</li><li>Technical knowledge of the product.</li><li>Production team.</li><li>Commercial team.</li><li>Certificaciones and corporate backing.</li><li>Physical production infrastructure.</li><li>Database of commercial contacts and potential clients.</li></ul>",
         bmc_value_prop: "Value Proposition",
-        bmc_vp_desc: "UMO offers saddles for agricultural mowers targeting the US market, providing distributors and marketers with a reliable alternative when original parts are unavailable or cost-prohibitive. Its value proposition is not based on competing directly with major leading brands, but rather on becoming a reliable alternative when the original spare part cannot be obtained.",
+        bmc_vp_desc: "<ul><li>Custom OEM seats tailored strictly to technical demands inside the US market.</li><li>Reliable B2B alternative bypassing logistical restrictions and excessive costs set by primary brands.</li></ul>",
         bmc_customer_relation: "Customer Relationships",
         bmc_cr_desc: "<ul><li>Direct B2B relationship with distributors and trading companies.</li><li>Personalized customer service.</li><li>Follow-up via WhatsApp, email, and calls.</li></ul>",
         bmc_channels: "Channels",
@@ -140,13 +140,13 @@ const dictionary = {
         // DOFA EXACT REPLACEMENTS (V13)
         dofa_title: "UMO SWOT Analysis",
         dofa_str_title: "Strengths (S)",
-        dofa_str_desc: "<ul><li>57-year trajectory, proprietary polyurethane injection technology, backing as an OEM supplier for Harley Davidson and Yamaha, and high flexibility for custom designs.</li></ul>",
+        dofa_str_desc: "<ul><li>Focus on international innovation.</li><li>Adaptation to US market needs.</li><li>Customized designing (special orders).</li><li>High production flexibility.</li></ul>",
         dofa_weak_title: "Weaknesses (W)",
-        dofa_weak_desc: "<ul><li>Bilingualism gap within operating personnel and lack of incentive plan for activities abroad (Diagnostic P-I, 2026).</li></ul>",
+        dofa_weak_desc: "<ul><li>Low international visibility.</li><li>Limited structured data covering internal indicators.</li><li>Weakness handling strategic analytical data.</li></ul>",
         dofa_opp_title: "Opportunities (O)",
-        dofa_opp_desc: "<ul><li>Rise of electric technologies in lawmowers and high demand in Missouri/Oklahoma (Emergen Research, 2025; USDA, 2025).</li></ul>",
+        dofa_opp_desc: "<ul><li>40% global share of electric equipment locked in North America (Emergen Research, 2025).</li><li>Surge in aftermarket replacement demand (Mordor Intelligence, 2026).</li></ul>",
         dofa_thr_title: "Threats (T)",
-        dofa_thr_desc: "<ul><li>SAE safety regulations and competition from original OEM manufacturers (Data Bridge Market Research, 2024).</li></ul>",
+        dofa_thr_desc: "<ul><li>Vertical integration from original OEM manufacturers (Mordor, 2025).</li><li>Strict SAE certifications and technical hurdles (CPSC, 2024).</li><li>Strong preference favoring original brand replacement parts (IBISWorld, 2025).</li></ul>",
 
         dpi_title: "Factor Analysis (DPI Diagnostics)",
         dpi_macro_title: "Macro Analysis",
@@ -325,52 +325,27 @@ document.addEventListener('DOMContentLoaded', () => {
     if (bubbleCtx) {
         const ctxB = bubbleCtx.getContext('2d');
         new Chart(ctxB, {
-            type: 'bubble',
+            type: 'bar',
             data: {
+                labels: ['Missouri', 'Oklahoma'],
                 datasets: [{
-                    label: 'Trade Map Data (EE. UU.)',
-                    data: [{ x: 80, y: -45, r: 25 }],
-                    backgroundColor: 'rgba(255, 130, 1, 0.7)',
-                    borderColor: '#000000',
-                    borderWidth: 2
-                }, {
-                    label: 'Otros Países',
-                    data: [{ x: 30, y: -10, r: 10 }, { x: 45, y: -20, r: 15 }],
-                    backgroundColor: 'rgba(59, 101, 185, 0.5)',
-                    borderColor: '#3B65B9'
+                    label: 'Operaciones Agrícolas (NASS)',
+                    backgroundColor: '#FF8201',
+                    data: [85500, 69700]
                 }]
             },
             options: {
                 responsive: true,
                 maintainAspectRatio: false,
-                scales: {
-                    x: { title: { display: true, text: 'Volumen Importaciones' } },
-                    y: { title: { display: true, text: 'Balanza Comercial' } }
-                }
+                plugins: { legend: { position: 'bottom' } }
             }
         });
     }
 
     const growthCtx = document.getElementById('growthChart');
     if (growthCtx) {
-        const ctxG = growthCtx.getContext('2d');
-        new Chart(ctxG, {
-            type: 'bar',
-            data: {
-                labels: ['EE. UU.', 'Bélgica (UE)'],
-                datasets: [{
-                    label: 'Importaciones (Miles USD) 2024',
-                    backgroundColor: ['#000000', '#6F6F6F'],
-                    data: [135400, 32500]
-                }]
-            },
-            options: {
-                responsive: true,
-                maintainAspectRatio: false,
-                indexAxis: 'y',
-                plugins: { legend: { display: false } }
-            }
-        });
+        // Leaving growthChart configured but hidden/empty if the user only wants NASS
+        growthCtx.parentElement.style.display = 'none';
     }
 
     const updateChartLang = () => {
