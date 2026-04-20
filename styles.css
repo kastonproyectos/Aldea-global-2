@@ -642,31 +642,72 @@ svg {
     color: var(--white);
 }
 
-/* BMC Specific Optimization */
-.bmc-vp-solid {
-    transform: scale(1.02);
-    box-shadow: 0 8px 25px rgba(255, 130, 1, 0.4) !important;
+/* V13 DOFA Reengineering */
+.dofa-grid-dense {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto;
+    gap: 20px;
 }
-
-.bmc-card {
-    transition: transform 0.3s ease;
-    padding: 2rem;
+@media (max-width: 768px) {
+    .dofa-grid-dense { grid-template-columns: 1fr !important; }
 }
-
-.bmc-grid-complex {
-    margin: 0 auto;
-    justify-content: center;
+.dofa-card {
+    padding: 25px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.12);
+    height: 100%;
 }
-
-.bmc-list {
+.dofa-card-f { background-color: #3B65B9 !important; border: none; }
+.dofa-card-d { background-color: #FF8201 !important; border: none; }
+.dofa-card-o { background-color: #F4F4F5 !important; border: 1px solid #ddd; }
+.dofa-card-a { background-color: #E26D6D !important; border: none; }
+.dofa-inject ul {
     padding-left: 1.5rem;
     margin-top: 1rem;
 }
-
-.bmc-list li {
+.dofa-inject li {
+    line-height: 1.5 !important;
     margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+/* V13 BMC Specific Optimization 3x3 Grid */
+.bmc-grid-complex {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-areas: none !important;
+    gap: 20px !important;
+    width: 90%;
+    margin: 2rem auto;
+    justify-content: center;
+}
+@media (max-width: 900px) {
+    .bmc-grid-complex { grid-template-columns: 1fr !important; width: 100% !important;}
+}
+.bmc-card {
+    padding: 25px !important;
+    border-radius: 8px !important;
+    background: var(--white);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid var(--black) !important;
+}
+.bmc-card h4 { margin-bottom: 1rem; }
+.bmc-vp-solid {
+    background: var(--orange) !important;
+    transform: scale(1.05);
+    border: 3px solid var(--black) !important;
+    box-shadow: 0 8px 30px rgba(255, 130, 1, 0.5) !important;
+    z-index: 10;
+}
+.bmc-inject ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+.bmc-inject li {
+    line-height: 1.5 !important;
+    margin-bottom: 0.5rem !important;
     font-size: 0.95rem;
-    line-height: 1.6;
     text-align: left;
 }
 
@@ -719,4 +760,76 @@ svg {
     .hero-text-box h1 {
         font-size: 2.5rem;
     }
+}
+
+/* --- MASTER DOFA V13 --- */
+.dofa-grid-dense {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-template-rows: auto auto;
+    gap: 20px !important;
+}
+@media (max-width: 768px) {
+    .dofa-grid-dense { grid-template-columns: 1fr !important; }
+}
+.dofa-card {
+    padding: 25px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12) !important;
+    height: 100%;
+}
+.dofa-card-f { background-color: #3B65B9 !important; border: none !important; } /* Azul */
+.dofa-card-d { background-color: #FF8201 !important; border: none !important; } /* Naranja */
+.dofa-card-o { background-color: #F4F4F5 !important; border: 1px solid #ddd !important; } /* Gris Claro */
+.dofa-card-a { background-color: #E26D6D !important; border: none !important; } /* Rojo Suave */
+
+.dofa-inject ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+.dofa-inject li {
+    line-height: 1.5 !important;
+    margin-bottom: 0.8rem;
+    text-align: left;
+}
+
+/* --- MASTER BMC 3x3 COLUMNS 90% V13 --- */
+.bmc-grid-complex {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-areas: none !important;
+    gap: 20px !important;
+    width: 90% !important;
+    margin: 2rem auto !important;
+    justify-content: center;
+}
+@media (max-width: 900px) {
+    .bmc-grid-complex { grid-template-columns: 1fr !important; width: 100% !important; }
+}
+.bmc-card {
+    padding: 25px !important;
+    border-radius: 8px !important;
+    background: var(--white);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08) !important;
+    border: 1px solid var(--black) !important;
+}
+.bmc-card h4 {
+    margin-bottom: 1rem;
+}
+.bmc-vp-solid {
+    background: var(--orange) !important;
+    border: 3px solid var(--black) !important;
+    box-shadow: 0 8px 30px rgba(255, 130, 1, 0.5) !important;
+    transform: scale(1.05) !important;
+    z-index: 10;
+}
+.bmc-inject ul {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+}
+.bmc-inject li {
+    line-height: 1.5 !important;
+    margin-bottom: 0.8rem !important;
+    font-size: 0.95rem !important;
+    text-align: left;
 }
