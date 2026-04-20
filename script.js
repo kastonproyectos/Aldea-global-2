@@ -43,7 +43,7 @@ const dictionary = {
         dpi_gap_title: "Análisis de Brechas: Obtenido vs. Máximo",
         dofa_title: "Análisis DOFA de la Empresa UMO",
         dofa_str_title: "Fortalezas",
-        dofa_str_desc: "Fortalezas (F): Trayectoria de 57 años corporativa estructurada, tecnología de inyección de poliuretano propia, robusto respaldo demostrable como proveedor OEM para Harley Davidson/Yamaha y flexibilidad productiva industrial para adaptaciones de diseño exactas al estándar del mercado estadounidense.",
+        dofa_str_desc: "Fortalezas (F): Trayectoria de 57 años, tecnología de inyección de poliuretano propia, proveedor OEM (Original Equipment Manufacturer) de marcas élite como Harley Davidson y Yamaha, y alta flexibilidad productiva para lotes personalizados.",
         dofa_weak_title: "Debilidades",
         dofa_weak_desc: "En cuanto a las debilidades, la empresa UMO tiene algunos problemas internos que pueden hacer más difícil su proceso de crecimiento. En primer lugar, se observa una baja visibilidad a nivel internacional, lo que podría influir negativamente en las negociaciones y en cómo se reconoce a la empresa en mercados como Estados Unidos. Además, se ve que la empresa tiene poca información y poco organizada sobre los indicadores importantes, lo que muestra una debilidad en cómo manejan los datos estratégicos y podría complicar tomar decisiones adecuadas.",
         dofa_opp_title: "Oportunidades",
@@ -67,6 +67,33 @@ const dictionary = {
         footer_text: "Estrategia Internacional UMO - Formato Vercel Dashboard V7"
     },
     en: {
+
+        tooltip_about: "Strategic extraction from corporate executive interviews defining OEM capabilities.",
+        intro_about: "Technical introduction to base industrial capacity, detailing export infrastructure and assembly origins.",
+        intro_bmc: "Full 3x3 Canvas breakdown optimized for direct B2B distributorship strategies.",
+        tooltip_bmc: "Strategic layout built from original corporative BMC models targeting the North American agrarian sector.",
+        intro_dpi: "DPI (Diagnostic of Potential Internationalization) is a mathematical framework indexing local readiness against foreign barriers.",
+        tooltip_dpi: "Modeled from the Results spreadsheet, contrasting real metrics vs maximum thresholds.",
+        intro_dofa: "Transversal strategic breakdown of UMOs internal virtues and external frictions mapped to the US base.",
+        tooltip_dofa: "Designed cross-matching directive feedback with foreign automotive requirements.",
+        intro_sust: "Sustainability integration matching strict ESG norms mandated by US regulations.",
+        tooltip_sust: "Assembled strictly following platform guidelines regarding the Sustainability Podcast module.",
+        intro_viab: "Identifying the safest landing spot inside the worlds largest economy requires rigorous NASS operations data.",
+        tooltip_viab: "Mined from state tax profiling, NASS operations maps, and ITC trade balance logs.",
+        intro_smart: "Definitive milestone conjugated mathematically matching the 0.457 DPI ceiling with raw geo-agricultural volume targets.",
+        tooltip_smart: "Why this objective? Feasibility: Missouri and Oklahoma selected due to potent neutral structure natively. Capacity: 1,000 unit throughput handles UMOs OEM output.",
+
+        // Replicating BMC bullet points for EN
+        bmc_kp_desc: "<ul class=\"bmc-list\"><li>Raw material suppliers.</li><li>Logistics operators.</li><li>Customs agencies.</li><li>Agricultural machinery distributors in the US.</li><li>Spare parts marketers.</li><li>Commercial allies.</li></ul>",
+        bmc_ka_desc: "<ul class=\"bmc-list\"><li>Saddle manufacturing.</li><li>Quality control.</li><li>Purchasing management.</li><li>Product development and adjustment.</li><li>Market research.</li></ul>",
+        bmc_vp_desc: "<ul class=\"bmc-list\"><li>Premium B2B value proposition.</li><li>Injected polyurethane saddles adapted for US lawnmowers.</li><li>Reliable alternative to unavailable OEM parts.</li><li>Demonstrable OEM track record with Harley Davidson and Yamaha.</li></ul>",
+        bmc_cr_desc: "<ul class=\"bmc-list\"><li>Direct B2B relationship with distributors.</li><li>Customized customer attention.</li><li>Follow-up via WhatsApp, email, and calls.</li></ul>",
+        bmc_cs_desc: "<ul class=\"bmc-list\"><li>Agricultural machinery distributors in MO/OK.</li><li>Dealerships selling farming equipment.</li><li>Mechanical repair centers.</li></ul>",
+        bmc_kr_desc: "<ul class=\"bmc-list\"><li>Manufacturing machinery and equipment.</li><li>Raw materials.</li><li>Technical product knowledge.</li><li>Production and commercial teams.</li></ul>",
+        bmc_ch_desc: "<ul class=\"bmc-list\"><li>Direct B2B sales.</li><li>Business contacts.</li><li>Website and LinkedIn.</li></ul>",
+        bmc_cost_desc: "<ul class=\"bmc-list\"><li>Raw materials cost.</li><li>Production chain costs.</li><li>Shipping and export tariffs.</li><li>Administrative and marketing tools.</li></ul>",
+        bmc_rev_desc: "<ul class=\"bmc-list\"><li>Wholesale revenue via direct B2B.</li><li>Scalability income from recurrent OEM requests.</li></ul>",
+
         // ... english maps
         head_title: "UMO Internationalization Strategy",
         nav_inicio: "Home",
