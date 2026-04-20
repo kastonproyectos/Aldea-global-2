@@ -227,21 +227,28 @@
                     </div>
                 </div>
 
-                <div class="dpi-visual card-shadow bg-white border-solid-black" style="flex:1; min-width:300px;">
-                    <div class="radar-total-score">
-                        <span data-i18n="dpi_score_label">Puntaje Total Obtenido</span>
-                        <strong data-i18n="dpi_score">0.457</strong>
-                    </div>
-                    <div class="chart-box" style="height: 350px;">
-                        <canvas id="radarChart" width="400" height="300"></canvas>
-                    </div>
+                <!-- DPI Table image -->
+                <div style="width: 100%; margin-bottom: 1.5rem;">
+                    <img src="assets/dpi_tabla.png" alt="Tabla DPI - Puntajes Obtenido vs Máximo"
+                        style="width: 100%; max-width: 750px; display: block; margin: 0 auto; border-radius: 6px; box-shadow: 0 2px 12px rgba(0,0,0,0.10);">
                 </div>
 
-                <div class="dpi-visual card-shadow bg-white border-solid-black" style="flex:1; min-width:300px;">
-                    <h3 class="text-center pt-2 text-black" data-i18n="dpi_gap_title">Gráfico de Brecha: Obtenido vs.
-                        Máximo</h3>
-                    <div class="chart-box" style="height: 350px;">
-                        <canvas id="gapChart" width="400" height="300"></canvas>
+                <!-- DPI Charts side by side -->
+                <div style="display: flex; flex-wrap: wrap; gap: 1.5rem; width: 100%; margin-bottom: 1rem;">
+                    <div class="dpi-visual card-shadow bg-white border-solid-black" style="flex:1; min-width:300px;">
+                        <div class="radar-total-score">
+                            <span data-i18n="dpi_score_label">Puntaje Total Obtenido</span>
+                            <strong data-i18n="dpi_score">0.457</strong>
+                        </div>
+                        <img src="assets/dpi_radar_completo.png" alt="Diagnóstico Completo DPI"
+                            style="width: 100%; height: auto; display: block; border-radius: 4px;">
+                    </div>
+
+                    <div class="dpi-visual card-shadow bg-white border-solid-black" style="flex:1; min-width:300px;">
+                        <h3 class="text-center pt-2 text-black" data-i18n="dpi_gap_title">Gráfico de Brecha: Obtenido
+                            vs. Máximo</h3>
+                        <img src="assets/dpi_radar_potencial.png" alt="Potencial de Internacionalización DPI"
+                            style="width: 100%; height: auto; display: block; border-radius: 4px;">
                     </div>
                 </div>
             </div>
