@@ -61,28 +61,28 @@ const dictionary = {
         viab_title: "Análisis de Viabilidad de Internacionalización",
         tooltip_viab: "Análisis estratégico basado en la partida arancelaria 8433.11 (Podadoras) utilizando herramientas de inteligencia comercial como Trade Map de la ITC.",
         viab_just_title: "Justificación del producto en el contexto internacional",
-        viab_just_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Integración en la cadena de valor:</strong> Aunque los sillines para podadoras no figuran de forma independiente en las bases de datos, son componentes críticos de la partida arancelaria 8433.11 (podadoras y equipos de césped), vinculando su demanda directamente al crecimiento de este mercado mayor.</li><li class='mb-2'><strong>Dependencia de la demanda global:</strong> Según el International Trade Centre (2024), el comportamiento del mercado de sillines está sujeto al tamaño y expansión del sector de maquinaria agrícola y de jardín, donde funcionan tanto como piezas originales como repuestos.</li><li class='mb-2'><strong>Oportunidades de mantenimiento:</strong> El incremento en la importación de podadoras en diversos países genera una necesidad constante de mantenimiento y reemplazo de piezas, lo que abre una ventana estratégica para empresas que ofrecen componentes compatibles.</li></ul>",
+        viab_just_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Integración en la cadena de valor:</strong> Aunque los sillines para podadoras no figuran de forma independiente en las bases de datos, son componentes críticos de la partida arancelaria 8433.11 (podadoras y equipos de césped), vinculando su demanda directamente al crecimiento de este mercado mayor (International Trade Centre [ITC], 2024).</li><li class='mb-2'><strong>Dependencia de la demanda global:</strong> Según el International Trade Centre (ITC, 2024), el comportamiento del mercado de sillines está sujeto al tamaño y expansión del sector de maquinaria agrícola y de jardín, donde funcionan tanto como piezas originales como repuestos.</li><li class='mb-2'><strong>Oportunidades de mantenimiento:</strong> El incremento en la importación de podadoras en diversos países genera una necesidad constante de mantenimiento y reemplazo de piezas, lo que abre una ventana estratégica para empresas que ofrecen componentes compatibles.</li></ul>",
         viab_sec_title: "Análisis del sector en el país objetivo",
-        viab_sec_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Especialización en entornos agroindustriales:</strong> El producto se inserta en el sector de lawn and garden equipment, un área caracterizada por niveles de mecanización extremadamente altos en países desarrollados donde la productividad depende de estas máquinas.</li><li class='mb-2'><strong>Liderazgo importador de Estados Unidos:</strong> Datos de Trade Map identifican a EE. UU. como el mercado con mayor participación importadora a nivel global, lo que evidencia una demanda interna masiva y una oportunidad clara para productos complementarios como los sillines.</li><li class='mb-2'><strong>Contexto de economías desarrolladas:</strong> Además del mercado estadounidense, países como Canadá, Australia y Bélgica muestran una presencia sólida en el sector, validando la viabilidad del producto en mercados con alta infraestructura agrícola (ITC, 2024).</li></ul>",
+        viab_sec_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Especialización en entornos agroindustriales:</strong> El producto se inserta en el sector de lawn and garden equipment, un área caracterizada por niveles de mecanización extremadamente altos en países desarrollados donde la productividad depende de estas máquinas.</li><li class='mb-2'><strong>Liderazgo importador de Estados Unidos:</strong> Datos de Trade Map (ITC, 2024) identifican a EE. UU. como el mercado con mayor participación importadora a nivel global, lo que evidencia una demanda interna masiva y una oportunidad clara para productos complementarios como los sillines.</li><li class='mb-2'><strong>Contexto de economías desarrolladas:</strong> Además del mercado estadounidense, países como Canadá, Australia y Bélgica muestran una presencia sólida en el sector, validando la viabilidad del producto en mercados con alta infraestructura agrícola (ITC, 2024).</li></ul>",
         viab_size_title: "Tamaño del mercado y tendencias",
-        viab_size_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Concentración estratégica en EE. UU.:</strong> En el análisis de concentración y distancia de Trade Map (2024), Estados Unidos ocupa una posición dominante por su tamaño de mercado y su alta concentración de importaciones.</li><li class='mb-2'><strong>Balanza comercial deficitaria:</strong> La balanza comercial negativa de EE. UU. en este rubro (representada en color amarillo en los gráficos de la ITC) confirma que el país importa mucho más de lo que exporta, asegurando una alta dependencia de proveedores externos.</li></ul>",
+        viab_size_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Concentración estratégica en EE. UU.:</strong> En el análisis de concentración y distancia de Trade Map (ITC, 2024), Estados Unidos ocupa una posición dominante por su tamaño de mercado y su alta concentración de importaciones.</li><li class='mb-2'><strong>Balanza comercial deficitaria:</strong> La balanza comercial negativa de EE. UU. en este rubro (representada en color amarillo en los gráficos del ITC) confirma que el país importa mucho más de lo que exporta, asegurando una alta dependencia de proveedores externos.</li></ul>",
         viab_fig1_cap: "Figura 1. Concentración y distancia de los países importadores del producto 843311. Fuente: International Trade Centre (2024)",
-        viab_size_desc_p2: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Potencial de diversificación:</strong> La participación relevante de mercados como Alemania, Francia, Italia y Polonia indica que la demanda no es exclusiva de un solo país, permitiendo plantear estrategias de expansión hacia mercados secundarios para reducir riesgos.</li></ul>",
+        viab_size_desc_p2: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Potencial de diversificación:</strong> La participación relevante de mercados como Alemania, Francia, Italia y Polonia indica que la demanda no es exclusiva de un solo país, permitiendo plantear estrategias de expansión hacia mercados secundarios para reducir riesgos (ITC, 2024).</li></ul>",
         viab_fig2_cap: "Figura 2. Crecimiento de las importaciones por país del producto 843311. Fuente: International Trade Centre (2024)",
-        viab_size_desc_p3: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Dinámica de crecimiento positivo:</strong> Tanto Estados Unidos como Bélgica muestran tendencias de crecimiento al alza en sus importaciones para 2024, lo que representa una señal positiva para la entrada de nuevos competidores (ITC, 2024).</li><li class='mb-2'><strong>Exploración de nichos específicos:</strong> Países europeos con menores volúmenes pero tasas de crecimiento positivas ofrecen la posibilidad de una internacionalización gradual y la exploración de nichos de mercado menos saturados.</li></ul>",
+        viab_size_desc_p3: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Dinámica de crecimiento positivo:</strong> Tanto Estados Unidos como Bélgica muestran tendencias de crecimiento al alza en sus importaciones para 2024, lo que representa una señal positiva para la entrada de nuevos competidores (ITC, 2024).</li><li class='mb-2'><strong>Exploración de nichos específicos:</strong> Países europeos con menores volúmenes pero tasas de crecimiento positivas ofrecen la posibilidad de una internacionalización gradual y la exploración de nichos de mercado menos saturados (ITC, 2024).</li></ul>",
         viab_comp_title: "Análisis Competitivo del Sector",
         viab_comp_desc: `<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
     <div class="ui-panel card-shadow" style="flex: 1 1 calc(33.333% - 1rem); min-width: 280px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
         <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Fabricantes de Equipo Original (OEM)</h4>
-        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Gigantes como John Deere y Kubota representan la competencia principal, integrando la venta de maquinaria con su propia línea de repuestos y cojines originales (Genuine Parts).</p>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Gigantes como John Deere y Kubota representan la competencia principal, integrando la venta de maquinaria con su propia línea de repuestos y cojines originales (Genuine Parts) (John Deere, s. f.-a, s. f.-b; Kubota, s. f.).</p>
     </div>
     <div class="ui-panel card-shadow" style="flex: 1 1 calc(33.333% - 1rem); min-width: 280px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
         <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Fabricantes Especializados</h4>
-        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Empresas como GRAMMER y Seats Inc. compiten a través de la especialización técnica, enfocándose en soluciones ergonómicas, comodidad y durabilidad superiores para el sector agrícola.</p>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Empresas como GRAMMER y Seats Inc. compiten a través de la especialización técnica, enfocándose en soluciones ergonómicas, comodidad y durabilidad superiores para el sector agrícola (GRAMMER, s. f.-a, s. f.-b; Seats Inc., s. f.-a, s. f.-b, s. f.-c).</p>
     </div>
     <div class="ui-panel card-shadow" style="flex: 1 1 calc(33.333% - 1rem); min-width: 280px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
         <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Mercado de Reposición (Aftermarket)</h4>
-        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Distribuidores como TractorSeats.com evidencian una demanda real por repuestos no originales, donde los usuarios finales comparan alternativas basándose en precio, compatibilidad y disponibilidad de kits de suspensión.</p>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Distribuidores como TractorSeats.com evidencian una demanda real por repuestos no originales, donde los usuarios finales comparan alternativas basándose en precio, compatibilidad y disponibilidad de kits de suspensión (TractorSeats.com, s. f.-a, s. f.-b, s. f.-c).</p>
     </div>
 </div>
 <div style="margin-top: 1.5rem; padding: 1.2rem; background-color: #f7f7f7; border-left: 4px solid var(--orange); border-radius: 4px;">
@@ -114,7 +114,20 @@ const dictionary = {
         intro_viab: "Identifying the safest landing spot inside the worlds largest economy requires rigorous NASS operations data.",
         tooltip_viab: "Mined from state tax profiling, NASS operations maps, and ITC trade balance logs.",
         intro_smart: "Meta definitiva diseñada matemáticamente conjugando la variable de potencial orgánico (DPI 0.457) con oportunidades geo-agrícolas centrales.",
-        tooltip_smart: "¿Por qué este objetivo?: * Viabilidad de Mercado: Missouri y Oklahoma fueron seleccionados por su base agrícola sólida y su competitividad fiscal."
+        tooltip_smart: "¿Por qué este objetivo?: * Viabilidad de Mercado: Missouri y Oklahoma fueron seleccionados por su base agrícola sólida y su competitividad fiscal.",
+        nav_economic: "Económico",
+        eco_table_year: "Año",
+        eco_title: "Análisis de la Realidad Económica",
+        eco_gdp_title: "GDP Agriculture, Forestry, Fish",
+        eco_gdp_analysis: "Según el gráfico, El PIB del sector Agriculture, Forestry, Fishing and Hunting permite ver qué tanta actividad económica hay en sectores relacionados con el uso de maquinaria y equipos en campo. Entre 2021 y 2025, Missouri presenta valores más altos que Oklahoma, superando los 6,000 millones de dólares en varios años, mientras que Oklahoma se mantiene entre aproximadamente 2,300 y 3,400 millones. Esto muestra que Missouri tiene un sector más fuerte y con mayor movimiento. En términos de internacionalización, esto puede ser positivo porque una mayor actividad en el sector significa más uso de equipos, más necesidad de mantenimiento y más reposición, lo que aumenta las oportunidades del mercado. Por el contrario, un menor nivel de actividad puede significar menos uso de equipos y menor demanda potencial.",
+        eco_income_title: "Ingreso Personal Per capita",
+        eco_income_analysis: "El ingreso personal per cápita permite evaluar la capacidad de compra en Missouri y Oklahoma. Entre 2021 y 2024, ambos estados muestran una tendencia creciente, lo que indica mejora en los ingresos de la población. Missouri mantiene valores ligeramente superiores, lo que sugiere mayor poder adquisitivo promedio. Esto puede impactar positivamente el proceso de internacionalización, ya que un mayor ingreso facilita la compra de productos como sillines para maquinaria, reduciendo la sensibilidad al precio. <br><br>Sin embargo, la diferencia no es muy amplia, por lo que Oklahoma sigue siendo un mercado viable, especialmente si se considera su actividad agrícola. En conjunto, este indicador muestra que ambos estados tienen condiciones económicas favorables, aunque Missouri presenta una leve ventaja para productos que requieren inversión adicional por parte del consumidor.",
+        eco_rpp_title: "RPP (Regional Price Parities)",
+        eco_rpp_analysis: "Según el gráfico, el indicador RPP permite comparar el nivel de precios de cada estado frente al promedio de Estados Unidos (100). Entre 2021 y 2024, tanto Missouri como Oklahoma se mantienen por debajo de este nivel, lo que indica que ambos estados son relativamente más económicos.<br><br>Sin embargo, Oklahoma presenta valores ligeramente más bajos, lo que significa que es más barato. Aun así, Missouri se encuentra apenas por encima, lo cual puede interpretarse de manera positiva. Un nivel de precios un poco más alto suele estar asociado a una economía más dinámica, con mayor capacidad de consumo y un mercado más desarrollado.<br><br>En términos de internacionalización, aunque un entorno más económico puede reducir costos, un mercado con mayor nivel de precios como Missouri puede ofrecer mejores oportunidades comerciales, ya que refleja mayor poder adquisitivo y mayor disposición al gasto. Por ello, esta ligera diferencia posiciona a Missouri como un mercado potencialmente más atractivo para UMO.",
+        eco_land_title: "Land in Farms",
+        eco_land_analysis: "El Land in farms sugiere que Oklahoma tiene una base territorial más favorable para UMO que Missouri. En la tabla, Oklahoma mantiene entre 32.80 y 33.50 millones de acres en los cinco años, mientras Missouri se mueve entre 26.60 y 27.50 millones de acres. Eso significa que Oklahoma dispone de más tierra productiva vinculada a fincas, ranchos, pastos y cultivos, es decir, más espacios donde puede existir demanda para sillines de podadoras y maquinaria de mantenimiento. Además, la serie muestra estabilidad en ambos estados, sin caídas bruscas, lo que reduce el riesgo de un mercado volátil. Para la internacionalización de UMO, esto es positivo porque Oklahoma ofrece una base agrícola más amplia y continua con mayor probabilidad de uso de equipos de mantenimiento en operaciones rurales. Missouri también es atractivo, pero su menor superficie productiva limita el potencial relativo de expansión frente a Oklahoma.",
+        eco_tax_title: "State Tax Competitiveness Index",
+        eco_tax_analysis: "El State Tax Competitiveness Index muestra que Missouri mantiene una posición más favorable que Oklahoma durante todo el periodo analizado. Missouri se ubica entre los puestos 9 y 13, mientras que Oklahoma está entre 27 y 17. Como en este indicador un menor valor representa un mejor entorno fiscal, Missouri ofrece condiciones tributarias más competitivas y estables para las empresas.<br><br>Aunque Oklahoma mejora en los últimos años, todavía queda por debajo de Missouri. Esto puede representar mayores desafíos tributarios para una empresa que busca entrar al mercado. En cambio, Missouri, aunque puede ser un poco más costoso en otros aspectos, refleja un mercado más desarrollado, con mejores condiciones para operar y crecer. Para el proceso de internacionalización, esto hace que Missouri sea una opción más atractiva, ya que combina competitividad fiscal, estabilidad y mayor potencial empresarial."
     },
     en: {
         head_title: "UMO Internationalization Strategy",
@@ -178,28 +191,28 @@ const dictionary = {
         viab_title: "Internationalization Viability Analysis",
         tooltip_viab: "Strategic analysis based on tariff heading 8433.11 (Mowers) using commercial intelligence tools like ITC Trade Map.",
         viab_just_title: "Product justification in the international context",
-        viab_just_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Value chain integration:</strong> Although mower saddles do not appear independently in databases, they are critical components of tariff heading 8433.11 (mowers and lawn equipment), directly linking their demand to the growth of this broader market.</li><li class='mb-2'><strong>Global demand dependency:</strong> According to the International Trade Centre (2024), the saddle market's behavior is subject to the size and expansion of the agricultural and garden machinery sector, functioning as both original parts and replacements.</li><li class='mb-2'><strong>Maintenance opportunities:</strong> The increase in mower imports across various countries generates a constant need for component maintenance and replacement, opening a strategic window for companies offering compatible parts.</li></ul>",
+        viab_just_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Value chain integration:</strong> Although mower saddles do not appear independently in databases, they are critical components of tariff heading 8433.11 (mowers and lawn equipment), directly linking their demand to the growth of this broader market (International Trade Centre [ITC], 2024).</li><li class='mb-2'><strong>Global demand dependency:</strong> According to the International Trade Centre (ITC, 2024), the saddle market's behavior is subject to the size and expansion of the agricultural and garden machinery sector, functioning as both original parts and replacements.</li><li class='mb-2'><strong>Maintenance opportunities:</strong> The increase in mower imports across various countries generates a constant need for component maintenance and replacement, opening a strategic window for companies offering compatible parts.</li></ul>",
         viab_sec_title: "Sector analysis in the target country",
-        viab_sec_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Agro-industrial specialization:</strong> The product fits into the lawn and garden equipment sector, an area characterized by extremely high mechanization levels in developed countries where productivity relies on these machines.</li><li class='mb-2'><strong>U.S. importing leadership:</strong> Trade Map data identifies the U.S. as the market with the highest global importing share, evidencing massive internal demand and a clear opportunity for complementary products like saddles.</li><li class='mb-2'><strong>Developed economies context:</strong> Alongside the U.S. market, countries like Canada, Australia, and Belgium show presence in the sector, validating the product's viability in markets with high agricultural infrastructure (ITC, 2024).</li></ul>",
+        viab_sec_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Agro-industrial specialization:</strong> The product fits into the lawn and garden equipment sector, an area characterized by extremely high mechanization levels in developed countries where productivity relies on these machines.</li><li class='mb-2'><strong>U.S. importing leadership:</strong> Trade Map data (ITC, 2024) identifies the U.S. as the market with the highest global importing share, evidencing massive internal demand and a clear opportunity for complementary products like saddles.</li><li class='mb-2'><strong>Developed economies context:</strong> Alongside the U.S. market, countries like Canada, Australia, and Belgium show presence in the sector, validating the product's viability in markets with high agricultural infrastructure (ITC, 2024).</li></ul>",
         viab_size_title: "Market size and trends",
-        viab_size_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Strategic concentration in the U.S.:</strong> In the Trade Map (2024) concentration and distance analysis, the United States holds a dominant position due to its market size and high import concentration.</li><li class='mb-2'><strong>Deficit trade balance:</strong> The negative U.S. trade balance in this category (represented in yellow on ITC charts) confirms the country imports much more than it exports, ensuring high dependency on external suppliers.</li></ul>",
+        viab_size_desc: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Strategic concentration in the U.S.:</strong> In the Trade Map (ITC, 2024) concentration and distance analysis, the United States holds a dominant position due to its market size and high import concentration.</li><li class='mb-2'><strong>Deficit trade balance:</strong> The negative U.S. trade balance in this category (represented in yellow on ITC charts) confirms the country imports much more than it exports, ensuring high dependency on external suppliers.</li></ul>",
         viab_fig1_cap: "Figure 1. Concentration and distance of 843311 importing countries. Source: International Trade Centre (2024)",
-        viab_size_desc_p2: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Diversification potential:</strong> The relevant participation of markets like Germany, France, Italy, and Poland indicates that demand is not exclusive to a single country, allowing expansion strategies toward secondary markets to mitigate risks.</li></ul>",
+        viab_size_desc_p2: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Diversification potential:</strong> The relevant participation of markets like Germany, France, Italy, and Poland indicates that demand is not exclusive to a single country, allowing expansion strategies toward secondary markets to mitigate risks (ITC, 2024).</li></ul>",
         viab_fig2_cap: "Figure 2. Growth of imports by country for product 843311. Source: International Trade Centre (2024)",
-        viab_size_desc_p3: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Positive growth dynamics:</strong> Both the U.S. and Belgium show upward growth trends in their imports for 2024, representing a positive signal for the entry of new competitors (ITC, 2024).</li><li class='mb-2'><strong>Specific niche exploration:</strong> European countries with lower volumes but positive growth rates offer the possibility of gradual internationalization and the exploration of less saturated market niches.</li></ul>",
+        viab_size_desc_p3: "<ul style='list-style-type: disc; padding-left: 20px; line-height: 1.6;'><li class='mb-2'><strong>Positive growth dynamics:</strong> Both the U.S. and Belgium show upward growth trends in their imports for 2024, representing a positive signal for the entry of new competitors (ITC, 2024).</li><li class='mb-2'><strong>Specific niche exploration:</strong> European countries with lower volumes but positive growth rates offer the possibility of gradual internationalization and the exploration of less saturated market niches (ITC, 2024).</li></ul>",
         viab_comp_title: "Competitive Sector Analysis",
         viab_comp_desc: `<div style="display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 1rem;">
     <div class="ui-panel card-shadow" style="flex: 1 1 calc(33.333% - 1rem); min-width: 280px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
         <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Original Equipment Manufacturers (OEM)</h4>
-        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Giants like John Deere and Kubota represent the main competition, integrating machinery sales with their own line of replacement parts and original cushions (Genuine Parts).</p>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Giants like John Deere and Kubota represent the main competition, integrating machinery sales with their own line of replacement parts and original cushions (Genuine Parts) (John Deere, n.d.-a, n.d.-b; Kubota, n.d.).</p>
     </div>
     <div class="ui-panel card-shadow" style="flex: 1 1 calc(33.333% - 1rem); min-width: 280px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
         <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Specialized Manufacturers</h4>
-        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Companies like GRAMMER and Seats Inc. compete through technical specialization, focusing on superior ergonomic solutions, comfort, and durability for the agricultural sector.</p>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Companies like GRAMMER and Seats Inc. compete through technical specialization, focusing on superior ergonomic solutions, comfort, and durability for the agricultural sector (GRAMMER, n.d.-a, n.d.-b; Seats Inc., n.d.-a, n.d.-b, n.d.-c).</p>
     </div>
     <div class="ui-panel card-shadow" style="flex: 1 1 calc(33.333% - 1rem); min-width: 280px; border: 1px solid var(--black); padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
         <h4 style="color: var(--orange); margin-bottom: 0.5rem; font-size: 1.1rem; text-align: left;">Aftermarket Sector</h4>
-        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Distributors like TractorSeats.com evidence real demand for non-original replacement parts, where end-users compare alternatives based on price, compatibility, and suspension kit availability.</p>
+        <p style="font-size: 0.95rem; text-align: left; line-height: 1.5; color: var(--black);">Distributors like TractorSeats.com evidence real demand for non-original replacement parts, where end-users compare alternatives based on price, compatibility, and suspension kit availability (TractorSeats.com, n.d.-a, n.d.-b, n.d.-c).</p>
     </div>
 </div>
 <div style="margin-top: 1.5rem; padding: 1.2rem; background-color: #f7f7f7; border-left: 4px solid var(--orange); border-radius: 4px;">
@@ -231,7 +244,20 @@ const dictionary = {
         intro_viab: "Identifying the safest landing spot inside the worlds largest economy requires rigorous NASS operations data.",
         tooltip_viab: "Mined from state tax profiling, NASS operations maps, and ITC trade balance logs.",
         intro_smart: "Definitive milestone conjugated mathematically matching the 0.457 DPI ceiling with raw geo-agricultural volume targets.",
-        tooltip_smart: "Why this objective? Feasibility: Missouri and Oklahoma selected due to potent neutral structure natively. Capacity: 1,000 unit throughput handles UMOs OEM output."
+        tooltip_smart: "Why this objective? Feasibility: Missouri and Oklahoma selected due to potent neutral structure natively. Capacity: 1,000 unit throughput handles UMOs OEM output.",
+        nav_economic: "Economic",
+        eco_table_year: "Year",
+        eco_title: "Economic Reality Analysis",
+        eco_gdp_title: "GDP Agriculture, Forestry, Fish",
+        eco_gdp_analysis: "According to the graph, the GDP of the Agriculture, Forestry, Fishing and Hunting sector shows how much economic activity exists in sectors related to the use of machinery and field equipment. Between 2021 and 2025, Missouri presents higher values than Oklahoma, exceeding $6 billion in several years, while Oklahoma remains roughly between $2.3 billion and $3.4 billion. This shows that Missouri has a stronger and more active sector. In terms of internationalization, this can be positive because higher sector activity means more equipment usage, higher maintenance needs, and more replacement, which increases market opportunities. Conversely, a lower activity level may mean less equipment use and lower potential demand.",
+        eco_income_title: "Per Capita Personal Income",
+        eco_income_analysis: "Per capita personal income allows us to evaluate purchasing power in Missouri and Oklahoma. Between 2021 and 2024, both states show an upward trend, indicating an improvement in the population's income. Missouri maintains slightly higher values, suggesting higher average purchasing power. This can positively impact the internationalization process, as higher income facilitates the purchase of products like machinery saddles, reducing price sensitivity. <br><br>However, the difference is not wide, leaving Oklahoma as a viable market, especially considering its agricultural activity. Overall, this indicator shows both states hold favorable conditions, although Missouri has a slight advantage for consumer-investment intensive products.",
+        eco_rpp_title: "RPP (Regional Price Parities)",
+        eco_rpp_analysis: "According to the graph, the RPP indicator allows us to compare each state's price level against the U.S. average (100). Between 2021 and 2024, both Missouri and Oklahoma remain below this level, indicating that both states are relatively more affordable.<br><br>However, Oklahoma presents slightly lower values, meaning it is cheaper. Even so, Missouri is just slightly above, which can be interpreted positively. A slightly higher price level is usually associated with a more dynamic economy, with greater consumption capacity and a more developed market.<br><br>In terms of internationalization, although a more affordable environment can reduce costs, a market with a higher price level like Missouri may offer better business opportunities, as it reflects higher purchasing power and greater willingness to spend. Therefore, this slight difference positions Missouri as a potentially more attractive market for UMO.",
+        eco_land_title: "Land in Farms",
+        eco_land_analysis: "Land in farms suggests that Oklahoma has a more territorial base favoring UMO than Missouri. Oklahoma maintains between 32.80 and 33.50 million acres over the five years, while Missouri ranges between 26.60 and 27.50 million acres. This signifies Oklahoma possesses more productive land tied to farms, ranches, pastures, and crops—i.e., more spaces where demand for mower saddles and maintenance machinery could exist. Furthermore, stability is evident in both states with no sharp declines, mitigating market volatility risk. For UMO’s internationalization, this is positive since Oklahoma offers a broader agricultural base with a higher probability of equipment usage in operation. Missouri is also attractive, but its smaller productive area relatively limits expansion potential compared to Oklahoma.",
+        eco_tax_title: "State Tax Competitiveness Index",
+        eco_tax_analysis: "The State Tax Competitiveness Index demonstrates Missouri holding a more favorable position than Oklahoma throughout the analyzed period. Missouri ranks between 9 and 13, whereas Oklahoma rests between 27 and 17. Since a lower index value signifies a better tax environment, Missouri offers more competitive and stable tax conditions for businesses.<br><br>Although Oklahoma has improved in recent years, it still falls below Missouri. This could pose greater tax barriers. By contrast, Missouri reflects a more developed structure with better operational conditions. Conclusively, this makes Missouri a more attractive internationalization target by combining tax competitiveness, stability, and higher business potential."
     }
 };
 
@@ -468,6 +494,96 @@ document.addEventListener('DOMContentLoaded', () => {
     if (growthCtx) {
         // Leaving growthChart configured but hidden/empty if the user only wants NASS
         growthCtx.parentElement.style.display = 'none';
+    }
+
+    const gdpCtx = document.getElementById('chart-eco-gdp');
+    if (gdpCtx) {
+        new Chart(gdpCtx.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: ['2021', '2022', '2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Missouri', data: [4841.1, 7013.7, 6582.5, 6144.9, 6610.6], borderColor: '#3B65B9', backgroundColor: '#3B65B9', fill: false, tension: 0.1 },
+                    { label: 'Oklahoma', data: [2571.8, 2391.2, 2997.5, 3094.7, 3475.3], borderColor: '#FF8201', backgroundColor: '#FF8201', fill: false, tension: 0.1 }
+                ]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' Millones de USD' : ' Millions of USD'); } } } }
+            }
+        });
+    }
+
+    const incomeCtx = document.getElementById('chart-eco-income');
+    if (incomeCtx) {
+        new Chart(incomeCtx.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: ['2021', '2022', '2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Missouri', data: [56630, 58956, 62484, 64740, null], borderColor: '#3B65B9', backgroundColor: '#3B65B9', fill: false, tension: 0.1 },
+                    { label: 'Oklahoma', data: [54492, 57943, 60395, 62661, null], borderColor: '#FF8201', backgroundColor: '#FF8201', fill: false, tension: 0.1 }
+                ]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': $' + Number(context.parsed.y).toFixed(2) + ' USD'; } } } }
+            }
+        });
+    }
+
+    const rppCtx = document.getElementById('chart-eco-rpp');
+    if (rppCtx) {
+        new Chart(rppCtx.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: ['2021', '2022', '2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Missouri', data: [92.012, 90.991, 91.104, 90.817, null], borderColor: '#3B65B9', backgroundColor: '#3B65B9', fill: false, tension: 0.1 },
+                    { label: 'Oklahoma', data: [92.4, 91.4, 91.4, 87.8, null], borderColor: '#FF8201', backgroundColor: '#FF8201', fill: false, tension: 0.1 }
+                ]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' (Índice)' : ' (Index)'); } } } }
+            }
+        });
+    }
+
+    const landCtx = document.getElementById('chart-eco-land');
+    if (landCtx) {
+        new Chart(landCtx.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: ['2021', '2022', '2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Missouri', data: [27.5, 27, 27.1, 27, 26.6], borderColor: '#3B65B9', backgroundColor: '#3B65B9', fill: false, tension: 0.1 },
+                    { label: 'Oklahoma', data: [33.5, 32.9, 33.1, 32.9, 32.8], borderColor: '#FF8201', backgroundColor: '#FF8201', fill: false, tension: 0.1 }
+                ]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' Millones de Acres' : ' Millions of Acres'); } } } }
+            }
+        });
+    }
+
+    const taxCtx = document.getElementById('chart-eco-tax');
+    if (taxCtx) {
+        new Chart(taxCtx.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: ['2021', '2022', '2023', '2024', '2025'],
+                datasets: [
+                    { label: 'Missouri', data: [9, 9, 9, 13, 13], borderColor: '#3B65B9', backgroundColor: '#3B65B9', fill: false, tension: 0.1 },
+                    { label: 'Oklahoma', data: [22, 27, 21, 19, 17], borderColor: '#FF8201', backgroundColor: '#FF8201', fill: false, tension: 0.1 }
+                ]
+            },
+            options: {
+                responsive: true, maintainAspectRatio: false,
+                plugins: { tooltip: { callbacks: { label: function (context) { let prefix = (currentLang === 'es' ? 'Puesto #' : 'Rank #'); return context.dataset.label + ': ' + prefix + Number(context.parsed.y).toFixed(0); } } } }
+            }
+        });
     }
 
     const updateChartLang = () => {
