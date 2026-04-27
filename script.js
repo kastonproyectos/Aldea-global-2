@@ -13,7 +13,7 @@ const dictionary = {
         hero_title: "UMO Estrategia de Internacionalización",
         hero_subtitle: "Por: Juanita Ospina, Valeria Pertuz, Isabela Molina y Marianella Trillos",
         about_title: "Descripción del bien y/o servicio",
-        about_text1: "La empresa ofrece sillines para podadoras/lawnmowers, orientados al mercado agrícola estadounidense. Se trata de un producto que puede desarrollarse bajo diseños específicos, de acuerdo con los requerimientos del cliente. Estos productos pertenecen a la división de poliuretano inyectado, lo que representa la base tecnológica desde la cual la empresa está desarrollando esta línea de sillas. En cuanto a su composición, la estructura de la silla es nacional y está conformada por estructura metálica y estructura de madera, la tecnología de recubrimiento utilizada también es de origen nacional. Por otro lado, los componentes que actualmente provienen del exterior son los apoyabrazos y el cinturón de seguridad, los cuales son importados desde China. El producto tiene ciertas características, condiciones y exigencias técnicas que estas sillas deben cumplir en el mercado estadounidense. <strong style='color:#FF8201;'>Para mas informacion sobre UMO consultar su sitio web oficial: <a href='https://umo.com.co' target='_blank' style='color:#FF8201; text-decoration:underline; font-weight:700;'>https://umo.com.co</a></strong>",
+        about_text1: "La empresa ofrece sillines para podadoras/lawnmowers, orientados al mercado agrícola estadounidense. Se trata de un producto que puede desarrollarse bajo diseños específicos, de acuerdo con los requerimientos del cliente. Estos productos pertenecen a la división de poliuretano inyectado, lo que representa la base tecnológica desde la cual la empresa está desarrollando esta línea de sillas. En cuanto a su composición, la estructura de la silla es nacional y está conformada por estructura metálica y estructura de madera, la tecnología de recubrimiento utilizada también es de origen nacional. Por otro lado, los componentes que actualmente provienen del exterior son los apoyabrazos y el cinturón de seguridad, los cuales son importados desde China. El producto tiene ciertas características, condiciones y exigencias técnicas que estas sillas deben cumplir en el mercado estadounidense. <strong style='color:#FF8201; font-size:1.05rem;'>Para mas informacion sobre UMO consultar su sitio web oficial: <a href='https://umo.com.co' target='_blank' style='color:#FF8201; text-decoration:underline; font-weight:700;'>https://umo.com.co</a></strong>",
 
         // BMC EXACT REPLACEMENTS (V13)
         bmc_title: "Business Model Canvas",
@@ -143,7 +143,7 @@ const dictionary = {
         hero_title: "UMO Internationalization Strategy",
         hero_subtitle: "By: Juanita Ospina, Valeria Pertuz, Isabela Molina and Marianella Trillos",
         about_title: "Description of good and/or service",
-        about_text1: "The company offers saddles for lawnmowers, aimed at the US agricultural market. It is a product that can be developed under specific designs, according to customer requirements. These products belong to the injected polyurethane division... Structurally, the chair has national origin comprising metal and wood frames. The only imported components are armrests and seat belts from China. <strong style='color:#FF8201;'>For more information about UMO visit their official website: <a href='https://umo.com.co' target='_blank' style='color:#FF8201; text-decoration:underline; font-weight:700;'>https://umo.com.co</a></strong>",
+        about_text1: "The company offers saddles for lawnmowers, aimed at the US agricultural market. It is a product that can be developed under specific designs, according to customer requirements. These products belong to the injected polyurethane division... Structurally, the chair has national origin comprising metal and wood frames. The only imported components are armrests and seat belts from China. <strong style='color:#FF8201; font-size:1.05rem;'>For more information about UMO visit their official website: <a href='https://umo.com.co' target='_blank' style='color:#FF8201; text-decoration:underline; font-weight:700;'>https://umo.com.co</a></strong>",
 
         // BMC EXACT REPLACEMENTS (V13)
         bmc_title: "Business Model Canvas",
@@ -509,7 +509,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             options: {
                 responsive: true, maintainAspectRatio: false,
-                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' Millones de USD' : ' Millions of USD'); } } } }
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' Millones de USD' : ' Millions of USD'); } } } },
+                scales: {
+                    x: { title: { display: true, text: 'Year', font: { size: 12, weight: '600' } } },
+                    y: { title: { display: true, text: 'GDP (Millions of Dollars)', font: { size: 12, weight: '600' } } }
+                }
             }
         });
     }
@@ -527,7 +531,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             options: {
                 responsive: true, maintainAspectRatio: false,
-                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': $' + Number(context.parsed.y).toFixed(2) + ' USD'; } } } }
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': $' + Number(context.parsed.y).toFixed(2) + ' USD'; } } } },
+                scales: {
+                    x: { title: { display: true, text: 'Year', font: { size: 12, weight: '600' } } },
+                    y: { title: { display: true, text: 'Per Capita Personal Income (USD)', font: { size: 12, weight: '600' } } }
+                }
             }
         });
     }
@@ -545,7 +553,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             options: {
                 responsive: true, maintainAspectRatio: false,
-                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' (Índice)' : ' (Index)'); } } } }
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' (Índice)' : ' (Index)'); } } } },
+                scales: {
+                    x: { title: { display: true, text: 'Year', font: { size: 12, weight: '600' } } },
+                    y: { title: { display: true, text: 'RPP Index (U.S. avg = 100)', font: { size: 12, weight: '600' } } }
+                }
             }
         });
     }
@@ -563,7 +575,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             options: {
                 responsive: true, maintainAspectRatio: false,
-                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' Millones de Acres' : ' Millions of Acres'); } } } }
+                plugins: { tooltip: { callbacks: { label: function (context) { return context.dataset.label + ': ' + Number(context.parsed.y).toFixed(2) + (currentLang === 'es' ? ' Millones de Acres' : ' Millions of Acres'); } } } },
+                scales: {
+                    x: { title: { display: true, text: 'Year', font: { size: 12, weight: '600' } } },
+                    y: { title: { display: true, text: 'Land in Farms (Million Acres)', font: { size: 12, weight: '600' } } }
+                }
             }
         });
     }
@@ -581,7 +597,11 @@ document.addEventListener('DOMContentLoaded', () => {
             },
             options: {
                 responsive: true, maintainAspectRatio: false,
-                plugins: { tooltip: { callbacks: { label: function (context) { let prefix = (currentLang === 'es' ? 'Puesto #' : 'Rank #'); return context.dataset.label + ': ' + prefix + Number(context.parsed.y).toFixed(0); } } } }
+                plugins: { tooltip: { callbacks: { label: function (context) { let prefix = (currentLang === 'es' ? 'Puesto #' : 'Rank #'); return context.dataset.label + ': ' + prefix + Number(context.parsed.y).toFixed(0); } } } },
+                scales: {
+                    x: { title: { display: true, text: 'Year', font: { size: 12, weight: '600' } } },
+                    y: { title: { display: true, text: 'National Rank (lower = better)', font: { size: 12, weight: '600' } } }
+                }
             }
         });
     }

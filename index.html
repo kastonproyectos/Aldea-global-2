@@ -478,25 +478,18 @@
                 </div>
                 <!-- Las cards serán insertadas aquí mediante JS o estáticamente en HTML -->
                 <div id="eco-cards-container" style="display:flex; flex-direction:column; gap: 2rem;">
-                    <!-- Card 1 -->
+
+                    <!-- Card 1: GDP -->
                     <div class="ui-panel card-shadow"
                         style="padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
-                        <h3 class="text-black text-center mb-4" data-i18n="eco_gdp_title">GDP Agriculture, Forestry,
-                            Fish</h3>
+                        <h3 class="text-black text-center mb-4" data-i18n="eco_gdp_title"
+                            style="font-size:1.6rem; font-weight:800;">GDP Agriculture, Forestry, Fish</h3>
+
                         <div style="height: 350px; position:relative; width:100%;"><canvas id="chart-eco-gdp"></canvas>
                         </div>
-                        <div class="mt-2 mb-4">
-                            <p style="font-size: 0.85rem; color: var(--gray); text-align: left; line-height: 1.8;">
-                                <strong>Referencias:</strong><br>
-                                <a href="https://fred.stlouisfed.org/series/MOAGRNGSP" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://fred.stlouisfed.org/series/MOAGRNGSP</a><br>
-                                <a href="https://fred.stlouisfed.org/series/OKAGRRGSP" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://fred.stlouisfed.org/series/OKAGRRGSP</a>
-                            </p>
-                        </div>
 
-                        <h4 class="text-black mb-2" style="font-weight: 700; margin-top: 1rem;">Tabla de comparación:
-                            GDP Agriculture, Forestry, Fishing and Hunting (millones USD)</h4>
+                        <h4 class="text-black mb-2" style="font-weight:700; margin-top:1.2rem;">Tabla de comparación:
+                            GDP Agriculture, Forestry, Fishing and Hunting (Millions of Dollars)</h4>
                         <div class="dpi-table-container">
                             <table class="dpi-table">
                                 <thead>
@@ -537,57 +530,55 @@
                             </table>
                         </div>
 
-                        <div class="mt-4 mb-4"
-                            style="display: flex; flex-wrap:wrap; gap: 1rem; justify-content: center;">
-                            <div
-                                style="padding: 1rem; background: #f0f4fb; border-radius: 4px; border-left: 4px solid #3B65B9; flex: 1; min-width:200px;">
-                                <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #3B65B9; margin: 0; font-weight: 800;">Missouri: 5
-                                </p>
-                            </div>
-                            <div
-                                style="padding: 1rem; background: #fff8f0; border-radius: 4px; border-left: 4px solid #FF8201; flex: 1; min-width:200px;">
-                                <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #FF8201; margin: 0; font-weight: 800;">Oklahoma:
-                                    2,62</p>
-                            </div>
-                        </div>
-
                         <div
-                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black);">
+                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black); margin-top:1.2rem;">
                             <h4 class="text-black mb-2">Strategic Analysis</h4>
                             <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
                                 data-i18n="eco_gdp_analysis">Según el gráfico, El PIB del sector Agriculture, Forestry,
                                 Fishing and Hunting permite ver qué tanta actividad económica hay en sectores
-                                relacionados con el uso de maquinaria y equipos en campo. Entre 2021 y 2025, Missouri
-                                presenta valores más altos que Oklahoma, superando los 6,000 millones de dólares en
-                                varios años, mientras que Oklahoma se mantiene entre aproximadamente 2,300 y 3,400
-                                millones. Esto muestra que Missouri tiene un sector más fuerte y con mayor movimiento.
-                                En términos de internacionalización, esto puede ser positivo porque una mayor actividad
-                                en el sector significa más uso de equipos, más necesidad de mantenimiento y más
-                                reposición, lo que aumenta las oportunidades del mercado. Por el contrario, un menor
-                                nivel de actividad puede significar menos uso de equipos y menor demanda potencial.</p>
+                                relacionados con el uso de maquinaria y equipos en campo.</p>
+                        </div>
+
+                        <div class="mt-4 mb-4" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
+                            <div
+                                style="padding:1rem; background:#f0f4fb; border-radius:4px; border-left:4px solid #3B65B9; flex:1; min-width:200px;">
+                                <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
+                                <p style="font-size:1.5rem; color:#3B65B9; margin:0; font-weight:800;">Missouri: 5</p>
+                            </div>
+                            <div
+                                style="padding:1rem; background:#fff8f0; border-radius:4px; border-left:4px solid #FF8201; flex:1; min-width:200px;">
+                                <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
+                                <p style="font-size:1.5rem; color:#FF8201; margin:0; font-weight:800;">Oklahoma: 2,62
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            style="margin-top:1rem; padding:1rem; background:#f9f9f9; border-radius:6px; border-left:3px solid #ccc;">
+                            <p style="font-size:0.83rem; color:var(--gray); line-height:1.8; margin:0;">
+                                <strong>Sources (APA 7):</strong><br>
+                                Federal Reserve Bank of St. Louis. (2025). <em>Gross domestic product: Agriculture,
+                                    forestry, fishing and hunting in Missouri</em> [MOAGRNGSP]. FRED, Federal Reserve
+                                Economic Data. <a href="https://fred.stlouisfed.org/series/MOAGRNGSP" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://fred.stlouisfed.org/series/MOAGRNGSP</a><br>
+                                Federal Reserve Bank of St. Louis. (2025). <em>Gross domestic product: Agriculture,
+                                    forestry, fishing and hunting in Oklahoma</em> [OKAGRRGSP]. FRED, Federal Reserve
+                                Economic Data. <a href="https://fred.stlouisfed.org/series/OKAGRRGSP" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://fred.stlouisfed.org/series/OKAGRRGSP</a>
+                            </p>
                         </div>
                     </div>
 
-                    <!-- Card 2 -->
+                    <!-- Card 2: Per Capita Income -->
                     <div class="ui-panel card-shadow"
                         style="padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
-                        <h3 class="text-black text-center mb-4" data-i18n="eco_income_title">Ingreso Personal Per capita
-                        </h3>
+                        <h3 class="text-black text-center mb-4" data-i18n="eco_income_title"
+                            style="font-size:1.6rem; font-weight:800;">Ingreso Personal Per Capita</h3>
+
                         <div style="height: 350px; position:relative; width:100%;"><canvas
                                 id="chart-eco-income"></canvas></div>
-                        <div class="mt-2 mb-4">
-                            <p style="font-size: 0.85rem; color: var(--gray); text-align: left; line-height: 1.8;">
-                                <strong>Referencias:</strong><br>
-                                <a href="https://fred.stlouisfed.org/series/MOPCPI?utm" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://fred.stlouisfed.org/series/MOPCPI?utm</a><br>
-                                <a href="https://fred.stlouisfed.org/series/OKPCPI?utm" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://fred.stlouisfed.org/series/OKPCPI?utm</a>
-                            </p>
-                        </div>
 
-                        <h4 class="text-black mb-2" style="font-weight: 700; margin-top: 1rem;">Tabla de comparación:
+                        <h4 class="text-black mb-2" style="font-weight:700; margin-top:1.2rem;">Tabla de comparación:
                             Ingreso Personal Per Cápita (USD)</h4>
                         <div class="dpi-table-container">
                             <table class="dpi-table">
@@ -629,60 +620,54 @@
                             </table>
                         </div>
 
-                        <div class="mt-4 mb-4"
-                            style="display: flex; flex-wrap:wrap; gap: 1rem; justify-content: center;">
+                        <div
+                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black); margin-top:1.2rem;">
+                            <h4 class="text-black mb-2">Strategic Analysis</h4>
+                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
+                                data-i18n="eco_income_analysis">El ingreso personal per cápita permite evaluar la
+                                capacidad de compra en Missouri y Oklahoma.</p>
+                        </div>
+
+                        <div class="mt-4 mb-4" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
                             <div
-                                style="padding: 1rem; background: #f0f4fb; border-radius: 4px; border-left: 4px solid #3B65B9; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#f0f4fb; border-radius:4px; border-left:4px solid #3B65B9; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #3B65B9; margin: 0; font-weight: 800;">Missouri: 5
-                                </p>
+                                <p style="font-size:1.5rem; color:#3B65B9; margin:0; font-weight:800;">Missouri: 5</p>
                             </div>
                             <div
-                                style="padding: 1rem; background: #fff8f0; border-radius: 4px; border-left: 4px solid #FF8201; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#fff8f0; border-radius:4px; border-left:4px solid #FF8201; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #FF8201; margin: 0; font-weight: 800;">Oklahoma:
-                                    4,83</p>
+                                <p style="font-size:1.5rem; color:#FF8201; margin:0; font-weight:800;">Oklahoma: 4,83
+                                </p>
                             </div>
                         </div>
 
                         <div
-                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black);">
-                            <h4 class="text-black mb-2">Strategic Analysis</h4>
-                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
-                                data-i18n="eco_income_analysis">El ingreso personal per cápita permite evaluar la
-                                capacidad de compra en Missouri y Oklahoma. Entre 2021 y 2024, ambos estados muestran
-                                una tendencia creciente, lo que indica mejora en los ingresos de la población. Missouri
-                                mantiene valores ligeramente superiores, lo que sugiere mayor poder adquisitivo
-                                promedio. Esto puede impactar positivamente el proceso de internacionalización, ya que
-                                un mayor ingreso facilita la compra de productos como sillines para maquinaria,
-                                reduciendo la sensibilidad al precio. <br><br>Sin embargo, la diferencia no es muy
-                                amplia, por lo que Oklahoma sigue siendo un mercado viable, especialmente si se
-                                considera su actividad agrícola. En conjunto, este indicador muestra que ambos estados
-                                tienen condiciones económicas favorables, aunque Missouri presenta una leve ventaja para
-                                productos que requieren inversión adicional por parte del consumidor.</p>
+                            style="margin-top:1rem; padding:1rem; background:#f9f9f9; border-radius:6px; border-left:3px solid #ccc;">
+                            <p style="font-size:0.83rem; color:var(--gray); line-height:1.8; margin:0;">
+                                <strong>Sources (APA 7):</strong><br>
+                                Federal Reserve Bank of St. Louis. (s.f.). <em>Per capita personal income in
+                                    Missouri</em> [MOPCPI]. FRED, Federal Reserve Economic Data. <a
+                                    href="https://fred.stlouisfed.org/series/MOPCPI" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://fred.stlouisfed.org/series/MOPCPI</a><br>
+                                Federal Reserve Bank of St. Louis. (s.f.). <em>Per capita personal income in
+                                    Oklahoma</em> [OKPCPI]. FRED, Federal Reserve Economic Data. <a
+                                    href="https://fred.stlouisfed.org/series/OKPCPI" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://fred.stlouisfed.org/series/OKPCPI</a>
+                            </p>
                         </div>
                     </div>
 
-                    <!-- Card 3 -->
+                    <!-- Card 3: RPP -->
                     <div class="ui-panel card-shadow"
                         style="padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
-                        <h3 class="text-black text-center mb-4" data-i18n="eco_rpp_title">RPP (Regional Price Parities)
-                        </h3>
+                        <h3 class="text-black text-center mb-4" data-i18n="eco_rpp_title"
+                            style="font-size:1.6rem; font-weight:800;">RPP (Regional Price Parities)</h3>
+
                         <div style="height: 350px; position:relative; width:100%;"><canvas id="chart-eco-rpp"></canvas>
                         </div>
-                        <div class="mt-2 mb-4">
-                            <p style="font-size: 0.85rem; color: var(--gray); text-align: left; line-height: 1.8;">
-                                <strong>Referencias:</strong><br>
-                                <a href="https://fred.stlouisfed.org/series/MORPPALL" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://fred.stlouisfed.org/series/MORPPALL</a><br>
-                                <a href="https://fred.stlouisfed.org/series/RPPALL36420" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://fred.stlouisfed.org/series/RPPALL36420</a><br>
-                                <em style="color:#888;">(para el 2024 usamos el site de Bureou y para el resto de los
-                                    años el de fred)</em>
-                            </p>
-                        </div>
 
-                        <h4 class="text-black mb-2" style="font-weight: 700; margin-top: 1rem;">Tabla de comparación:
+                        <h4 class="text-black mb-2" style="font-weight:700; margin-top:1.2rem;">Tabla de comparación:
                             RPP – Paridades Regionales de Precios (índice)</h4>
                         <div class="dpi-table-container">
                             <table class="dpi-table">
@@ -724,75 +709,56 @@
                             </table>
                         </div>
 
-                        <div class="mt-4 mb-4"
-                            style="display: flex; flex-wrap:wrap; gap: 1rem; justify-content: center;">
+                        <div
+                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black); margin-top:1.2rem;">
+                            <h4 class="text-black mb-2">Strategic Analysis</h4>
+                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
+                                data-i18n="eco_rpp_analysis">Según el gráfico, el indicador RPP permite comparar el
+                                nivel de precios de cada estado frente al promedio de Estados Unidos (100).</p>
+                        </div>
+
+                        <div class="mt-4 mb-4" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
                             <div
-                                style="padding: 1rem; background: #f0f4fb; border-radius: 4px; border-left: 4px solid #3B65B9; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#f0f4fb; border-radius:4px; border-left:4px solid #3B65B9; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #3B65B9; margin: 0; font-weight: 800;">Missouri: 5
-                                </p>
+                                <p style="font-size:1.5rem; color:#3B65B9; margin:0; font-weight:800;">Missouri: 5</p>
                             </div>
                             <div
-                                style="padding: 1rem; background: #fff8f0; border-radius: 4px; border-left: 4px solid #FF8201; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#fff8f0; border-radius:4px; border-left:4px solid #FF8201; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #FF8201; margin: 0; font-weight: 800;">Oklahoma:
-                                    4,83</p>
+                                <p style="font-size:1.5rem; color:#FF8201; margin:0; font-weight:800;">Oklahoma: 4,83
+                                </p>
                             </div>
                         </div>
 
                         <div
-                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black);">
-                            <h4 class="text-black mb-2">Strategic Analysis</h4>
-                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
-                                data-i18n="eco_rpp_analysis">Según el gráfico, el indicador RPP permite comparar el
-                                nivel de precios de cada estado frente al promedio de Estados Unidos (100). Entre 2021 y
-                                2024, tanto Missouri como Oklahoma se mantienen por debajo de este nivel, lo que indica
-                                que ambos estados son relativamente más económicos.<br><br>Sin embargo, Oklahoma
-                                presenta valores ligeramente más bajos, lo que significa que es más barato. Aun así,
-                                Missouri se encuentra apenas por encima, lo cual puede interpretarse de manera positiva.
-                                Un nivel de precios un poco más alto suele estar asociado a una economía más dinámica,
-                                con mayor capacidad de consumo y un mercado más desarrollado.<br><br>En términos de
-                                internacionalización, aunque un entorno más económico puede reducir costos, un mercado
-                                con mayor nivel de precios como Missouri puede ofrecer mejores oportunidades
-                                comerciales, ya que refleja mayor poder adquisitivo y mayor disposición al gasto. Por
-                                ello, esta ligera diferencia posiciona a Missouri como un mercado potencialmente más
-                                atractivo para UMO.</p>
+                            style="margin-top:1rem; padding:1rem; background:#f9f9f9; border-radius:6px; border-left:3px solid #ccc;">
+                            <p style="font-size:0.83rem; color:var(--gray); line-height:1.8; margin:0;">
+                                <strong>Sources (APA 7):</strong><br>
+                                Federal Reserve Bank of St. Louis. (s.f.). <em>Regional price parities: All items in
+                                    Missouri</em> [MORPPALL]. FRED, Federal Reserve Economic Data. <a
+                                    href="https://fred.stlouisfed.org/series/MORPPALL" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://fred.stlouisfed.org/series/MORPPALL</a><br>
+                                Federal Reserve Bank of St. Louis. (s.f.). <em>Regional price parities: All items in
+                                    Oklahoma City, OK</em> [RPPALL36420]. FRED, Federal Reserve Economic Data. <a
+                                    href="https://fred.stlouisfed.org/series/RPPALL36420" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://fred.stlouisfed.org/series/RPPALL36420</a><br>
+                                <em style="color:#888;">(para el 2024 usamos el site de Bureou y para el resto de los
+                                    años el de fred)</em>
+                            </p>
                         </div>
                     </div>
 
-                    <!-- Card 4 -->
+                    <!-- Card 4: Land in Farms -->
                     <div class="ui-panel card-shadow"
                         style="padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
-                        <h3 class="text-black text-center mb-4" data-i18n="eco_land_title">Land in Farms</h3>
+                        <h3 class="text-black text-center mb-4" data-i18n="eco_land_title"
+                            style="font-size:1.6rem; font-weight:800;">Land in Farms</h3>
+
                         <div style="height: 350px; position:relative; width:100%;"><canvas id="chart-eco-land"></canvas>
                         </div>
-                        <div class="mt-2 mb-4">
-                            <p style="font-size: 0.85rem; color: var(--gray); text-align: left; line-height: 1.8;">
-                                <strong>Referencias:</strong><br>
-                                <a href="https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf"
-                                    target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf</a>
-                                nass.usda<br>
-                                <a href="https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf"
-                                    target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf</a>
-                                esmis.nal.usda<br>
-                                <a href="https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf"
-                                    target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf</a>
-                                esmis.nal.usda<br>
-                                <a href="https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf"
-                                    target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf</a>
-                                esmis.nal.usda<br>
-                                <a href="https://esmis.nal.usda.gov/sites/default/release-files/795776/fnlo0226.pdf"
-                                    target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://esmis.nal.usda.gov/sites/default/release-files/795776/fnlo0226.pdf</a>
-                                nass.usda
-                            </p>
-                        </div>
 
-                        <h4 class="text-black mb-2" style="font-weight: 700; margin-top: 1rem;">Tabla de comparación:
+                        <h4 class="text-black mb-2" style="font-weight:700; margin-top:1.2rem;">Tabla de comparación:
                             Land in Farms (millones de acres)</h4>
                         <div class="dpi-table-container">
                             <table class="dpi-table">
@@ -834,57 +800,71 @@
                             </table>
                         </div>
 
-                        <div class="mt-4 mb-4"
-                            style="display: flex; flex-wrap:wrap; gap: 1rem; justify-content: center;">
+                        <div
+                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black); margin-top:1.2rem;">
+                            <h4 class="text-black mb-2">Strategic Analysis</h4>
+                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
+                                data-i18n="eco_land_analysis">El Land in farms sugiere que Oklahoma tiene una base
+                                territorial más favorable para UMO que Missouri.</p>
+                        </div>
+
+                        <div class="mt-4 mb-4" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
                             <div
-                                style="padding: 1rem; background: #f0f4fb; border-radius: 4px; border-left: 4px solid #3B65B9; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#f0f4fb; border-radius:4px; border-left:4px solid #3B65B9; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #3B65B9; margin: 0; font-weight: 800;">Missouri: 5
-                                </p>
+                                <p style="font-size:1.5rem; color:#3B65B9; margin:0; font-weight:800;">Missouri: 5</p>
                             </div>
                             <div
-                                style="padding: 1rem; background: #fff8f0; border-radius: 4px; border-left: 4px solid #FF8201; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#fff8f0; border-radius:4px; border-left:4px solid #FF8201; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #FF8201; margin: 0; font-weight: 800;">Oklahoma:
-                                    4,05</p>
+                                <p style="font-size:1.5rem; color:#FF8201; margin:0; font-weight:800;">Oklahoma: 4,05
+                                </p>
                             </div>
                         </div>
 
                         <div
-                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black);">
-                            <h4 class="text-black mb-2">Strategic Analysis</h4>
-                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
-                                data-i18n="eco_land_analysis">El Land in farms sugiere que Oklahoma tiene una base
-                                territorial más favorable para UMO que Missouri. En la tabla, Oklahoma mantiene entre
-                                32.80 y 33.50 millones de acres en los cinco años, mientras Missouri se mueve entre
-                                26.60 y 27.50 millones de acres. Eso significa que Oklahoma dispone de más tierra
-                                productiva vinculada a fincas, ranchos, pastos y cultivos, es decir, más espacios donde
-                                puede existir demanda para sillines de podadoras y maquinaria de mantenimiento. Además,
-                                la serie muestra estabilidad en ambos estados, sin caídas bruscas, lo que reduce el
-                                riesgo de un mercado volátil. Para la internacionalización de UMO, esto es positivo
-                                porque Oklahoma ofrece una base agrícola más amplia y continua con mayor probabilidad de
-                                uso de equipos de mantenimiento en operaciones rurales. Missouri también es atractivo,
-                                pero su menor superficie productiva limita el potencial relativo de expansión frente a
-                                Oklahoma.</p>
+                            style="margin-top:1rem; padding:1rem; background:#f9f9f9; border-radius:6px; border-left:3px solid #ccc;">
+                            <p style="font-size:0.83rem; color:var(--gray); line-height:1.8; margin:0;">
+                                <strong>Sources (APA 7):</strong><br>
+                                U.S. Department of Agriculture, National Agricultural Statistics Service. (2023).
+                                <em>Farms and land in farms</em>. USDA NASS. <a
+                                    href="https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf"
+                                    target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf</a><br>
+                                U.S. Department of Agriculture, National Agricultural Statistics Service. (2024).
+                                <em>Farms and land in farms</em>. USDA NASS. <a
+                                    href="https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf"
+                                    target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf</a><br>
+                                U.S. Department of Agriculture, National Agricultural Statistics Service. (2025).
+                                <em>Farms and land in farms</em>. USDA NASS. <a
+                                    href="https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf"
+                                    target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf</a><br>
+                                U.S. Department of Agriculture, National Agricultural Statistics Service. (2026).
+                                <em>Farms and land in farms</em> (ISSN 1949-1557). USDA NASS. <a
+                                    href="https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf"
+                                    target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf</a><br>
+                                U.S. Department of Agriculture, National Agricultural Statistics Service. (2026).
+                                <em>Farms and land in farms</em>. USDA NASS. <a
+                                    href="https://esmis.nal.usda.gov/sites/default/release-files/795776/fnlo0226.pdf"
+                                    target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://esmis.nal.usda.gov/sites/default/release-files/795776/fnlo0226.pdf</a>
+                            </p>
                         </div>
                     </div>
 
-                    <!-- Card 5 -->
+                    <!-- Card 5: State Tax Competitiveness Index -->
                     <div class="ui-panel card-shadow"
                         style="padding: 1.5rem; border-radius: 8px; background-color: var(--white);">
-                        <h3 class="text-black text-center mb-4" data-i18n="eco_tax_title">State Tax Competitiveness
-                            Index</h3>
+                        <h3 class="text-black text-center mb-4" data-i18n="eco_tax_title"
+                            style="font-size:1.6rem; font-weight:800;">State Tax Competitiveness Index</h3>
+
                         <div style="height: 350px; position:relative; width:100%;"><canvas id="chart-eco-tax"></canvas>
                         </div>
-                        <div class="mt-2 mb-4">
-                            <p style="font-size: 0.85rem; color: var(--gray); text-align: left; line-height: 1.8;">
-                                <strong>Referencias:</strong><br>
-                                <a href="https://taxfoundation.org/statetaxindex/" target="_blank"
-                                    style="color: #3B65B9; text-decoration: underline;">https://taxfoundation.org/statetaxindex/</a>
-                            </p>
-                        </div>
 
-                        <h4 class="text-black mb-2" style="font-weight: 700; margin-top: 1rem;">Tabla de comparación:
+                        <h4 class="text-black mb-2" style="font-weight:700; margin-top:1.2rem;">Tabla de comparación:
                             State Tax Competitiveness Index (puesto en el ranking nacional)</h4>
                         <div class="dpi-table-container">
                             <table class="dpi-table">
@@ -926,127 +906,183 @@
                             </table>
                         </div>
 
-                        <div class="mt-4 mb-4"
-                            style="display: flex; flex-wrap:wrap; gap: 1rem; justify-content: center;">
+                        <div
+                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black); margin-top:1.2rem;">
+                            <h4 class="text-black mb-2">Strategic Analysis</h4>
+                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
+                                data-i18n="eco_tax_analysis">El State Tax Competitiveness Index muestra que Missouri
+                                mantiene una posición más favorable que Oklahoma durante todo el periodo analizado.</p>
+                        </div>
+
+                        <div class="mt-4 mb-4" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:center;">
                             <div
-                                style="padding: 1rem; background: #f0f4fb; border-radius: 4px; border-left: 4px solid #3B65B9; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#f0f4fb; border-radius:4px; border-left:4px solid #3B65B9; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #3B65B9; margin: 0; font-weight: 800;">Missouri: 5
-                                </p>
+                                <p style="font-size:1.5rem; color:#3B65B9; margin:0; font-weight:800;">Missouri: 5</p>
                             </div>
                             <div
-                                style="padding: 1rem; background: #fff8f0; border-radius: 4px; border-left: 4px solid #FF8201; flex: 1; min-width:200px;">
+                                style="padding:1rem; background:#fff8f0; border-radius:4px; border-left:4px solid #FF8201; flex:1; min-width:200px;">
                                 <p style="margin:0; font-weight:700; color:var(--black)">Market Viability Score</p>
-                                <p style="font-size: 1.5rem; color: #FF8201; margin: 0; font-weight: 800;">Oklahoma:
-                                    3.82</p>
+                                <p style="font-size:1.5rem; color:#FF8201; margin:0; font-weight:800;">Oklahoma: 3.82
+                                </p>
                             </div>
                         </div>
 
                         <div
-                            style="padding: 1.5rem; background: var(--grey-light); border-radius: 8px; border-left: 4px solid var(--black);">
-                            <h4 class="text-black mb-2">Strategic Analysis</h4>
-                            <p class="text-black text-justify" style="font-size: 0.95rem; margin:0;"
-                                data-i18n="eco_tax_analysis">El State Tax Competitiveness Index muestra que Missouri
-                                mantiene una posición más favorable que Oklahoma durante todo el periodo analizado.
-                                Missouri se ubica entre los puestos 9 y 13, mientras que Oklahoma está entre 27 y 17.
-                                Como en este indicador un menor valor representa un mejor entorno fiscal, Missouri
-                                ofrece condiciones tributarias más competitivas y estables para las
-                                empresas.<br><br>Aunque Oklahoma mejora en los últimos años, todavía queda por debajo de
-                                Missouri. Esto puede representar mayores desafíos tributarios para una empresa que busca
-                                entrar al mercado. En cambio, Missouri, aunque puede ser un poco más costoso en otros
-                                aspectos, refleja un mercado más desarrollado, con mejores condiciones para operar y
-                                crecer. Para el proceso de internacionalización, esto hace que Missouri sea una opción
-                                más atractiva, ya que combina competitividad fiscal, estabilidad y mayor potencial
-                                empresarial.</p>
+                            style="margin-top:1rem; padding:1rem; background:#f9f9f9; border-radius:6px; border-left:3px solid #ccc;">
+                            <p style="font-size:0.83rem; color:var(--gray); line-height:1.8; margin:0;">
+                                <strong>Sources (APA 7):</strong><br>
+                                Tax Foundation. (2025). <em>State tax competitiveness index</em>. Tax Foundation. <a
+                                    href="https://taxfoundation.org/statetaxindex/" target="_blank"
+                                    style="color:#3B65B9; text-decoration:underline;">https://taxfoundation.org/statetaxindex/</a>
+                            </p>
                         </div>
                     </div>
+
                 </div>
-            </div>
-        </section>
 
 
-        <section id="smart" class="section bg-blue">
-            <div class="container relative">
-                <div class="title-wrapper">
-                    <h2 class="section-title text-white" data-i18n="smart_title">Objetivo SMART</h2>
-                    <div class="tooltip-container" style="background-color:var(--white); color:#3B65B9;">i<span
-                            class="tooltip-text" data-i18n="tooltip_smart">¿Por qué este objetivo?: * Viabilidad de
-                            Mercado: Missouri y Oklahoma
-                            fueron seleccionados por su base agrícola sólida (155,200 operaciones combinadas según USDA
-                            NASS, 2025) y su competitividad fiscal, siendo mercados de entrada más manejables que Texas.
-                            Capacidad Técnica: El volumen de 1,000 unidades es coherente con la capacidad instalada de
-                            UMO para lotes industriales y su experiencia probada como proveedor OEM (Original Equipment
-                            Manufacturer) de marcas globales. Alineación con DPI: La meta responde al puntaje de 0.457
-                            en el DPI (Diagnóstico de Potencialidades de Internacionalización), enfocándose en la
-                            exportación directa B2B para mitigar la brecha actual en talento humano bilingüe.</span>
+
+
+                <section id="smart" class="section bg-blue">
+                    <div class="container relative">
+                        <div class="title-wrapper">
+                            <h2 class="section-title text-white" data-i18n="smart_title">Objetivo SMART</h2>
+                            <div class="tooltip-container" style="background-color:var(--white); color:#3B65B9;">i<span
+                                    class="tooltip-text" data-i18n="tooltip_smart">¿Por qué este objetivo?: * Viabilidad
+                                    de
+                                    Mercado: Missouri y Oklahoma
+                                    fueron seleccionados por su base agrícola sólida (155,200 operaciones combinadas
+                                    según USDA
+                                    NASS, 2025) y su competitividad fiscal, siendo mercados de entrada más manejables
+                                    que Texas.
+                                    Capacidad Técnica: El volumen de 1,000 unidades es coherente con la capacidad
+                                    instalada de
+                                    UMO para lotes industriales y su experiencia probada como proveedor OEM (Original
+                                    Equipment
+                                    Manufacturer) de marcas globales. Alineación con DPI: La meta responde al puntaje de
+                                    0.457
+                                    en el DPI (Diagnóstico de Potencialidades de Internacionalización), enfocándose en
+                                    la
+                                    exportación directa B2B para mitigar la brecha actual en talento humano
+                                    bilingüe.</span>
+                            </div>
+                        </div>
+                        <p class="intro-text text-white text-center" data-i18n="intro_smart">Meta definitiva diseñada
+                            matemáticamente conjugando la
+                            variable de potencial orgánico (DPI 0.457) con oportunidades geo-agrícolas centrales.</p>
+                        <div class="smart-box card-shadow bg-white text-center">
+                            <p class="smart-text" data-i18n="smart_goal_desc">"Lograr la exportación y comercialización
+                                de un
+                                primer lote de 1,000 sillines con diseño personalizado para el mercado de distribuidores
+                                de
+                                maquinaria agrícola en los estados de Missouri y Oklahoma para diciembre de 2027,
+                                garantizando
+                                el cumplimiento de las normativas de seguridad y ergonomía locales."</p>
+                        </div>
                     </div>
-                </div>
-                <p class="intro-text text-white text-center" data-i18n="intro_smart">Meta definitiva diseñada
-                    matemáticamente conjugando la
-                    variable de potencial orgánico (DPI 0.457) con oportunidades geo-agrícolas centrales.</p>
-                <div class="smart-box card-shadow bg-white text-center">
-                    <p class="smart-text" data-i18n="smart_goal_desc">"Lograr la exportación y comercialización de un
-                        primer lote de 1,000 sillines con diseño personalizado para el mercado de distribuidores de
-                        maquinaria agrícola en los estados de Missouri y Oklahoma para diciembre de 2027, garantizando
-                        el cumplimiento de las normativas de seguridad y ergonomía locales."</p>
-                </div>
-            </div>
-        </section>
+                </section>
 
-        <!-- Literal Copy 7: APA References -->
-        <section id="references" class="section section-dark-gray">
-            <div class="container">
-                <h2 class="subsection-title text-white" data-i18n="ref_title">Referencias Biográficas Formateadas (APA
-                    7)</h2>
-                <div class="ref-wrapper bg-gray border-none">
-                    <ul class="ref-list-v3 text-white">
-                        <li>Asociación Nacional de Empresarios de Colombia (ANDI). (2022). Informe del sector automotor
-                            en Colombia. https://andi.com.co</li>
-                        <li>Comisión Económica para América Latina y el Caribe (CEPAL). (2021). Desarrollo productivo y
-                            empleo. https://www.cepal.org</li>
-                        <li>Data Bridge Market Research. (2024). Gardening equipment market – Global industry trends and
-                            forecast to 2032. https://www.databridgemarketresearch.com</li>
-                        <li>Emergen Research. (2025, November 20). Lawn mower lithium battery market: Size, share,
-                            analysis and forecast to 2034. https://www.emergenresearch.com</li>
-                        <li>GRAMMER. (s. f.-a). GRAMMER USA home. https://usa.grammer.com/grammer-usa-home.html</li>
-                        <li>GRAMMER. (s. f.-b). Agricultural seating.
-                            https://usa.grammer.com/seating-solutions/agricultural-seating.html</li>
-                        <li>International Organization for Standardization (ISO). (2015). ISO 14001: Sistemas de gestión
-                            ambiental. https://www.iso.org</li>
-                        <li>International Trade Centre. (2024). Trade Map: Trade statistics for international business
-                            development. https://www.trademap.org/</li>
-                        <li>John Deere. (s. f.-a). Lawn mowers. https://www.deere.com/en/mowers/</li>
-                        <li>John Deere. (s. f.-b). Seats & cushions.
-                            https://shop.deere.com/us/Operator-Station/Seats-Cushions/c/6976/</li>
-                        <li>Kubota. (s. f.). Products. https://www.kubota.com/</li>
-                        <li>Ministerio de Ambiente y Desarrollo Sostenible. (2023). Gestión ambiental empresarial en
-                            Colombia. https://www.minambiente.gov.co</li>
-                        <li>Mordor Intelligence. (2026). Electric Lawn Mowers Market - Growth, Trends & Forecast
-                            (2026–2031). https://www.mordorintelligence.com/</li>
-                        <li>Organización Internacional del Trabajo (OIT). (2023). Empleo y desarrollo industrial.
-                            https://www.ilo.org</li>
-                        <li>ProColombia. (2023). Industria automotriz en Colombia. https://procolombia.co</li>
-                        <li>Seats Inc. (s. f.-a). Products. https://www.seatsinc.com/products/</li>
-                        <li>Seats Inc. (s. f.-b). Turf. https://www.seatsinc.com/products/turf/</li>
-                        <li>Seats Inc. (s. f.-c). I4M. https://www.seatsinc.com/products/turf/i4m/</li>
-                        <li>Tax Foundation. (2025). 2026 state tax competitiveness index. https://taxfoundation.org/
-                        </li>
-                        <li>TractorSeats.com. (s. f.-a). Tractor, lawn mower & construction seats.
-                            https://www.tractorseats.com/</li>
-                        <li>TractorSeats.com. (s. f.-b). Lawn mower seats.
-                            https://www.tractorseats.com/c-158-lawn-mower-seats.aspx</li>
-                        <li>TractorSeats.com. (s. f.-c). Turf seat kits.</li>
-                        <li>U.S. Consumer Product Safety Commission. (2024). Safety guidelines for agricultural ride-on
-                            equipment. https://www.cpsc.gov/</li>
-                        <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2025). 2025 State
-                            agriculture overview: Missouri y Oklahoma. https://www.nass.usda.gov/</li>
-                        <li>UMO Group. (s. f.). Quiénes somos. https://umo.com.co/quienes-somos/</li>
-                        <li>Zhongshen. (2023). US garden tools market 2023.
-                            https://www.sh-zhongshen.com/es/hardware-tools/</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+                <!-- Literal Copy 7: APA References -->
+                <section id="references" class="section section-dark-gray">
+                    <div class="container">
+                        <h2 class="subsection-title text-white" data-i18n="ref_title">Referencias Biográficas
+                            Formateadas (APA
+                            7)</h2>
+                        <div class="ref-wrapper bg-gray border-none">
+                            <ul class="ref-list-v3 text-white">
+                                <li>Asociación Nacional de Empresarios de Colombia (ANDI). (2022). Informe del sector
+                                    automotor
+                                    en Colombia. https://andi.com.co</li>
+                                <li>Comisión Económica para América Latina y el Caribe (CEPAL). (2021). Desarrollo
+                                    productivo y
+                                    empleo. https://www.cepal.org</li>
+                                <li>Data Bridge Market Research. (2024). Gardening equipment market – Global industry
+                                    trends and
+                                    forecast to 2032. https://www.databridgemarketresearch.com</li>
+                                <li>Emergen Research. (2025, November 20). Lawn mower lithium battery market: Size,
+                                    share,
+                                    analysis and forecast to 2034. https://www.emergenresearch.com</li>
+                                <li>GRAMMER. (s. f.-a). GRAMMER USA home. https://usa.grammer.com/grammer-usa-home.html
+                                </li>
+                                <li>GRAMMER. (s. f.-b). Agricultural seating.
+                                    https://usa.grammer.com/seating-solutions/agricultural-seating.html</li>
+                                <li>International Organization for Standardization (ISO). (2015). ISO 14001: Sistemas de
+                                    gestión
+                                    ambiental. https://www.iso.org</li>
+                                <li>International Trade Centre. (2024). Trade Map: Trade statistics for international
+                                    business
+                                    development. https://www.trademap.org/</li>
+                                <li>John Deere. (s. f.-a). Lawn mowers. https://www.deere.com/en/mowers/</li>
+                                <li>John Deere. (s. f.-b). Seats & cushions.
+                                    https://shop.deere.com/us/Operator-Station/Seats-Cushions/c/6976/</li>
+                                <li>Kubota. (s. f.). Products. https://www.kubota.com/</li>
+                                <li>Ministerio de Ambiente y Desarrollo Sostenible. (2023). Gestión ambiental
+                                    empresarial en
+                                    Colombia. https://www.minambiente.gov.co</li>
+                                <li>Mordor Intelligence. (2026). Electric Lawn Mowers Market - Growth, Trends & Forecast
+                                    (2026–2031). https://www.mordorintelligence.com/</li>
+                                <li>Organización Internacional del Trabajo (OIT). (2023). Empleo y desarrollo
+                                    industrial.
+                                    https://www.ilo.org</li>
+                                <li>ProColombia. (2023). Industria automotriz en Colombia. https://procolombia.co</li>
+                                <li>Seats Inc. (s. f.-a). Products. https://www.seatsinc.com/products/</li>
+                                <li>Seats Inc. (s. f.-b). Turf. https://www.seatsinc.com/products/turf/</li>
+                                <li>Seats Inc. (s. f.-c). I4M. https://www.seatsinc.com/products/turf/i4m/</li>
+                                <li>Tax Foundation. (2025). 2026 state tax competitiveness index.
+                                    https://taxfoundation.org/
+                                </li>
+                                <li>TractorSeats.com. (s. f.-a). Tractor, lawn mower & construction seats.
+                                    https://www.tractorseats.com/</li>
+                                <li>TractorSeats.com. (s. f.-b). Lawn mower seats.
+                                    https://www.tractorseats.com/c-158-lawn-mower-seats.aspx</li>
+                                <li>TractorSeats.com. (s. f.-c). Turf seat kits.</li>
+                                <li>U.S. Consumer Product Safety Commission. (2024). Safety guidelines for agricultural
+                                    ride-on
+                                    equipment. https://www.cpsc.gov/</li>
+                                <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2025).
+                                    2025 State
+                                    agriculture overview: Missouri y Oklahoma. https://www.nass.usda.gov/</li>
+                                <li>UMO Group. (s. f.). Quiénes somos. https://umo.com.co/quienes-somos/</li>
+                                <li>Zhongshen. (2023). US garden tools market 2023.
+                                    https://www.sh-zhongshen.com/es/hardware-tools/</li>
+                                <li>Federal Reserve Bank of St. Louis. (2025). <em>Gross domestic product: Agriculture,
+                                        forestry, fishing and hunting in Missouri</em> [MOAGRNGSP]. FRED, Federal
+                                    Reserve Economic Data. https://fred.stlouisfed.org/series/MOAGRNGSP</li>
+                                <li>Federal Reserve Bank of St. Louis. (2025). <em>Gross domestic product: Agriculture,
+                                        forestry, fishing and hunting in Oklahoma</em> [OKAGRRGSP]. FRED, Federal
+                                    Reserve Economic Data. https://fred.stlouisfed.org/series/OKAGRRGSP</li>
+                                <li>Federal Reserve Bank of St. Louis. (s.f.). <em>Per capita personal income in
+                                        Missouri</em> [MOPCPI]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/MOPCPI</li>
+                                <li>Federal Reserve Bank of St. Louis. (s.f.). <em>Per capita personal income in
+                                        Oklahoma</em> [OKPCPI]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/OKPCPI</li>
+                                <li>Federal Reserve Bank of St. Louis. (s.f.). <em>Regional price parities: All items in
+                                        Missouri</em> [MORPPALL]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/MORPPALL</li>
+                                <li>Federal Reserve Bank of St. Louis. (s.f.). <em>Regional price parities: All items in
+                                        Oklahoma City, OK</em> [RPPALL36420]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/RPPALL36420</li>
+                                <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2023).
+                                    <em>Farms and land in farms</em>. USDA NASS.
+                                    https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf
+                                </li>
+                                <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2024).
+                                    <em>Farms and land in farms</em>. USDA NASS.
+                                    https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf
+                                </li>
+                                <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2025).
+                                    <em>Farms and land in farms</em>. USDA NASS.
+                                    https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf
+                                </li>
+                                <li>U.S. Department of Agriculture, National Agricultural Statistics Service. (2026).
+                                    <em>Farms and land in farms</em> (ISSN 1949-1557). USDA NASS.
+                                    https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
     </main>
 
     <footer class="footer bg-black">
