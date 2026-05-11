@@ -1210,6 +1210,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 
+
+
 // --- GRÁFICAS DINÁMICAS DE ENTORNOS ---
 
         if(document.getElementById('chart-dynamic-1')) {
