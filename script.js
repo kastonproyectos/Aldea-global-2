@@ -874,4 +874,336 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    // --- Lógica del Menú Jerárquico para Análisis de Entornos ---
+    // Nivel 1: Categorías
+    const catBtns = document.querySelectorAll('.env-category-btn');
+    catBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            this.classList.toggle('active');
+            const content = this.nextElementSibling;
+            const icon = this.querySelector('.env-category-icon');
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+                if(icon) icon.textContent = '▼';
+            } else {
+                content.style.maxHeight = content.scrollHeight + 2000 + "px"; // Suficiente para alojar subniveles
+                if(icon) icon.textContent = '▲';
+            }
+        });
+    });
+
+    // Nivel 2: Indicadores
+    const indBtns = document.querySelectorAll('.env-indicator-btn');
+    indBtns.forEach(btn => {
+        btn.addEventListener('click', function() {
+            this.classList.toggle('active');
+            const content = this.nextElementSibling;
+            const icon = this.querySelector('.env-indicator-icon');
+            if (content.style.maxHeight) {
+                content.style.maxHeight = null;
+                if(icon) icon.textContent = '▼';
+            } else {
+                content.style.maxHeight = content.scrollHeight + 100 + "px";
+                if(icon) icon.textContent = '▲';
+                
+                // Actualizar la altura del padre para asegurar que no se corte
+                const parentList = this.closest('.env-indicator-list');
+                if (parentList && parentList.style.maxHeight) {
+                    parentList.style.maxHeight = parseInt(parentList.style.maxHeight) + content.scrollHeight + 100 + "px";
+                }
+            }
+        });
+    });
+
+    // --- Inicialización de Gráficas para Análisis de Entornos (Chart.js) ---
+
+        if(document.getElementById('chart-dynamic-1')) {
+            new Chart(document.getElementById('chart-dynamic-1').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ["2021", "2022", "2023"],
+                    datasets: [
+                        { label: 'Missouri', data: [92.012, 90.991, 91.104], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [92.4, 91.4, 91.4], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-2')) {
+            new Chart(document.getElementById('chart-dynamic-2').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ["2021", "2022", "2023"],
+                    datasets: [
+                        { label: 'Missouri', data: [72.8, 70.6, 68.7], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [67.0, 68.5, 68.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-3')) {
+            new Chart(document.getElementById('chart-dynamic-3').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ["2020", "2021", "2022", "2023"],
+                    datasets: [
+                        { label: 'Missouri', data: [72797.0, 79791.0, 79431.0, 80825.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [42000.0, 44760.0, 44566.0, 45760.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-4')) {
+            new Chart(document.getElementById('chart-dynamic-4').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [70016.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [54895.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-5')) {
+            new Chart(document.getElementById('chart-dynamic-5').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [79.7], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [78.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-6')) {
+            new Chart(document.getElementById('chart-dynamic-6').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [87887.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [70378.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-7')) {
+            new Chart(document.getElementById('chart-dynamic-7').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [17871.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [15483.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-8')) {
+            new Chart(document.getElementById('chart-dynamic-8').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [87887.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [70378.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-9')) {
+            new Chart(document.getElementById('chart-dynamic-9').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [27026243.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [32897563.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-10')) {
+            new Chart(document.getElementById('chart-dynamic-10').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [6610302.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [18736254.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-11')) {
+            new Chart(document.getElementById('chart-dynamic-11').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [308.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [467.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-12')) {
+            new Chart(document.getElementById('chart-dynamic-12').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ["2021", "2022", "2023", "2024"],
+                    datasets: [
+                        { label: 'Missouri', data: [24.1, 27.3, 24.2, 24.2], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [17.0, 18.5, 17.8, 17.9], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-13')) {
+            new Chart(document.getElementById('chart-dynamic-13').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ["2021", "2022", "2023", "2024"],
+                    datasets: [
+                        { label: 'Missouri', data: [0.037, 0.041, 0.04, 0.043], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [0.025, 0.029, 0.026, 0.029], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { responsive: true, maintainAspectRatio: false }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-14')) {
+            new Chart(document.getElementById('chart-dynamic-14').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [99.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [46.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-15')) {
+            new Chart(document.getElementById('chart-dynamic-15').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [5842.0], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [2974.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
+
+        if(document.getElementById('chart-dynamic-16')) {
+            new Chart(document.getElementById('chart-dynamic-16').getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: [''],
+                    datasets: [
+                        { label: 'Missouri', data: [5.6], backgroundColor: '#3B65B9' },
+                        { label: 'Oklahoma', data: [2.0], backgroundColor: '#FF8201' }
+                    ]
+                },
+                options: { 
+                    responsive: true, 
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { position: 'bottom' }
+                    }
+                }
+            });
+        }
 });

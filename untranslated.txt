@@ -1,0 +1,309 @@
+ES
+EN
+Para mas informacion sobre UMO consultar
+                            su sitio web oficial:
+https://umo.com.co
+Dimensiones
+Puntaje Obtenido
+Puntaje Máximo
+Talento Humano
+1,69%
+12,50%
+Direccionamiento estratégico
+5,00%
+7,50%
+Tecnología e
+                                    innovación
+11,88%
+15,00%
+Sostenibilidad
+9,42%
+Potencial de
+                                    internacionalización
+28,80%
+50,00%
+Exportación e Importación (Bienes)
+7,20%
+8,00%
+Exportación (Servicios)
+2,50%
+4,00%
+Inversión Extranjera Directa
+2,75%
+Licencias y Franquicias
+1,17%
+7,00%
+Alianzas Estratégicas
+3,00%
+Producto/Servicio
+12,19%
+20,00%
+Puntaje total del diagnóstico
+56,80%
+100,00%
+Diagnóstico
+                            Completo
+Análisis del
+                        Entorno Macroeconómico
+Para evaluar la viabilidad de internacionalización de UMO en Estados Unidos, se desarrolló un
+                        análisis comparativo entre los estados de Missouri y Oklahoma, enfocado en variables
+                        macroeconómicas clave que permiten entender no solo el tamaño del mercado, sino también su
+                        estabilidad, capacidad de consumo y condiciones operativas.
+La selección de los cinco indicadores se realizó con un criterio estratégico: cada uno refleja
+                        un componente esencial del entorno económico que impacta directamente la demanda y el uso de
+                        maquinaria, y por ende, la necesidad de repuestos como los sillines para podadoras. En conjunto,
+                        los indicadores permiten analizar el mercado desde diferentes ángulos: actividad económica del
+                        sector (PIB agrícola), capacidad de compra (ingreso per cápita), costos del entorno (RPP),
+                        escala productiva (land in farms) y competitividad fiscal (State Tax Competitiveness Index).
+Más allá de observar datos aislados, este análisis busca identificar patrones de comportamiento
+                        económico en los últimos cinco años, permitiendo comparar la evolución y consistencia de cada
+                        estado. Esto es clave, ya que un mercado atractivo no solo debe ser grande, sino también estable
+                        y predecible en el tiempo.
+Como herramienta de síntesis, se construyó el Market Viability Score, una calificación de 1 a 5
+                        asignada a cada indicador según su impacto en la viabilidad del mercado. Esta puntuación
+                        facilita la comparación directa entre estados y permite traducir datos complejos en una lectura
+                        clara para la toma de decisiones.
+En este
+                        contexto, el objetivo no es únicamente identificar cuál estado presenta mejores cifras, sino
+                        determinar cuál ofrece mejores condiciones reales para la entrada, crecimiento y sostenibilidad
+                        del producto en el mercado. Este enfoque permite concluir, con base en evidencia, cuál
+                        territorio representa una oportunidad más sólida para la estrategia de internacionalización de
+                        UMO.
+GDP: Agriculture, Forestry, Fishing and Hunting
+Comparative
+                            Analysis of GDP in the Agriculture, Forestry, Fishing and Hunting Sector in Missouri and
+                            Oklahoma (2021–2025)
+Tabla de comparación:
+                            GDP Agriculture, Forestry, Fishing and Hunting (Millions of Dollars)
+Missouri
+Oklahoma
+2021
+4841.1
+2571.8
+2022
+7013.7
+2391.2
+2023
+6582.5
+2997.5
+2024
+6144.9
+3094.7
+2025
+6610.6
+3475.3
+Market
+                                Viability Score
+Missouri: 5
+                                        / 5
+Oklahoma:
+                                        2.62 / 5
+Strategic Analysis
+Sources (APA 7):
+Federal Reserve Bank of St. Louis. (2025).
+Gross domestic product: Agriculture,
+                                    forestry, fishing and hunting in Missouri
+[MOAGRNGSP]. FRED.
+https://fred.stlouisfed.org/series/MOAGRNGSP
+Gross domestic product: Agriculture,
+                                    forestry, fishing and hunting in Oklahoma
+[OKAGRRGSP]. FRED.
+https://fred.stlouisfed.org/series/OKAGRRGSP
+Per Capita Personal Income
+Comparative
+                            Analysis of Per Capita Personal Income in Missouri and Oklahoma (2021–2024)
+Tabla de comparación:
+                            Ingreso Personal Per Cápita (USD)
+56630
+54492
+58956
+57943
+62484
+60395
+64740
+62661
+Oklahoma:
+                                        4.83 / 5
+Sin embargo, la diferencia no es muy
+                                amplia, por lo que Oklahoma sigue siendo un mercado viable, especialmente si se
+                                considera su actividad agrícola. En conjunto, este indicador muestra que ambos estados
+                                tienen condiciones económicas favorables, aunque Missouri presenta una leve ventaja para
+                                productos que requieren inversión adicional por parte del consumidor.
+Federal Reserve Bank of St. Louis. (s.f.).
+Per capita personal income in
+                                    Missouri
+[MOPCPI]. FRED.
+https://fred.stlouisfed.org/series/MOPCPI
+Per capita personal income in
+                                    Oklahoma
+[OKPCPI]. FRED.
+https://fred.stlouisfed.org/series/OKPCPI
+RPP (Regional Price Parities)
+Comparative
+                            Analysis of Cost Environment (RPP) in Missouri and Oklahoma (2021–2024)
+Tabla de comparación:
+                            RPP – Paridades Regionales de Precios (índice)
+92.012
+92.4
+90.991
+91.4
+91.104
+90.817
+87.8
+N/D
+Sin embargo, Oklahoma
+                                presenta valores ligeramente más bajos, lo que significa que es más barato. Aun así,
+                                Missouri se encuentra apenas por encima, lo cual puede interpretarse de manera positiva.
+                                Un nivel de precios un poco más alto suele estar asociado a una economía más dinámica,
+                                con mayor capacidad de consumo y un mercado más desarrollado.
+En términos de
+                                internacionalización, aunque un entorno más económico puede reducir costos, un mercado
+                                con mayor nivel de precios como Missouri puede ofrecer mejores oportunidades
+                                comerciales, ya que refleja mayor poder adquisitivo y mayor disposición al gasto. Por
+                                ello, esta ligera diferencia posiciona a Missouri como un mercado potencialmente más
+                                atractivo para UMO.
+Regional price parities: All items in
+                                    Missouri
+[MORPPALL]. FRED.
+https://fred.stlouisfed.org/series/MORPPALL
+Regional price parities: All items in
+                                    Oklahoma City, OK
+[RPPALL36420]. FRED.
+https://fred.stlouisfed.org/series/RPPALL36420
+(para el 2024 usamos el site de Bureou y para el resto de los
+                                    años el de fred)
+Land in Farms
+Comparative
+                            Analysis of Land in Farms in Missouri and Oklahoma (2021–2025)
+Tabla de comparación:
+                            Land in Farms (millones de acres)
+27.5
+33.5
+27
+32.9
+27.1
+33.1
+26.6
+32.8
+Oklahoma:
+                                        4.05 / 5
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2023).
+Farms and land in farms
+. USDA NASS.
+https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2024).
+https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2025).
+https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2026).
+(ISSN 1949-1557). USDA NASS.
+https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf
+https://esmis.nal.usda.gov/sites/default/release-files/795776/fnlo0226.pdf
+State Tax Competitiveness Index
+State Tax
+                            Competitiveness Index Ranking – Missouri vs Oklahoma (2021–2025)
+Tabla de comparación:
+                            State Tax Competitiveness Index (puesto en el ranking nacional)
+22
+21
+13
+19
+17
+Oklahoma:
+                                        3.82 / 5
+Aunque Oklahoma mejora en los últimos años, todavía queda por debajo de
+                                Missouri. Esto puede representar mayores desafíos tributarios para una empresa que busca
+                                entrar al mercado. En cambio, Missouri, aunque puede ser un poco más costoso en otros
+                                aspectos, refleja un mercado más desarrollado, con mejores condiciones para operar y
+                                crecer. Para el proceso de internacionalización, esto hace que Missouri sea una opción
+                                más atractiva, ya que combina competitividad fiscal, estabilidad y mayor potencial
+                                empresarial.
+Tax Foundation. (2025).
+State tax competitiveness index
+. Tax Foundation.
+https://taxfoundation.org/statetaxindex/
+Asociación Nacional de Empresarios de Colombia (ANDI). (2022). Informe del sector
+                                    automotor
+                                    en Colombia. https://andi.com.co
+Comisión Económica para América Latina y el Caribe (CEPAL). (2021). Desarrollo
+                                    productivo y
+                                    empleo. https://www.cepal.org
+Data Bridge Market Research. (2024). Gardening equipment market – Global industry
+                                    trends and
+                                    forecast to 2032. https://www.databridgemarketresearch.com
+Emergen Research. (2025, November 20). Lawn mower lithium battery market: Size,
+                                    share,
+                                    analysis and forecast to 2034. https://www.emergenresearch.com
+GRAMMER. (s. f.-a). GRAMMER USA home. https://usa.grammer.com/grammer-usa-home.html
+GRAMMER. (s. f.-b). Agricultural seating.
+                                    https://usa.grammer.com/seating-solutions/agricultural-seating.html
+International Organization for Standardization (ISO). (2015). ISO 14001: Sistemas de
+                                    gestión
+                                    ambiental. https://www.iso.org
+International Trade Centre. (2024). Trade Map: Trade statistics for international
+                                    business
+                                    development. https://www.trademap.org/
+John Deere. (s. f.-a). Lawn mowers. https://www.deere.com/en/mowers/
+John Deere. (s. f.-b). Seats & cushions.
+                                    https://shop.deere.com/us/Operator-Station/Seats-Cushions/c/6976/
+Kubota. (s. f.). Products. https://www.kubota.com/
+Ministerio de Ambiente y Desarrollo Sostenible. (2023). Gestión ambiental
+                                    empresarial en
+                                    Colombia. https://www.minambiente.gov.co
+Mordor Intelligence. (2026). Electric Lawn Mowers Market - Growth, Trends & Forecast
+                                    (2026–2031). https://www.mordorintelligence.com/
+Organización Internacional del Trabajo (OIT). (2023). Empleo y desarrollo
+                                    industrial.
+                                    https://www.ilo.org
+ProColombia. (2023). Industria automotriz en Colombia. https://procolombia.co
+Seats Inc. (s. f.-a). Products. https://www.seatsinc.com/products/
+Seats Inc. (s. f.-b). Turf. https://www.seatsinc.com/products/turf/
+Seats Inc. (s. f.-c). I4M. https://www.seatsinc.com/products/turf/i4m/
+Tax Foundation. (2025). 2026 state tax competitiveness index.
+                                    https://taxfoundation.org/
+TractorSeats.com. (s. f.-a). Tractor, lawn mower & construction seats.
+                                    https://www.tractorseats.com/
+TractorSeats.com. (s. f.-b). Lawn mower seats.
+                                    https://www.tractorseats.com/c-158-lawn-mower-seats.aspx
+TractorSeats.com. (s. f.-c). Turf seat kits.
+U.S. Consumer Product Safety Commission. (2024). Safety guidelines for agricultural
+                                    ride-on
+                                    equipment. https://www.cpsc.gov/
+U.S. Department of Agriculture, National Agricultural Statistics Service. (2025).
+                                    2025 State
+                                    agriculture overview: Missouri y Oklahoma. https://www.nass.usda.gov/
+UMO Group. (s. f.). Quiénes somos. https://umo.com.co/quienes-somos/
+Zhongshen. (2023). US garden tools market 2023.
+                                    https://www.sh-zhongshen.com/es/hardware-tools/
+Gross domestic product: Agriculture,
+                                        forestry, fishing and hunting in Missouri
+[MOAGRNGSP]. FRED, Federal
+                                    Reserve Economic Data. https://fred.stlouisfed.org/series/MOAGRNGSP
+Gross domestic product: Agriculture,
+                                        forestry, fishing and hunting in Oklahoma
+[OKAGRRGSP]. FRED, Federal
+                                    Reserve Economic Data. https://fred.stlouisfed.org/series/OKAGRRGSP
+Per capita personal income in
+                                        Missouri
+[MOPCPI]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/MOPCPI
+Per capita personal income in
+                                        Oklahoma
+[OKPCPI]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/OKPCPI
+Regional price parities: All items in
+                                        Missouri
+[MORPPALL]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/MORPPALL
+Regional price parities: All items in
+                                        Oklahoma City, OK
+[RPPALL36420]. FRED, Federal Reserve Economic Data.
+                                    https://fred.stlouisfed.org/series/RPPALL36420
+. USDA NASS.
+                                    https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/bk129p580/2z10z2698/fnlo0223.pdf
+. USDA NASS.
+                                    https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/b2775h03z/ns065w04d/fnlo0224.pdf
+. USDA NASS.
+                                    https://esmis.nal.usda.gov/sites/default/release-files/5712m6524/z316rz25j/db78w849h/fnlo0225.pdf
+(ISSN 1949-1557). USDA NASS.
+                                    https://www.nass.usda.gov/Publications/Todays_Reports/reports/fnlo0226.pdf
