@@ -1208,6 +1208,8 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 });
 
+
+
 // --- GRÁFICAS DINÁMICAS DE ENTORNOS ---
 
         if(document.getElementById('chart-dynamic-1')) {
@@ -1400,94 +1402,6 @@ document.addEventListener('DOMContentLoaded', () => {
                     datasets: [
                         { label: 'Missouri', data: [308.0], backgroundColor: '#3B65B9' },
                         { label: 'Oklahoma', data: [467.0], backgroundColor: '#FF8201' }
-                    ]
-                },
-                options: { 
-                    responsive: true, 
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { position: 'bottom' }
-                    }
-                }
-            });
-        }
-
-        if(document.getElementById('chart-dynamic-12')) {
-            new Chart(document.getElementById('chart-dynamic-12').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: ["2021", "2022", "2023", "2024"],
-                    datasets: [
-                        { label: 'Missouri', data: [24.1, 27.3, 24.2, 24.2], backgroundColor: '#3B65B9', borderColor: '#3B65B9', tension: 0.1 },
-                        { label: 'Oklahoma', data: [17.0, 18.5, 17.8, 17.9], backgroundColor: '#FF8201', borderColor: '#FF8201', tension: 0.1 }
-                    ]
-                },
-                options: { responsive: true, maintainAspectRatio: false }
-            });
-        }
-
-        if(document.getElementById('chart-dynamic-13')) {
-            new Chart(document.getElementById('chart-dynamic-13').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: ["2021", "2022", "2023", "2024"],
-                    datasets: [
-                        { label: 'Missouri', data: [0.037, 0.041, 0.04, 0.043], backgroundColor: '#3B65B9', borderColor: '#3B65B9', tension: 0.1 },
-                        { label: 'Oklahoma', data: [0.025, 0.029, 0.026, 0.029], backgroundColor: '#FF8201', borderColor: '#FF8201', tension: 0.1 }
-                    ]
-                },
-                options: { responsive: true, maintainAspectRatio: false }
-            });
-        }
-
-        if(document.getElementById('chart-dynamic-14')) {
-            new Chart(document.getElementById('chart-dynamic-14').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: [''],
-                    datasets: [
-                        { label: 'Missouri', data: [99.0], backgroundColor: '#3B65B9' },
-                        { label: 'Oklahoma', data: [46.0], backgroundColor: '#FF8201' }
-                    ]
-                },
-                options: { 
-                    responsive: true, 
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { position: 'bottom' }
-                    }
-                }
-            });
-        }
-
-        if(document.getElementById('chart-dynamic-15')) {
-            new Chart(document.getElementById('chart-dynamic-15').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: [''],
-                    datasets: [
-                        { label: 'Missouri', data: [5842.0], backgroundColor: '#3B65B9' },
-                        { label: 'Oklahoma', data: [2974.0], backgroundColor: '#FF8201' }
-                    ]
-                },
-                options: { 
-                    responsive: true, 
-                    maintainAspectRatio: false,
-                    plugins: {
-                        legend: { position: 'bottom' }
-                    }
-                }
-            });
-        }
-
-        if(document.getElementById('chart-dynamic-16')) {
-            new Chart(document.getElementById('chart-dynamic-16').getContext('2d'), {
-                type: 'bar',
-                data: {
-                    labels: [''],
-                    datasets: [
-                        { label: 'Missouri', data: [5.6], backgroundColor: '#3B65B9' },
-                        { label: 'Oklahoma', data: [2.0], backgroundColor: '#FF8201' }
                     ]
                 },
                 options: { 
